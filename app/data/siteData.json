@@ -1,0 +1,1354 @@
+{
+  "header": {
+    "topBar": {
+      "phone": "+0082569854",
+      "phoneHref": "tel:+0082569854",
+      "workingHours": "Mon - Fri: 9:00 AM - 7:00 PM",
+      "email": "info@mail.com",
+      "emailHref": "mailto:info@mail.com",
+      "socials": [
+        {
+          "name": "Facebook",
+          "url": "https://facebook.com",
+          "icon": "facebook"
+        },
+        {
+          "name": "Behance",
+          "url": "https://behance.net",
+          "icon": "behance"
+        },
+        {
+          "name": "Pinterest",
+          "url": "https://pinterest.com",
+          "icon": "pinterest"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://linkedin.com",
+          "icon": "linkedin"
+        }
+      ]
+    },
+    "navbar": {
+      "logo": {
+        "name": "JUSTILAW",
+        "subtitle": "LEGAL PARTNERS",
+        "imageSrc": "/law_firm_logo.svg",
+        "href": "/"
+      },
+      "navLinks": [
+        {
+          "name": "Home",
+          "href": "/",
+          "active": true
+        },
+        {
+          "name": "Pages",
+          "href": "#pages",
+          "dropdown": [
+            {
+              "name": "Why Choose Us",
+              "href": "/why-choose-us"
+            },
+            {
+              "name": "Our Approach",
+              "href": "/our-approach"
+            },
+            {
+              "name": "Our Team",
+              "href": "/our-team"
+            },
+            {
+              "name": "Case Studies",
+              "href": "#cases"
+            },
+            {
+              "name": "FAQ",
+              "href": "#faq"
+            }
+          ]
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Practice Areas",
+          "href": "/services",
+          "dropdown": [
+            {
+              "name": "Corporate Law",
+              "href": "/services/corporate"
+            },
+            {
+              "name": "Criminal Defense",
+              "href": "/services/criminal"
+            },
+            {
+              "name": "Family Law",
+              "href": "/services/family"
+            },
+            {
+              "name": "Real Estate Law",
+              "href": "/services/real-estate"
+            },
+            {
+              "name": "Employment Law",
+              "href": "/services/employment"
+            },
+            {
+              "name": "Healthcare Law",
+              "href": "/services/healthcare"
+            },
+            {
+              "name": "Ecommerce Law",
+              "href": "/services/ecommerce"
+            }
+          ]
+        },
+        {
+          "name": "Blog",
+          "href": "#blog",
+          "dropdown": [
+            {
+              "name": "Latest News",
+              "href": "#news"
+            },
+            {
+              "name": "Legal Insights",
+              "href": "#insights"
+            }
+          ]
+        },
+        {
+          "name": "Contact",
+          "href": "#contact"
+        }
+      ],
+      "careersButton": {
+        "text": "Careers",
+        "href": "#careers",
+        "icon": "briefcase"
+      },
+      "quickCall": {
+        "label": "Need Legal Help?",
+        "phone": "(333) 687 4587",
+        "phoneHref": "tel:+13336874587",
+        "icon": "phone-call"
+      }
+    }
+  },
+  "hero": {
+    "tagline": "FIGHTING FOR YOUR RIGHTS. DELIVERING JUSTICE.",
+    "taglineIcon": "scales",
+    "titlePrefix": "Strategy. Experience.",
+    "titleMain": "Results That ",
+    "titleHighlight": "Matter.",
+    "description": "We combine legal expertise with a client-first approach to solve complex challenges and deliver successful outcomes you can trust.",
+    "features": [
+      {
+        "id": "f1",
+        "icon": "shield-check",
+        "title": "Strategic Legal Solutions"
+      },
+      {
+        "id": "f2",
+        "icon": "user-check",
+        "title": "Dedicated to Your Success"
+      }
+    ],
+    "buttons": {
+      "primary": {
+        "text": "CONSULT AN ATTORNEY",
+        "href": "#consultation",
+        "icon": "arrow-right"
+      },
+      "secondary": {
+        "text": "OUR PRACTICE AREAS",
+        "href": "#practice-areas",
+        "icon": "scales"
+      }
+    },
+    "stats": [
+      {
+        "id": "s1",
+        "value": "15+",
+        "label": "Years of Experience",
+        "icon": "users"
+      },
+      {
+        "id": "s2",
+        "value": "300+",
+        "label": "Successful Cases",
+        "icon": "gavel"
+      },
+      {
+        "id": "s3",
+        "value": "98%",
+        "label": "Client Satisfaction",
+        "icon": "shield-percent"
+      }
+    ],
+    "bannerImage": {
+      "src": "/Banner/Hero_banner.svg",
+      "alt": "Senior Attorney practicing legal counsel at desk"
+    }
+  },
+  "bottomHighlights": [
+    {
+      "id": "h1",
+      "icon": "shield-check",
+      "title": "Trusted Legal Representation"
+    },
+    {
+      "id": "h2",
+      "icon": "clock",
+      "title": "Timely & Effective Solutions"
+    },
+    {
+      "id": "h3",
+      "icon": "handshake",
+      "title": "Client Focused Approach"
+    },
+    {
+      "id": "h4",
+      "icon": "courthouse",
+      "title": "Ethical. Reliable. Results Driven."
+    }
+  ],
+  "aboutUs": {
+    "sectionTitle": "ABOUT US",
+    "headingBlack": "Trusted Legal Guidance.\nProven",
+    "headingGold": "Commitment.",
+    "paragraph1": "At our firm, we believe every client deserves clear advice, strong representation, and a legal team that truly understands their needs. Our attorneys combine experience, strategy, and personal attention to help individuals and businesses navigate complex legal challenges with confidence.",
+    "paragraph2": "We focus on practical solutions, transparent communication, and results that protect what matters most to our clients.",
+    "features": [
+      {
+        "id": "a1",
+        "number": 15,
+        "suffix": "+",
+        "text": "Years of\nLegal Experience",
+        "icon": "scales"
+      },
+      {
+        "id": "a2",
+        "number": 300,
+        "suffix": "+",
+        "text": "Cases\nSuccessfully Handled",
+        "icon": "gavel"
+      },
+      {
+        "id": "a3",
+        "text": "Client-Focused\nLegal Strategy",
+        "icon": "user-check"
+      },
+      {
+        "id": "a4",
+        "text": "Dedicated &\nResponsive Attorneys",
+        "icon": "users"
+      }
+    ],
+    "button": {
+      "text": "DISCOVER OUR FIRM",
+      "href": "#about-us",
+      "icon": "arrow-right"
+    },
+    "image": {
+      "src": "/About_Us/About_us.svg",
+      "alt": "Legal team discussing a case"
+    },
+    "experienceBadge": {
+      "number": 15,
+      "suffix": "+",
+      "label": "YEARS OF\nLEGAL EXCELLENCE",
+      "icon": "courthouse"
+    }
+  },
+  "services": {
+    "sectionTitle": "OUR SERVICES",
+    "sectionIcon": "scales",
+    "headingWhite": "We Provide The Best",
+    "headingGold": "Legal Services",
+    "description": "Our experienced attorneys are here to provide strategic legal solutions tailored to your unique needs.",
+    "cards": [
+      {
+        "id": "srv1",
+        "icon": "gavel",
+        "title": "Criminal Law",
+        "description": "Aggressive defense and strategic representation to protect your rights and freedom.",
+        "linkText": "Learn More",
+        "linkHref": "#criminal-law"
+      },
+      {
+        "id": "srv2",
+        "icon": "users",
+        "title": "Family Law",
+        "description": "Compassionate legal support for divorce, child custody, support, and other family matters.",
+        "linkText": "Learn More",
+        "linkHref": "#family-law"
+      },
+      {
+        "id": "srv3",
+        "icon": "courthouse",
+        "title": "Real Estate Law",
+        "description": "Expert guidance on property transactions, leasing, zoning, and all real estate matters.",
+        "linkText": "Learn More",
+        "linkHref": "#real-estate"
+      },
+      {
+        "id": "srv4",
+        "icon": "briefcase",
+        "title": "Employment Law",
+        "description": "Protecting employee rights and helping employers navigate workplace legal challenges.",
+        "linkText": "Learn More",
+        "linkHref": "#employment-law"
+      }
+    ],
+    "viewAllButton": {
+      "text": "VIEW ALL SERVICES",
+      "href": "#all-services",
+      "icon": "arrow-right"
+    }
+  },
+  "practiceAreas": {
+    "sectionTitle": "OUR PRACTICE AREAS",
+    "sectionIcon": "scales",
+    "headingDark": "Comprehensive",
+    "headingGold": "Legal Solutions",
+    "description": "We provide expert legal services across a wide range of practice areas to meet your unique needs and deliver the best possible outcomes.",
+    "areas": [
+      {
+        "id": "01",
+        "title": "Criminal Law",
+        "description": "Strong defense and strategic representation to protect your rights and secure the best outcome.",
+        "icon": "handcuffs",
+        "image": {
+          "src": "/Prac_areas/criminal_law(2).svg",
+          "alt": "Criminal Law"
+        },
+        "link": "/services/criminal"
+      },
+      {
+        "id": "02",
+        "title": "Family Law",
+        "description": "Compassionate legal support for family matters including divorce, custody, and alimony.",
+        "icon": "users",
+        "image": {
+          "src": "/Prac_areas/family_law(2).svg",
+          "alt": "Family Law"
+        },
+        "link": "/services/family"
+      },
+      {
+        "id": "03",
+        "title": "Real Estate Law",
+        "description": "Reliable legal assistance for property transactions, disputes, and real estate investments.",
+        "icon": "home",
+        "image": {
+          "src": "/Prac_areas/real_estate_law(2).svg",
+          "alt": "Real Estate Law"
+        },
+        "link": "/services/real-estate"
+      },
+      {
+        "id": "04",
+        "title": "Employment Law",
+        "description": "Protecting employee rights and advising employers on workplace policies and disputes.",
+        "icon": "briefcase",
+        "image": {
+          "src": "/Prac_areas/employment_law(2).svg",
+          "alt": "Employment Law"
+        },
+        "link": "/services/employment"
+      },
+      {
+        "id": "05",
+        "title": "Healthcare Law",
+        "description": "Guidance for healthcare providers and organizations on compliance, regulations, and disputes.",
+        "icon": "heart",
+        "image": {
+          "src": "/Prac_areas/healthcare_law(2).svg",
+          "alt": "Healthcare Law"
+        },
+        "link": "/services/healthcare"
+      },
+      {
+        "id": "06",
+        "title": "Ecommerce Law",
+        "description": "Legal support for online businesses including contracts, compliance, and consumer protection.",
+        "icon": "shopping-cart",
+        "image": {
+          "src": "/Prac_areas/ecommerce_law(2).svg",
+          "alt": "Ecommerce Law"
+        },
+        "link": "/services/ecommerce"
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "tagline": "WHY CHOOSE US",
+    "taglineIcon": "users",
+    "headingDark": "You Should Choose",
+    "headingGold": "Our ProCounsel",
+    "description": "We are committed to delivering exceptional legal services with integrity, dedication, and a client-first approach.",
+    "features": [
+      {
+        "id": "w1",
+        "icon": "shield-check",
+        "title": "Experienced Attorneys",
+        "desc": "Trusted legal experts with proven results."
+      },
+      {
+        "id": "w2",
+        "icon": "user-check",
+        "title": "Personalized Approach",
+        "desc": "Solutions tailored to your unique needs."
+      },
+      {
+        "id": "w3",
+        "icon": "clock",
+        "title": "Timely & Effective Solutions",
+        "desc": "We value your time and deliver on time."
+      },
+      {
+        "id": "w4",
+        "icon": "lock",
+        "title": "Confidential & Secure",
+        "desc": "Your privacy and information are safe."
+      }
+    ],
+    "stats": [
+      {
+        "value": "20+",
+        "label": "Years of\nExperience"
+      },
+      {
+        "value": "15K+",
+        "label": "Cases\nHandled"
+      }
+    ],
+    "avatars": {
+      "images": [
+        "/Testimonial/testimonial-man-1-rectangular.svg",
+        "/Testimonial/testimonial-woman-1-rectangular.svg",
+        "/Testimonial/testimonial-man-2-rectangular.svg",
+        "/Testimonial/testimonial-woman-2-rectangular.svg"
+      ],
+      "label": "Satisfied Clients",
+      "countBadge": "5K+"
+    },
+    "button": {
+      "text": "DISCOVER MORE",
+      "href": "/about",
+      "icon": "arrow-right"
+    },
+    "images": {
+      "left": {
+        "src": "/whychooseUs/lawyer-office-realistic.svg",
+        "alt": "Senior male attorney reviewing documents"
+      },
+      "right": {
+        "src": "/whychooseUs/realistic-lawyer-portrait.svg",
+        "alt": "Female attorney with scales of justice"
+      }
+    }
+  },
+  "caseStudies": {
+    "tagline": "CASE STUDY",
+    "taglineIcon": "gavel",
+    "headingDark": "Our Latest",
+    "headingGold": "Case Studies",
+    "items": [
+      {
+        "id": "c1",
+        "src": "/Case_study/case-study-lawyer-signing-high-quality.svg",
+        "alt": "Lawyer reviewing document",
+        "location": "United State",
+        "title": "Corporate Law"
+      },
+      {
+        "id": "c2",
+        "src": "/Case_study/case-study-gavel-high-quality.svg",
+        "alt": "Gavel on desk",
+        "location": "United State",
+        "title": "Business Litigation"
+      },
+      {
+        "id": "c3",
+        "src": "/Case_study/case-study-legal-team-high-quality.svg",
+        "alt": "Legal team discussing",
+        "location": "United State",
+        "title": "Real Estate"
+      },
+      {
+        "id": "c4",
+        "src": "/Case_study/case-study-lawyer-high-quality.svg",
+        "alt": "Courthouse pillars",
+        "location": "United State",
+        "title": "Domestic Violence"
+      }
+    ]
+  },
+  "testimonials": {
+    "tagline": "TESTIMONIALS",
+    "taglineIcon": "award",
+    "headingDark": "What Our",
+    "headingGold": "Clients",
+    "headingDarkSuffix": "Say",
+    "description": "We take pride in delivering exceptional legal services and building lasting relationships with our clients.",
+    "items": [
+      {
+        "id": "t1",
+        "quote": "The team at ProCounsel provided outstanding legal support and guided me through every step of my case with professionalism and care. Highly recommended!",
+        "name": "Kevin Martin",
+        "title": "CEO, ProCounsel",
+        "image": {
+          "src": "/Testimonial/testimonial-man-1-rectangular.svg",
+          "alt": "Kevin Martin portrait"
+        },
+        "rating": 5
+      },
+      {
+        "id": "t2",
+        "quote": "ProCounsel handled my divorce case with the utmost sensitivity and dedication. I felt supported every step of the way. Outstanding service!",
+        "name": "Sarah Williams",
+        "title": "Business Owner",
+        "image": {
+          "src": "/Testimonial/testimonial-woman-1-rectangular.svg",
+          "alt": "Sarah Williams portrait"
+        },
+        "rating": 5
+      },
+      {
+        "id": "t3",
+        "quote": "Their expertise in corporate law is unmatched. They protected our company's interests flawlessly. A truly professional and reliable team.",
+        "name": "James Anderson",
+        "title": "CFO, Anderson Corp",
+        "image": {
+          "src": "/Testimonial/testimonial-man-2-rectangular.svg",
+          "alt": "James Anderson portrait"
+        },
+        "rating": 5
+      },
+      {
+        "id": "t4",
+        "quote": "I was impressed by how quickly and efficiently they resolved my real estate dispute. Their attention to detail gave me complete peace of mind.",
+        "name": "Emily Carter",
+        "title": "Property Investor",
+        "image": {
+          "src": "/Testimonial/testimonial-woman-2-rectangular.svg",
+          "alt": "Emily Carter portrait"
+        },
+        "rating": 5
+      }
+    ]
+  },
+  "team": {
+    "tagline": "OUR TEAM",
+    "headingDark": "Meet Our Experienced",
+    "headingGold": "Legal Professionals",
+    "description": "Our team of dedicated attorneys brings a wealth of knowledge and experience to every case, ensuring the best possible results for our clients.",
+    "members": [
+      {
+        "id": "m5",
+        "name": "Robert Johnson",
+        "title": "MANAGING PARTNER",
+        "description": "Over 20 years of experience in corporate law, business litigation, and strategic legal counsel.",
+        "image": {
+          "src": "/Our_team/our-team-member-1-same-background.svg",
+          "alt": "Robert Johnson"
+        }
+      },
+      {
+        "id": "m6",
+        "name": "Sophia Williams",
+        "title": "SENIOR ATTORNEY",
+        "description": "Specializes in family law, divorce settlements, and child custody cases.",
+        "image": {
+          "src": "/Our_team/our-team-member-2-same-background.svg",
+          "alt": "Sophia Williams"
+        }
+      },
+      {
+        "id": "m7",
+        "name": "James Anderson",
+        "title": "LITIGATION ATTORNEY",
+        "description": "Experienced in personal injury, civil litigation, and dispute resolution.",
+        "image": {
+          "src": "/Our_team/our-team-member-3-same-background.svg",
+          "alt": "James Anderson"
+        }
+      },
+      {
+        "id": "m8",
+        "name": "Olivia Martinez",
+        "title": "ASSOCIATE ATTORNEY",
+        "description": "Focuses on real estate law, contract drafting, and property disputes.",
+        "image": {
+          "src": "/Our_team/our-team-member-4-same-background.svg",
+          "alt": "Olivia Martinez"
+        }
+      }
+    ],
+    "button": {
+      "text": "VIEW ALL ATTORNEYS",
+      "href": "/our-team",
+      "icon": "arrow-right"
+    }
+  },
+  "blog": {
+    "tagline": "OUR BLOG",
+    "taglineIcon": "gavel",
+    "headingDark": "Latest News & Articles",
+    "headingGold": "From Our Blog",
+    "headingIcon": "scales",
+    "description": "Stay informed with our latest legal insights, updates, and expert advice on issues that matter to you.",
+    "items": [
+      {
+        "id": "b1",
+        "image": {
+          "src": "/Blogs/latest-news-1-clean-no-tags.svg",
+          "alt": "Business Law Discussion"
+        },
+        "category": "BUSINESS LAW",
+        "categoryIcon": "briefcase",
+        "date": "02 October, 2024",
+        "dateIcon": "clock",
+        "title": "10 Simple Practices That Will Help You Get 100%",
+        "description": "Discover practical legal tips and best practices that can help you protect your rights and achieve better outcomes.",
+        "author": {
+          "name": "Kristin Watson",
+          "role": "Admin",
+          "avatar": "/Testimonial/testimonial-man-1-rectangular.svg"
+        },
+        "link": "#"
+      },
+      {
+        "id": "b2",
+        "image": {
+          "src": "/Blogs/latest-news-2-clean-no-tags.svg",
+          "alt": "Community Discussion"
+        },
+        "category": "COMMUNITY",
+        "categoryIcon": "users",
+        "date": "02 October, 2024",
+        "dateIcon": "clock",
+        "title": "Have Your Say In Shaping Health And Community",
+        "description": "Learn how your voice and involvement can contribute to stronger, healthier communities for everyone.",
+        "author": {
+          "name": "Kristin Watson",
+          "role": "Admin",
+          "avatar": "/Testimonial/testimonial-man-1-rectangular.svg"
+        },
+        "link": "#"
+      },
+      {
+        "id": "b3",
+        "image": {
+          "src": "/Blogs/latest-news-3-clean-no-tags.svg",
+          "alt": "Legal Updates"
+        },
+        "category": "LEGAL UPDATES",
+        "categoryIcon": "shield-check",
+        "date": "02 October, 2024",
+        "dateIcon": "clock",
+        "title": "Healthability Repair Cafe Makes Mark In Whitehorse",
+        "description": "A closer look at the initiative making a real difference and setting an example for communities everywhere.",
+        "author": {
+          "name": "Kristin Watson",
+          "role": "Admin",
+          "avatar": "/Testimonial/testimonial-man-1-rectangular.svg"
+        },
+        "link": "#"
+      }
+    ],
+    "button": {
+      "text": "VIEW ALL ARTICLES",
+      "href": "#all-articles",
+      "icon": "arrow-right"
+    }
+  },
+  "workProcess": {
+    "sectionIcon": "gavel",
+    "sectionTitle": "STEP TO CONNECTS",
+    "headingDark": "How Our Work Process",
+    "headingGold": "Connects With You",
+    "steps": [
+      {
+        "id": "01",
+        "title": "Schedule A Time",
+        "description": "There are many variations passages to luck of Loem Ipsum available to",
+        "icon": "calendar-clock"
+      },
+      {
+        "id": "02",
+        "title": "Plan With Success",
+        "description": "There are many variations passages to luck of Loem Ipsum available to",
+        "icon": "award"
+      },
+      {
+        "id": "03",
+        "title": "Detailed Cost Estimate",
+        "description": "There are many variations passages to luck of Loem Ipsum available to",
+        "icon": "calculator"
+      },
+      {
+        "id": "04",
+        "title": "We Care About The Rest",
+        "description": "There are many variations passages to luck of Loem Ipsum available to",
+        "icon": "handshake"
+      }
+    ]
+  },
+  "ourApproach": {
+    "sectionIcon": "scales",
+    "sectionTitle": "OUR APPROACH",
+    "headingDark": "Our",
+    "headingGold": "Approach",
+    "description": "We follow a client-focused approach that ensures clarity, strategy, and the best possible outcomes.",
+    "steps": [
+      {
+        "id": "01",
+        "title": "Understand",
+        "description": "We listen carefully to understand your unique situation and goals.",
+        "icon": "message-circle"
+      },
+      {
+        "id": "02",
+        "title": "Analyze",
+        "description": "We examine the facts, evaluate options, and identify the best strategy.",
+        "icon": "search"
+      },
+      {
+        "id": "03",
+        "title": "Strategize",
+        "description": "We develop a clear, tailored legal strategy designed for results.",
+        "icon": "file-edit"
+      },
+      {
+        "id": "04",
+        "title": "Advocate",
+        "description": "We represent you with skill, dedication, and unwavering commitment.",
+        "icon": "user"
+      },
+      {
+        "id": "05",
+        "title": "Deliver Results",
+        "description": "We focus on achieving the best possible outcome for you.",
+        "icon": "shield-check"
+      }
+    ],
+    "banner": {
+      "icon": "users",
+      "textDark": "Client-Centered.",
+      "textGold": "Result-Driven.",
+      "description": "Every case is unique. Our approach is personalized, strategic, and focused on protecting your rights and achieving your goals.",
+      "image": "/law_firm_bg.jpg"
+    }
+  },
+  "footer": {
+    "logo": {
+      "src": "/logo-white.svg",
+      "name": "JUSTILAW",
+      "subtitle": "LEGAL PARTNERS"
+    },
+    "description": "Providing trusted legal solutions with integrity, dedication, and a commitment to achieving the best results for our clients.",
+    "leftImage": {
+      "src": "/Blogs/latest-news-6-rectangular-frame.svg",
+      "alt": "Courthouse Background"
+    },
+    "services": [
+      {
+        "name": "Criminal Law",
+        "href": "#"
+      },
+      {
+        "name": "Family Law",
+        "href": "#"
+      },
+      {
+        "name": "Real Estate Law",
+        "href": "#"
+      },
+      {
+        "name": "Employment Law",
+        "href": "#"
+      },
+      {
+        "name": "Business Law",
+        "href": "#"
+      },
+      {
+        "name": "Civil Litigation",
+        "href": "#"
+      },
+      {
+        "name": "Legal Consultation",
+        "href": "#"
+      }
+    ],
+    "quickLinks": [
+      {
+        "name": "About Us",
+        "href": "#"
+      },
+      {
+        "name": "Our Team",
+        "href": "#"
+      },
+      {
+        "name": "Case Studies",
+        "href": "#"
+      },
+      {
+        "name": "Testimonials",
+        "href": "#"
+      },
+      {
+        "name": "Blog & Articles",
+        "href": "#"
+      },
+      {
+        "name": "FAQs",
+        "href": "#"
+      },
+      {
+        "name": "Contact Us",
+        "href": "#"
+      }
+    ],
+    "resources": [
+      {
+        "name": "Legal Guide",
+        "href": "#"
+      },
+      {
+        "name": "Downloads",
+        "href": "#"
+      },
+      {
+        "name": "Client Support",
+        "href": "#"
+      },
+      {
+        "name": "Privacy Policy",
+        "href": "#"
+      },
+      {
+        "name": "Terms & Conditions",
+        "href": "#"
+      }
+    ],
+    "contact": {
+      "address": "123 Justice Lane, Suite 500\nNew York, NY 10001, USA",
+      "phone": "+1 (212) 555-0189",
+      "email": "info@justilaw.com",
+      "hours": "Mon - Fri: 9:00 AM - 6:00 PM\nSaturday & Sunday: Closed"
+    },
+    "newsletter": {
+      "title": "NEWSLETTER",
+      "description": "Stay updated with the latest legal insights and firm news.",
+      "placeholder": "Enter your email"
+    },
+    "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow.",
+    "centerText": {
+      "title": "Strategic Counsel.",
+      "subtitle": "Trusted Results."
+    },
+    "socials": [
+      {
+        "name": "Facebook",
+        "url": "#",
+        "icon": "facebook"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "#",
+        "icon": "linkedin"
+      },
+      {
+        "name": "X",
+        "url": "#",
+        "icon": "x-twitter"
+      },
+      {
+        "name": "Instagram",
+        "url": "#",
+        "icon": "instagram"
+      }
+    ]
+  },
+  "serviceDetails": {
+    "corporate": {
+      "title": "Corporate Law",
+      "description": "We provide compassionate and practical legal solutions for a wide range of corporate law matters. Our goal is to protect your rights, support your family, and help you move forward with confidence.",
+      "heroImage": "/Prac_areas/Service_detail/courthouse_columns.svg",
+      "feature": {
+        "icon": "scales",
+        "title": "Defines Rights Related To Corporate Law",
+        "description": "Our corporate law services include divorce, child custody, spousal support, adoption, and property division. We are committed to achieving the best possible outcome for you and your loved ones."
+      },
+      "whyChooseUs": {
+        "title": "Why Choose Our ProCounsel?",
+        "cards": [
+          {
+            "icon": "phone-call",
+            "title": "24/7 Premium Support",
+            "description": "We are available around the clock to assist you with your legal concerns."
+          },
+          {
+            "icon": "users",
+            "title": "Professional Attorneys",
+            "description": "Our experienced attorneys provide reliable legal guidance with integrity and dedication."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Our Few Benefits",
+        "description": "We focus on delivering clear advice, strategic solutions, and dedicated support.",
+        "image": "/Prac_areas/Service_detail/realistic_lawyer.svg",
+        "list": [
+          "Personalized legal solutions for your unique situation",
+          "Dedicated attorney support throughout the process",
+          "Protecting your rights and your family's future",
+          "Transparent communication and honest advice"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What Is Attorney-Client Privilege?",
+          "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+        },
+        {
+          "question": "How Much Does A Lawyer Cost?",
+          "answer": "Our fees vary depending on the complexity of the case. We offer a free initial consultation to discuss your specific situation and provide a transparent fee structure."
+        },
+        {
+          "question": "Can A Lawyer Help Get My Charges Reduced?",
+          "answer": "Yes, an experienced lawyer can negotiate with prosecutors and present evidence to potentially get your charges reduced or even dismissed."
+        },
+        {
+          "question": "What Are The Grounds For Divorce?",
+          "answer": "The grounds for divorce vary by jurisdiction but commonly include irreconcilable differences, adultery, abandonment, and cruelty."
+        }
+      ]
+    },
+    "criminal": {
+      "title": "Criminal Defense",
+      "description": "We provide compassionate and practical legal solutions for a wide range of criminal defense matters. Our goal is to protect your rights, support your family, and help you move forward with confidence.",
+      "heroImage": "/Prac_areas/Service_detail/courthouse_columns.svg",
+      "feature": {
+        "icon": "scales",
+        "title": "Defines Rights Related To Criminal Defense",
+        "description": "Our criminal defense services include divorce, child custody, spousal support, adoption, and property division. We are committed to achieving the best possible outcome for you and your loved ones."
+      },
+      "whyChooseUs": {
+        "title": "Why Choose Our ProCounsel?",
+        "cards": [
+          {
+            "icon": "phone-call",
+            "title": "24/7 Premium Support",
+            "description": "We are available around the clock to assist you with your legal concerns."
+          },
+          {
+            "icon": "users",
+            "title": "Professional Attorneys",
+            "description": "Our experienced attorneys provide reliable legal guidance with integrity and dedication."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Our Few Benefits",
+        "description": "We focus on delivering clear advice, strategic solutions, and dedicated support.",
+        "image": "/Prac_areas/Service_detail/realistic_lawyer.svg",
+        "list": [
+          "Personalized legal solutions for your unique situation",
+          "Dedicated attorney support throughout the process",
+          "Protecting your rights and your family's future",
+          "Transparent communication and honest advice"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What Is Attorney-Client Privilege?",
+          "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+        },
+        {
+          "question": "How Much Does A Lawyer Cost?",
+          "answer": "Our fees vary depending on the complexity of the case. We offer a free initial consultation to discuss your specific situation and provide a transparent fee structure."
+        },
+        {
+          "question": "Can A Lawyer Help Get My Charges Reduced?",
+          "answer": "Yes, an experienced lawyer can negotiate with prosecutors and present evidence to potentially get your charges reduced or even dismissed."
+        },
+        {
+          "question": "What Are The Grounds For Divorce?",
+          "answer": "The grounds for divorce vary by jurisdiction but commonly include irreconcilable differences, adultery, abandonment, and cruelty."
+        }
+      ]
+    },
+    "family": {
+      "title": "Family Law",
+      "description": "We provide compassionate and practical legal solutions for a wide range of family law matters. Our goal is to protect your rights, support your family, and help you move forward with confidence.",
+      "heroImage": "/Prac_areas/Service_detail/courthouse_columns.svg",
+      "feature": {
+        "icon": "scales",
+        "title": "Defines Rights Related To Family Law",
+        "description": "Our family law services include divorce, child custody, spousal support, adoption, and property division. We are committed to achieving the best possible outcome for you and your loved ones."
+      },
+      "whyChooseUs": {
+        "title": "Why Choose Our ProCounsel?",
+        "cards": [
+          {
+            "icon": "phone-call",
+            "title": "24/7 Premium Support",
+            "description": "We are available around the clock to assist you with your legal concerns."
+          },
+          {
+            "icon": "users",
+            "title": "Professional Attorneys",
+            "description": "Our experienced attorneys provide reliable legal guidance with integrity and dedication."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Our Few Benefits",
+        "description": "We focus on delivering clear advice, strategic solutions, and dedicated support.",
+        "image": "/Prac_areas/Service_detail/realistic_lawyer.svg",
+        "list": [
+          "Personalized legal solutions for your unique situation",
+          "Dedicated attorney support throughout the process",
+          "Protecting your rights and your family's future",
+          "Transparent communication and honest advice"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What Is Attorney-Client Privilege?",
+          "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+        },
+        {
+          "question": "How Much Does A Lawyer Cost?",
+          "answer": "Our fees vary depending on the complexity of the case. We offer a free initial consultation to discuss your specific situation and provide a transparent fee structure."
+        },
+        {
+          "question": "Can A Lawyer Help Get My Charges Reduced?",
+          "answer": "Yes, an experienced lawyer can negotiate with prosecutors and present evidence to potentially get your charges reduced or even dismissed."
+        },
+        {
+          "question": "What Are The Grounds For Divorce?",
+          "answer": "The grounds for divorce vary by jurisdiction but commonly include irreconcilable differences, adultery, abandonment, and cruelty."
+        }
+      ]
+    },
+    "real-estate": {
+      "title": "Real Estate Law",
+      "description": "We provide compassionate and practical legal solutions for a wide range of real estate law matters. Our goal is to protect your rights, support your family, and help you move forward with confidence.",
+      "heroImage": "/Prac_areas/Service_detail/courthouse_columns.svg",
+      "feature": {
+        "icon": "scales",
+        "title": "Defines Rights Related To Real Estate Law",
+        "description": "Our real estate law services include divorce, child custody, spousal support, adoption, and property division. We are committed to achieving the best possible outcome for you and your loved ones."
+      },
+      "whyChooseUs": {
+        "title": "Why Choose Our ProCounsel?",
+        "cards": [
+          {
+            "icon": "phone-call",
+            "title": "24/7 Premium Support",
+            "description": "We are available around the clock to assist you with your legal concerns."
+          },
+          {
+            "icon": "users",
+            "title": "Professional Attorneys",
+            "description": "Our experienced attorneys provide reliable legal guidance with integrity and dedication."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Our Few Benefits",
+        "description": "We focus on delivering clear advice, strategic solutions, and dedicated support.",
+        "image": "/Prac_areas/Service_detail/realistic_lawyer.svg",
+        "list": [
+          "Personalized legal solutions for your unique situation",
+          "Dedicated attorney support throughout the process",
+          "Protecting your rights and your family's future",
+          "Transparent communication and honest advice"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What Is Attorney-Client Privilege?",
+          "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+        },
+        {
+          "question": "How Much Does A Lawyer Cost?",
+          "answer": "Our fees vary depending on the complexity of the case. We offer a free initial consultation to discuss your specific situation and provide a transparent fee structure."
+        },
+        {
+          "question": "Can A Lawyer Help Get My Charges Reduced?",
+          "answer": "Yes, an experienced lawyer can negotiate with prosecutors and present evidence to potentially get your charges reduced or even dismissed."
+        },
+        {
+          "question": "What Are The Grounds For Divorce?",
+          "answer": "The grounds for divorce vary by jurisdiction but commonly include irreconcilable differences, adultery, abandonment, and cruelty."
+        }
+      ]
+    },
+    "employment": {
+      "title": "Employment Law",
+      "description": "We provide compassionate and practical legal solutions for a wide range of employment law matters. Our goal is to protect your rights, support your family, and help you move forward with confidence.",
+      "heroImage": "/Prac_areas/Service_detail/courthouse_columns.svg",
+      "feature": {
+        "icon": "scales",
+        "title": "Defines Rights Related To Employment Law",
+        "description": "Our employment law services include divorce, child custody, spousal support, adoption, and property division. We are committed to achieving the best possible outcome for you and your loved ones."
+      },
+      "whyChooseUs": {
+        "title": "Why Choose Our ProCounsel?",
+        "cards": [
+          {
+            "icon": "phone-call",
+            "title": "24/7 Premium Support",
+            "description": "We are available around the clock to assist you with your legal concerns."
+          },
+          {
+            "icon": "users",
+            "title": "Professional Attorneys",
+            "description": "Our experienced attorneys provide reliable legal guidance with integrity and dedication."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Our Few Benefits",
+        "description": "We focus on delivering clear advice, strategic solutions, and dedicated support.",
+        "image": "/Prac_areas/Service_detail/realistic_lawyer.svg",
+        "list": [
+          "Personalized legal solutions for your unique situation",
+          "Dedicated attorney support throughout the process",
+          "Protecting your rights and your family's future",
+          "Transparent communication and honest advice"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What Is Attorney-Client Privilege?",
+          "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+        },
+        {
+          "question": "How Much Does A Lawyer Cost?",
+          "answer": "Our fees vary depending on the complexity of the case. We offer a free initial consultation to discuss your specific situation and provide a transparent fee structure."
+        },
+        {
+          "question": "Can A Lawyer Help Get My Charges Reduced?",
+          "answer": "Yes, an experienced lawyer can negotiate with prosecutors and present evidence to potentially get your charges reduced or even dismissed."
+        },
+        {
+          "question": "What Are The Grounds For Divorce?",
+          "answer": "The grounds for divorce vary by jurisdiction but commonly include irreconcilable differences, adultery, abandonment, and cruelty."
+        }
+      ]
+    },
+    "healthcare": {
+      "title": "Healthcare Law",
+      "description": "We provide compassionate and practical legal solutions for a wide range of healthcare law matters. Our goal is to protect your rights, support your family, and help you move forward with confidence.",
+      "heroImage": "/Prac_areas/Service_detail/courthouse_columns.svg",
+      "feature": {
+        "icon": "scales",
+        "title": "Defines Rights Related To Healthcare Law",
+        "description": "Our healthcare law services include divorce, child custody, spousal support, adoption, and property division. We are committed to achieving the best possible outcome for you and your loved ones."
+      },
+      "whyChooseUs": {
+        "title": "Why Choose Our ProCounsel?",
+        "cards": [
+          {
+            "icon": "phone-call",
+            "title": "24/7 Premium Support",
+            "description": "We are available around the clock to assist you with your legal concerns."
+          },
+          {
+            "icon": "users",
+            "title": "Professional Attorneys",
+            "description": "Our experienced attorneys provide reliable legal guidance with integrity and dedication."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Our Few Benefits",
+        "description": "We focus on delivering clear advice, strategic solutions, and dedicated support.",
+        "image": "/Prac_areas/Service_detail/realistic_lawyer.svg",
+        "list": [
+          "Personalized legal solutions for your unique situation",
+          "Dedicated attorney support throughout the process",
+          "Protecting your rights and your family's future",
+          "Transparent communication and honest advice"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What Is Attorney-Client Privilege?",
+          "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+        },
+        {
+          "question": "How Much Does A Lawyer Cost?",
+          "answer": "Our fees vary depending on the complexity of the case. We offer a free initial consultation to discuss your specific situation and provide a transparent fee structure."
+        },
+        {
+          "question": "Can A Lawyer Help Get My Charges Reduced?",
+          "answer": "Yes, an experienced lawyer can negotiate with prosecutors and present evidence to potentially get your charges reduced or even dismissed."
+        },
+        {
+          "question": "What Are The Grounds For Divorce?",
+          "answer": "The grounds for divorce vary by jurisdiction but commonly include irreconcilable differences, adultery, abandonment, and cruelty."
+        }
+      ]
+    },
+    "ecommerce": {
+      "title": "Ecommerce Law",
+      "description": "We provide compassionate and practical legal solutions for a wide range of ecommerce law matters. Our goal is to protect your rights, support your family, and help you move forward with confidence.",
+      "heroImage": "/Prac_areas/Service_detail/courthouse_columns.svg",
+      "feature": {
+        "icon": "scales",
+        "title": "Defines Rights Related To Ecommerce Law",
+        "description": "Our ecommerce law services include divorce, child custody, spousal support, adoption, and property division. We are committed to achieving the best possible outcome for you and your loved ones."
+      },
+      "whyChooseUs": {
+        "title": "Why Choose Our ProCounsel?",
+        "cards": [
+          {
+            "icon": "phone-call",
+            "title": "24/7 Premium Support",
+            "description": "We are available around the clock to assist you with your legal concerns."
+          },
+          {
+            "icon": "users",
+            "title": "Professional Attorneys",
+            "description": "Our experienced attorneys provide reliable legal guidance with integrity and dedication."
+          }
+        ]
+      },
+      "benefits": {
+        "title": "Our Few Benefits",
+        "description": "We focus on delivering clear advice, strategic solutions, and dedicated support.",
+        "image": "/Prac_areas/Service_detail/realistic_lawyer.svg",
+        "list": [
+          "Personalized legal solutions for your unique situation",
+          "Dedicated attorney support throughout the process",
+          "Protecting your rights and your family's future",
+          "Transparent communication and honest advice"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "What Is Attorney-Client Privilege?",
+          "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+        },
+        {
+          "question": "How Much Does A Lawyer Cost?",
+          "answer": "Our fees vary depending on the complexity of the case. We offer a free initial consultation to discuss your specific situation and provide a transparent fee structure."
+        },
+        {
+          "question": "Can A Lawyer Help Get My Charges Reduced?",
+          "answer": "Yes, an experienced lawyer can negotiate with prosecutors and present evidence to potentially get your charges reduced or even dismissed."
+        },
+        {
+          "question": "What Are The Grounds For Divorce?",
+          "answer": "The grounds for divorce vary by jurisdiction but commonly include irreconcilable differences, adultery, abandonment, and cruelty."
+        }
+      ]
+    }
+  },
+  "ourTeamPage": {
+    "tagline": "OUR TEAM",
+    "headingDark": "Meet Our Experienced",
+    "headingGold": "Legal Professionals",
+    "description": "Our team of dedicated attorneys brings a wealth of knowledge and experience to every case, ensuring the best possible results for our clients.",
+    "members": [
+      {
+        "id": "tm1",
+        "name": "Robert Johnson",
+        "title": "MANAGING PARTNER",
+        "description": "Over 20 years of experience in corporate law, business litigation, and strategic legal counsel.",
+        "image": {
+          "src": "/Our_team/our-team-member-1-same-background.svg",
+          "alt": "Robert Johnson"
+        }
+      },
+      {
+        "id": "tm2",
+        "name": "Sophia Williams",
+        "title": "SENIOR ATTORNEY",
+        "description": "Specializes in family law, divorce settlements, and child custody cases.",
+        "image": {
+          "src": "/Our_team/our-team-member-2-same-background.svg",
+          "alt": "Sophia Williams"
+        }
+      },
+      {
+        "id": "tm3",
+        "name": "James Anderson",
+        "title": "LITIGATION ATTORNEY",
+        "description": "Experienced in personal injury, civil litigation, and dispute resolution.",
+        "image": {
+          "src": "/Our_team/our-team-member-3-same-background.svg",
+          "alt": "James Anderson"
+        }
+      },
+      {
+        "id": "tm4",
+        "name": "Olivia Martinez",
+        "title": "ASSOCIATE ATTORNEY",
+        "description": "Focuses on real estate law, contract drafting, and property disputes.",
+        "image": {
+          "src": "/Our_team/our-team-member-4-same-background.svg",
+          "alt": "Olivia Martinez"
+        }
+      },
+      {
+        "id": "tm5",
+        "name": "David Carter",
+        "title": "SENIOR PARTNER",
+        "description": "Over 20 years of experience in corporate law, business litigation, and strategic legal counsel.",
+        "image": {
+          "src": "/Our_team/male_lawyer_team.svg",
+          "alt": "Robert Johnson"
+        }
+      },
+      {
+        "id": "tm6",
+        "name": "Sarah Jenkins",
+        "title": "DEFENSE ATTORNEY",
+        "description": "Specializes in family law, divorce settlements, and child custody cases.",
+        "image": {
+          "src": "/Our_team/female_lawyer_team.svg",
+          "alt": "Sophia Williams"
+        }
+      },
+      {
+        "id": "tm7",
+        "name": "Michael Brooks",
+        "title": "LEGAL CONSULTANT",
+        "description": "Experienced in personal injury, civil litigation, and dispute resolution.",
+        "image": {
+          "src": "/Our_team/team_member_7.svg",
+          "alt": "James Anderson"
+        }
+      },
+      {
+        "id": "tm8",
+        "name": "Emily Thompson",
+        "title": "ASSOCIATE",
+        "description": "Focuses on real estate law, contract drafting, and property disputes.",
+        "image": {
+          "src": "/Our_team/team_member_8.svg",
+          "alt": "Olivia Martinez"
+        }
+      }
+    ],
+    "button": {
+      "text": "VIEW ALL ATTORNEYS",
+      "href": "#all-attorneys",
+      "icon": "arrow-right"
+    }
+  }
+}
