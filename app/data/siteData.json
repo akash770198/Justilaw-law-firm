@@ -444,11 +444,11 @@
     },
     "images": {
       "left": {
-        "src": "/whychooseUs/lawyer-office-realistic.svg",
+        "src": "/WhyChooseUs/lawyer-office-realistic.svg",
         "alt": "Senior male attorney reviewing documents"
       },
       "right": {
-        "src": "/whychooseUs/realistic-lawyer-portrait.svg",
+        "src": "/WhyChooseUs/realistic-lawyer-portrait.svg",
         "alt": "Female attorney with scales of justice"
       }
     }
