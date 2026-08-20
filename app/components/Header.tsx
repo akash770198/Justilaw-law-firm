@@ -1,9 +1,9 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { DynamicIcon } from "./DynamicIcon";
+import { DynamicIcon } from "@/app/components/DynamicIcon";
 
 interface TopBarData {
   phone: string;
@@ -56,6 +56,7 @@ interface HeaderData {
 export const Header: React.FC<{ data: HeaderData }> = ({ data }) => {
   const { topBar, navbar } = data;
   const pathname = usePathname();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
     <header className="w-full select-none z-50 sticky top-0">
@@ -200,10 +201,68 @@ export const Header: React.FC<{ data: HeaderData }> = ({ data }) => {
                 </span>
               </div>
             </a>
+            {/* Mobile Hamburger Button */}
+            <button
+              className="xl:hidden w-10 h-10 flex items-center justify-center text-[#1a283c] hover:text-[#d89f4b] transition-colors"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label="Toggle Menu"
+            >
+              <DynamicIcon name={isMobileMenuOpen ? "x" : "menu"} className="w-7 h-7" />
+            </button>
           </div>
 
         </div>
       </nav>
+
+      {/* Mobile Menu Overlay */}
+      {isMobileMenuOpen && (
+        <div className="absolute top-full left-0 w-full bg-white border-b border-slate-100 shadow-2xl xl:hidden z-40 max-h-[80vh] overflow-y-auto flex flex-col">
+          <div className="flex flex-col py-4 px-6">
+            {navbar.navLinks.map((link) => {
+              const isActive = link.href === pathname;
+              return (
+                <div key={link.name} className="flex flex-col border-b border-slate-50 last:border-0 py-1">
+                  <Link
+                    href={link.href}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className={`flex items-center justify-between py-3 font-medium transition-colors ${
+                      isActive ? "text-[#d89f4b]" : "text-slate-700"
+                    }`}
+                  >
+                    <span>{link.name}</span>
+                  </Link>
+                  {link.dropdown && (
+                    <div className="flex flex-col pl-4 pb-2 space-y-3 mt-1 border-l-2 border-[#f3ede5]">
+                      {link.dropdown.map((sub) => (
+                        <Link
+                          key={sub.name}
+                          href={sub.href}
+                          onClick={() => setIsMobileMenuOpen(false)}
+                          className="text-sm text-slate-500 hover:text-[#d89f4b] transition-colors"
+                        >
+                          {sub.name}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+            
+            {/* Mobile Action Buttons */}
+            <div className="mt-6 pt-6 border-t border-slate-100 flex flex-col gap-4">
+              <Link
+                href={navbar.careersButton.href}
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="flex items-center justify-center gap-2 bg-[#be8b4b] text-white font-medium text-sm py-3 rounded-md w-full"
+              >
+                <DynamicIcon name={navbar.careersButton.icon} className="w-4 h-4" />
+                <span>{navbar.careersButton.text}</span>
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
     </header>
   );
 };

@@ -1,8 +1,8 @@
 "use client";
 
-import React from "react";
 import Image from "next/image";
-import { DynamicIcon } from "./DynamicIcon";
+import Link from "next/link";
+import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -24,6 +24,7 @@ const itemVariants = {
 
 interface TeamMember {
   id: string;
+  slug?: string;
   name: string;
   title: string;
   description: string;
@@ -80,33 +81,36 @@ export const TeamSection: React.FC<{ data: TeamData; hideButton?: boolean }> = (
           viewport={{ once: true, margin: "-50px" }}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-10"
         >
-          {data.members.map((member) => (
-            <motion.div variants={itemVariants} key={member.id} className="group flex flex-col bg-white border border-slate-100 shadow-sm rounded-md overflow-hidden hover:shadow-xl transition-all duration-300">
-              {/* Image Container */}
-              <div className="relative w-full aspect-[4/5] bg-slate-100 overflow-hidden">
-                <Image
-                  src={member.image.src}
-                  alt={member.image.alt}
-                  fill
-                  className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                />
-              </div>
-
-              {/* Content */}
-              <div className="p-6 md:p-8 flex flex-col flex-grow bg-[#faf9f7]">
-                <h4 className="font-serif font-bold text-[#111827] text-xl sm:text-[22px] mb-2">
-                  {member.name}
-                </h4>
-                <div className="text-[#d89f4b] text-[13px] font-bold tracking-widest uppercase mb-4">
-                  {member.title}
+          {data.members.map((member, index) => (
+            <Link href={`/our-team/${member.slug || member.id}`} key={member.id} className="block">
+              <motion.div variants={itemVariants} className="group flex flex-col h-full bg-white border border-slate-100 shadow-sm rounded-md overflow-hidden hover:shadow-xl transition-all duration-300">
+                {/* Image Container */}
+                <div className="relative w-full aspect-[4/5] bg-slate-100 overflow-hidden">
+                  <Image
+                    src={member.image.src}
+                    alt={member.image.alt}
+                    fill
+                    priority={index < 4}
+                    className="object-cover object-top transition-transform duration-700 group-hover:scale-110"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                  />
                 </div>
-                <div className="w-8 h-[2px] bg-[#d89f4b] mb-5" />
-                <p className="text-slate-500 text-[14px] leading-relaxed">
-                  {member.description}
-                </p>
-              </div>
-            </motion.div>
+
+                {/* Content */}
+                <div className="p-6 md:p-8 flex flex-col flex-grow bg-[#faf9f7]">
+                  <h4 className="font-serif font-bold text-[#111827] text-xl sm:text-[22px] mb-2">
+                    {member.name}
+                  </h4>
+                  <div className="text-[#d89f4b] text-[13px] font-bold tracking-widest uppercase mb-4">
+                    {member.title}
+                  </div>
+                  <div className="w-8 h-[2px] bg-[#d89f4b] mb-5" />
+                  <p className="text-slate-500 text-[14px] leading-relaxed">
+                    {member.description}
+                  </p>
+                </div>
+              </motion.div>
+            </Link>
           ))}
         </motion.div>
 

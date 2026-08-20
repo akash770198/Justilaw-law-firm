@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { DynamicIcon } from "./DynamicIcon";
+import { DynamicIcon } from "@/app/components/DynamicIcon";
 
 interface FAQ {
   question: string;
@@ -64,24 +64,26 @@ export const ServiceDetailClient: React.FC<Props> = ({ slug, data, allServices, 
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="bg-[#1a283c] rounded-lg overflow-hidden text-white"
+            className="rounded-lg overflow-hidden border border-gray-200 shadow-sm"
           >
-            <div className="p-8 pb-6 border-b border-white/10">
-              <DynamicIcon name="scales" className="w-8 h-8 text-[#d89f4b] mb-4" />
-              <h3 className="font-serif text-2xl font-bold">All Services</h3>
+            <div className="p-8 pt-6 pb-8 bg-[#0b1320] text-white">
+              <DynamicIcon name="scales" className="w-16 h-16 text-[#d89f4b] mb-4" />
+              <h3 className="font-serif text-3xl md:text-4xl font-bold tracking-wide">All Services</h3>
+              <div className="w-12 h-[3px] bg-[#d89f4b] mt-5"></div>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col bg-white">
               {allServices.map((service, index) => {
                 const isActive = service.link.includes(`/services/${slug}`);
                 return (
                   <Link 
                     key={index} 
                     href={service.link}
-                    className={`px-8 py-[22px] border-b border-white/10 flex items-center justify-between transition-colors ${
-                      isActive ? "bg-[#d89f4b] text-white" : "hover:bg-white/5"
-                    }`}
+                    className={`px-8 py-[22px] border-b border-gray-100 flex items-center justify-between 
+transition-colors ${
+                      isActive ? "bg-[#d89f4b] text-white" : "text-[#0b1320] hover:bg-gray-50"
+                    } last:border-b-0`}
                   >
-                    <span className="font-medium text-[15px]">{service.title}</span>
+                    <span className="font-medium text-[16px]">{service.title}</span>
                     <DynamicIcon name="arrow-right" className="w-4 h-4" />
                   </Link>
                 );
@@ -95,7 +97,7 @@ export const ServiceDetailClient: React.FC<Props> = ({ slug, data, allServices, 
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="bg-[#1a283c] rounded-lg overflow-hidden relative lg:mt-[110px]"
+            className="bg-[#1a283c] rounded-lg overflow-hidden relative lg:mt-[30px]"
           >
             <div className="p-8 relative z-10 max-w-[90%]">
               <h3 className="font-serif text-[28px] font-bold text-white leading-snug mb-5">
@@ -176,11 +178,11 @@ export const ServiceDetailClient: React.FC<Props> = ({ slug, data, allServices, 
           
           {/* Hero Image */}
           <motion.div 
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={{ opacity: 0, scale: 0.98 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="relative w-full h-[300px] md:h-[450px] rounded-lg overflow-hidden"
+            className="relative w-full aspect-[4/3] md:aspect-[21/9] rounded-lg overflow-hidden"
           >
             <Image 
               src={data.heroImage} 
@@ -262,7 +264,7 @@ export const ServiceDetailClient: React.FC<Props> = ({ slug, data, allServices, 
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="relative h-[300px] rounded-lg overflow-hidden w-full shadow-[0_20px_50px_rgba(0,0,0,0.2)] border border-slate-100"
+              className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.2)] border border-slate-100"
             >
               <Image 
                 src={data.benefits.image} 

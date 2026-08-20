@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { DynamicIcon } from "./DynamicIcon";
+import { DynamicIcon } from "@/app/components/DynamicIcon";
 
 interface BottomHighlight {
   id: string;

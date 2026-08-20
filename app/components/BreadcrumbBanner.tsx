@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import Link from 'next/link';
-import { DynamicIcon } from './DynamicIcon';
+import { DynamicIcon } from "@/app/components/DynamicIcon";
 
 interface BreadcrumbPath {
   name: string;

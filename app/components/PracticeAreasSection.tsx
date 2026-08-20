@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { DynamicIcon } from "./DynamicIcon";
+import { DynamicIcon } from "@/app/components/DynamicIcon";
 
 interface PracticeArea {
   id: string;
@@ -114,7 +114,7 @@ export const PracticeAreasSection: React.FC<{ data: PracticeAreasData }> = ({ da
               </div>
 
               {/* Bottom Image */}
-              <div className="relative h-[220px] w-full mt-auto">
+              <div className="relative aspect-[3/2] w-full mt-auto">
                 <Image
                   src={area.image.src}
                   alt={area.image.alt}

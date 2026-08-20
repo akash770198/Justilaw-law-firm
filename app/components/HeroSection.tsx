@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { DynamicIcon } from "./DynamicIcon";
+import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
 
 interface HeroData {
@@ -90,10 +90,8 @@ export const HeroSection: React.FC<{ data: HeroData }> = ({ data }) => {
                   <div className="w-12 h-12 rounded-full border border-[#2c3d55] flex items-center justify-center text-[#d89f4b] group-hover:border-[#d89f4b] transition-colors">
                     <DynamicIcon name={feature.icon} className="w-5 h-5" />
                   </div>
-                  <span className="text-[15px] font-bold text-slate-200 font-serif leading-snug max-w-[120px]">
-                    {feature.title.split(' ').map((word, i, arr) => 
-                      i === arr.length / 2 || i === 1 ? <React.Fragment key={i}><br/>{word}</React.Fragment> : <React.Fragment key={i}> {word}</React.Fragment>
-                    )}
+                  <span className="text-[15px] font-bold text-slate-200 font-serif leading-snug max-w-[160px] whitespace-pre-line">
+                    {feature.title}
                   </span>
                 </div>
                 {/* Vertical Divider */}
@@ -171,6 +169,8 @@ export const HeroSection: React.FC<{ data: HeroData }> = ({ data }) => {
           priority
           className="object-cover object-center"
         />
+        {/* Responsive Overlay: Strong dark on mobile, gradient fade on desktop */}
+        <div className="absolute inset-0 bg-[#0b1320]/85 lg:bg-transparent lg:bg-gradient-to-r lg:from-[#0b1320] lg:via-transparent lg:to-transparent z-10"></div>
       </motion.div>
 
     </section>

@@ -3,8 +3,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { DynamicIcon } from "./DynamicIcon";
-import { Counter } from "./Counter";
+import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { Counter } from "@/app/components/Counter";
 import { motion } from "framer-motion";
 
 interface AboutFeature {

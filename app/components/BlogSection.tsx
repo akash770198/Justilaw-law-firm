@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { DynamicIcon } from "./DynamicIcon";
+import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
 
 const containerVariants = {

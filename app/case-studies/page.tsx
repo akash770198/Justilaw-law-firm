@@ -3,31 +3,30 @@ import siteData from "@/app/data";
 import { Header } from "@/app/components/Header";
 import { Footer } from "@/app/components/Footer";
 import { BreadcrumbBanner } from "@/app/components/BreadcrumbBanner";
-import { TeamSection } from "@/app/components/TeamSection";
+import { CaseStudiesClient } from "@/app/case-studies/CaseStudiesClient";
 
 export const metadata: Metadata = {
-  title: (siteData.ourTeamPage as any).metadata?.title,
-  description: (siteData.ourTeamPage as any).metadata?.description,
+  title: (siteData.caseStudiesPage as any).metadata?.title,
+  description: (siteData.caseStudiesPage as any).metadata?.description,
 };
 
-export default function OurTeamPage() {
+export default function CaseStudiesPage() {
   const breadcrumbPaths = [
     { name: "Home", href: "/" },
-    { name: "Our Team", href: "/our-team" }
+    { name: "Case Study", href: "/case-studies" }
   ];
 
   return (
     <main className="min-h-screen flex flex-col bg-[#0a1422]">
-      {/* Header component with topbar and main navbar */}
+      {/* Header */}
       <Header data={siteData.header} />
       
       {/* Breadcrumb Banner */}
-      <BreadcrumbBanner title="Our Team" paths={breadcrumbPaths} />
+      <BreadcrumbBanner title="Case Studies" paths={breadcrumbPaths} />
 
-      {/* Main Content Area */}
+      {/* Main Content */}
       <div className="flex-grow flex flex-col bg-white">
-        {/* We use the existing TeamSection but with the dedicated 8-member data block and hiding the view all button */}
-        <TeamSection data={siteData.ourTeamPage} hideButton={true} />
+        <CaseStudiesClient data={siteData.caseStudiesPage as any} />
       </div>
 
       {/* Footer */}

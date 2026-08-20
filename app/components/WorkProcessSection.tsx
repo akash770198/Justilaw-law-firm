@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { DynamicIcon } from "./DynamicIcon";
+import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
 
 const containerVariants = {

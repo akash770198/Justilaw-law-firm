@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { DynamicIcon } from "./DynamicIcon";
+import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -123,11 +123,11 @@ export const OurApproachSection: React.FC<OurApproachSectionProps> = ({ data }) 
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="relative bg-white rounded-xl border border-slate-200 shadow-[0_8px_30px_rgba(0,0,0,0.08)] overflow-hidden flex flex-col md:flex-row items-center"
+          className="relative bg-white rounded-xl border border-slate-200 shadow-[0_8px_30px_rgba(0,0,0,0.08)] overflow-hidden flex flex-col md:flex-row items-stretch"
         >
           
           {/* Banner Content (Left/Middle) */}
-          <div className="flex-1 p-8 md:p-10 flex flex-col lg:flex-row items-center lg:items-start gap-8">
+          <div className="flex-1 py-10 px-8 md:py-14 md:px-10 flex flex-col lg:flex-row items-center lg:items-start justify-center gap-8">
             {/* Icon & Title */}
             <div className="flex items-center gap-6 flex-shrink-0">
               <div className="w-16 h-16 rounded-full bg-slate-50 flex items-center justify-center flex-shrink-0">

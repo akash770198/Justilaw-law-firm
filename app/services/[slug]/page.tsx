@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation";
-import siteData from "../../data";
-import { Header } from "../../components/Header";
-import { Footer } from "../../components/Footer";
-import { BreadcrumbBanner } from "../../components/BreadcrumbBanner";
-import { ServiceDetailClient } from "../../components/ServiceDetailClient";
+import siteData from "@/app/data";
+import { Header } from "@/app/components/Header";
+import { Footer } from "@/app/components/Footer";
+import { BreadcrumbBanner } from "@/app/components/BreadcrumbBanner";
+import { ServiceDetailClient } from "@/app/components/ServiceDetailClient";
 
 export async function generateStaticParams() {
   return [

@@ -1,4 +1,4 @@
-import rawSiteData from './siteData.json';
+import rawSiteData from "@/app/data/siteData.json";
 
 /**
  * Centralized data provider for the application.
