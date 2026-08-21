@@ -169,8 +169,8 @@ export const HeroSection: React.FC<{ data: HeroData }> = ({ data }) => {
           priority
           className="object-cover object-center"
         />
-        {/* Responsive Overlay: Strong dark on mobile, gradient fade on desktop */}
-        <div className="absolute inset-0 bg-[#0b1320]/85 lg:bg-transparent lg:bg-gradient-to-r lg:from-[#0b1320] lg:via-transparent lg:to-transparent z-10"></div>
+        {/* Responsive Overlay: Strong dark on mobile, completely transparent on desktop */}
+        <div className="absolute inset-0 bg-[#0b1320]/85 lg:hidden z-10"></div>
       </motion.div>
 
     </section>
