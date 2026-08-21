@@ -105,9 +105,13 @@ export const TeamSection: React.FC<{ data: TeamData; hideButton?: boolean }> = (
                     {member.title}
                   </div>
                   <div className="w-8 h-[2px] bg-[#d89f4b] mb-5" />
-                  <p className="text-slate-500 text-[14px] leading-relaxed">
+                  <p className="text-slate-500 text-[14px] leading-relaxed mb-6">
                     {member.description}
                   </p>
+                  <div className="mt-auto pt-4 border-t border-slate-200/60 flex items-center gap-2 text-[#111827] font-bold text-[12px] uppercase tracking-widest group-hover:text-[#d89f4b] transition-colors">
+                    <span>View Profile</span>
+                    <DynamicIcon name="arrow-right" className="w-4 h-4 text-[#d89f4b]" />
+                  </div>
                 </div>
               </motion.div>
             </Link>

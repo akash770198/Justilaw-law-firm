@@ -69,6 +69,22 @@
             {
               "name": "Industries",
               "href": "/industries"
+            },
+            {
+              "name": "Legal Updates",
+              "href": "/legal-updates"
+            },
+            {
+              "name": "News Media",
+              "href": "/news-media"
+            },
+            {
+              "name": "Events",
+              "href": "/events"
+            },
+            {
+              "name": "Publications",
+              "href": "/publication"
             }
           ]
         },
@@ -3826,6 +3842,2658 @@
             "link": "#"
           }
         ]
+      }
+    }
+  },
+  "legalUpdates": {
+    "header": {
+      "breadcrumbs": [
+        {
+          "label": "HOME",
+          "href": "/"
+        },
+        {
+          "label": "LEGAL UPDATES",
+          "href": "/legal-updates"
+        }
+      ],
+      "title": "Legal Updates"
+    },
+    "filters": [
+      "All Updates",
+      "Corporate & Commercial",
+      "Contracts",
+      "Regulatory & Compliance",
+      "Employment Law",
+      "More"
+    ],
+    "items": [
+      {
+        "id": "lu1",
+        "image": "/Case_study/case-study-gavel-high-quality.svg",
+        "category": "Corporate & Commercial",
+        "title": "New Child Custody Guidelines in Bangladesh: What You Need to Know",
+        "date": "May 20, 2025",
+        "author": "By Ayesha Rahman",
+        "readTime": "5 min read",
+        "description": "The recent amendments to child custody laws aim to prioritize the best interests of the child. Here's what parents need to know about the new guidelines.",
+        "slug": "new-child-custody-guidelines-1"
+      },
+      {
+        "id": "lu2",
+        "image": "/Case_study/case-study-gavel-high-quality.svg",
+        "category": "Contracts",
+        "title": "New Child Custody Guidelines in Bangladesh: What You Need to Know",
+        "date": "May 20, 2025",
+        "author": "By Ayesha Rahman",
+        "readTime": "5 min read",
+        "description": "The recent amendments to child custody laws aim to prioritize the best interests of the child. Here's what parents need to know about the new guidelines.",
+        "slug": "new-child-custody-guidelines-2"
+      },
+      {
+        "id": "lu3",
+        "image": "/Case_study/case-study-gavel-high-quality.svg",
+        "category": "Regulatory & Compliance",
+        "title": "New Child Custody Guidelines in Bangladesh: What You Need to Know",
+        "date": "May 20, 2025",
+        "author": "By Ayesha Rahman",
+        "readTime": "5 min read",
+        "description": "The recent amendments to child custody laws aim to prioritize the best interests of the child. Here's what parents need to know about the new guidelines.",
+        "slug": "new-child-custody-guidelines-3"
+      },
+      {
+        "id": "lu4",
+        "image": "/Case_study/case-study-gavel-high-quality.svg",
+        "category": "Employment Law",
+        "title": "New Child Custody Guidelines in Bangladesh: What You Need to Know",
+        "date": "May 20, 2025",
+        "author": "By Ayesha Rahman",
+        "readTime": "5 min read",
+        "description": "The recent amendments to child custody laws aim to prioritize the best interests of the child. Here's what parents need to know about the new guidelines.",
+        "slug": "new-child-custody-guidelines-4"
+      },
+      {
+        "id": "lu5",
+        "image": "/Case_study/case-study-gavel-high-quality.svg",
+        "category": "Family Law",
+        "title": "New Child Custody Guidelines in Bangladesh: What You Need to Know",
+        "date": "May 20, 2025",
+        "author": "By Ayesha Rahman",
+        "readTime": "5 min read",
+        "description": "The recent amendments to child custody laws aim to prioritize the best interests of the child. Here's what parents need to know about the new guidelines.",
+        "slug": "new-child-custody-guidelines-5"
+      },
+      {
+        "id": "lu6",
+        "image": "/Case_study/case-study-gavel-high-quality.svg",
+        "category": "Corporate & Commercial",
+        "title": "New Child Custody Guidelines in Bangladesh: What You Need to Know",
+        "date": "May 20, 2025",
+        "author": "By Ayesha Rahman",
+        "readTime": "5 min read",
+        "description": "The recent amendments to child custody laws aim to prioritize the best interests of the child. Here's what parents need to know about the new guidelines.",
+        "slug": "new-child-custody-guidelines-6"
+      }
+    ]
+  },
+  "legalUpdateDetail": {
+    "header": {
+      "breadcrumbs": [
+        {
+          "label": "HOME",
+          "href": "/"
+        },
+        {
+          "label": "LEGAL UPDATES",
+          "href": "/legal-updates"
+        }
+      ],
+      "title": "Legal Updates Details"
+    },
+    "content": {
+      "category": "FAMILY LAW",
+      "title": "New Child Custody Guidelines in Bangladesh: What You Need to Know",
+      "description": "The recent amendments to child custody laws aim to prioritize the best interests of the child. Here's what parents need to know about the new guidelines.",
+      "date": "May 20, 2025",
+      "author": "By Ayesha Rahman",
+      "readTime": "5 min read",
+      "image": "/Case_study/case-study-gavel-high-quality.svg",
+      "body": "Child custody matters can be emotionally challenging for everyone involved. To ensure that the best interests of the child remain the top priority, Bangladesh has introduced updated guidelines that bring more clarity and fairness to custody decisions.",
+      "sections": [
+        {
+          "id": "01",
+          "title": "What Has Changed?",
+          "description": "The new guidelines emphasize the child's well-being above all else. Courts will now evaluate factors such as the child's emotional needs, stability, education, and the ability of each parent to provide a nurturing environment."
+        },
+        {
+          "id": "02",
+          "title": "Key Factors Considered by Courts",
+          "bullets": [
+            {
+              "label": "Child's Best Interests",
+              "text": "The primary consideration in all custody decisions."
+            },
+            {
+              "label": "Parental Involvement",
+              "text": "Encouraging both parents to remain actively involved."
+            },
+            {
+              "label": "Living Conditions",
+              "text": "Assessing the quality and stability of each parent's home."
+            },
+            {
+              "label": "Child's Preference",
+              "text": "For older children, their preferences may be considered."
+            }
+          ]
+        },
+        {
+          "id": "03",
+          "title": "Joint Custody Encouraged",
+          "description": "Where possible, the courts now encourage joint custody arrangements to ensure children maintain strong relationships with both parents."
+        },
+        {
+          "id": "04",
+          "title": "How This Impacts Parents",
+          "description": "These updates aim to reduce conflicts and promote cooperative parenting. It's important for parents to understand their rights and responsibilities under the new guidelines and seek legal advice to navigate the process smoothly."
+        }
+      ]
+    },
+    "sidebar": {
+      "relatedPosts": {
+        "title": "Related Posts",
+        "items": [
+          {
+            "title": "Key Changes in Contract Law You Shouldn't Ignore in 2025",
+            "date": "May 15, 2025",
+            "image": "/Case_study/case-study-lawyer-signing-high-quality.svg",
+            "href": "/legal-updates/key-changes-contract-law"
+          },
+          {
+            "title": "Supreme Court Ruling on Property Disputes: Key Takeaways",
+            "date": "May 10, 2025",
+            "image": "/Case_study/case-study-lawyer-high-quality.svg",
+            "href": "/legal-updates/supreme-court-ruling-property"
+          },
+          {
+            "title": "Data Protection Act 2025: What Businesses Must Comply With",
+            "date": "May 5, 2025",
+            "image": "/Case_study/case-study-legal-team-high-quality.svg",
+            "href": "/legal-updates/data-protection-act"
+          }
+        ],
+        "button": {
+          "text": "View All Posts",
+          "href": "/legal-updates"
+        }
+      },
+      "helpWidget": {
+        "icon": "scales",
+        "title": "Need Help with a\nLegal Matter?",
+        "description": "Our experienced legal team is here to provide guidance and help you make informed decisions.",
+        "button": {
+          "text": "Book a Consultation",
+          "href": "#"
+        }
+      }
+    }
+  },
+  "newsMedia": {
+    "header": {
+      "breadcrumbs": [
+        {
+          "label": "HOME",
+          "href": "/"
+        },
+        {
+          "label": "NEWS MEDIA",
+          "href": "/news-media"
+        }
+      ],
+      "title": "News Media"
+    },
+    "items": [
+      {
+        "id": "nm1",
+        "logo": "/News_logos/lallantop.svg",
+        "title": "What the Latest Tax Amendments Mean for Individuals and Businesses",
+        "date": "10 Sep, 2024",
+        "slug": "tax-amendments"
+      },
+      {
+        "id": "nm2",
+        "logo": "/News_logos/news-india.svg",
+        "title": "Upcoming Webinar: Navigating Legal Challenges in 2024",
+        "date": "05 Sep, 2024",
+        "slug": "webinar-legal-challenges"
+      },
+      {
+        "id": "nm3",
+        "logo": "/News_logos/india-tv.svg",
+        "title": "Changes in Arbitration Laws: What You Need to Know",
+        "date": "01 Sep, 2024",
+        "slug": "changes-arbitration-laws"
+      },
+      {
+        "id": "nm4",
+        "logo": "/News_logos/aaj-tak.svg",
+        "title": "New Labour Code Updates: Key Compliance Highlights",
+        "date": "28 Aug, 2024",
+        "slug": "labour-code-updates"
+      },
+      {
+        "id": "nm5",
+        "logo": "/News_logos/economic-times.svg",
+        "title": "RBI Announces New Guidelines for Digital Transactions",
+        "date": "25 Aug, 2024",
+        "slug": "rbi-digital-transactions"
+      },
+      {
+        "id": "nm6",
+        "logo": "/News_logos/business-standard.svg",
+        "title": "Insolvency and Bankruptcy Code Amendments Explained",
+        "date": "22 Aug, 2024",
+        "slug": "insolvency-bankruptcy-amendments"
+      },
+      {
+        "id": "nm7",
+        "logo": "/News_logos/mint.svg",
+        "title": "Impact of New Foreign Direct Investment Rules in India",
+        "date": "20 Aug, 2024",
+        "slug": "fdi-rules-india"
+      },
+      {
+        "id": "nm8",
+        "logo": "/News_logos/ndtv.svg",
+        "title": "Data Protection Law: What Businesses Must Prepare For",
+        "date": "18 Aug, 2024",
+        "slug": "data-protection-law"
+      },
+      {
+        "id": "nm9",
+        "logo": "/News_logos/zee-news.svg",
+        "title": "Supreme Court Rulings That Impact Businesses in 2024",
+        "date": "15 Aug, 2024",
+        "slug": "supreme-court-rulings-business"
+      },
+      {
+        "id": "nm10",
+        "logo": "/News_logos/financial-express.svg",
+        "title": "New SEBI Regulations: What Investors Should Know",
+        "date": "12 Aug, 2024",
+        "slug": "sebi-regulations"
+      },
+      {
+        "id": "nm11",
+        "logo": "/News_logos/livelaw.svg",
+        "title": "Child Custody Laws in India: Recent Legal Developments",
+        "date": "10 Aug, 2024",
+        "slug": "child-custody-laws"
+      },
+      {
+        "id": "nm12",
+        "logo": "/News_logos/outlook.svg",
+        "title": "Competition Law Amendments and Their Industry Impact",
+        "date": "08 Aug, 2024",
+        "slug": "competition-law-amendments"
+      }
+    ]
+  },
+  "eventsPage": {
+    "header": {
+      "breadcrumbs": [
+        {
+          "label": "HOME",
+          "href": "/"
+        },
+        {
+          "label": "EVENTS",
+          "href": "/events"
+        }
+      ],
+      "title": "Events"
+    },
+    "sectionTitle": "OUR EVENTS",
+    "heading": "Upcoming Events",
+    "description": "Join us for our upcoming events, webinars and seminars where legal insights meet real-world impact.",
+    "items": [
+      {
+        "id": "ev1",
+        "image": "/Case_study/case-study-gavel-high-quality.svg",
+        "type": "SEMINAR",
+        "dateBadge": {
+          "day": "24",
+          "month": "MAY",
+          "year": "2025"
+        },
+        "title": "Recent Developments in Corporate Law",
+        "dateTime": "24 May 2025 | 10:00 AM - 01:00 PM",
+        "location": "The Claridges, New Delhi",
+        "slug": "recent-developments-corporate-law"
+      },
+      {
+        "id": "ev2",
+        "image": "/Case_study/case-study-legal-team-high-quality.svg",
+        "type": "WEBINAR",
+        "dateBadge": {
+          "day": "07",
+          "month": "JUN",
+          "year": "2025"
+        },
+        "title": "Understanding Arbitration in Commercial Disputes",
+        "dateTime": "07 June 2025 | 04:00 PM - 05:30 PM",
+        "location": "Online (Zoom)",
+        "slug": "understanding-arbitration"
+      },
+      {
+        "id": "ev3",
+        "image": "/Case_study/case-study-lawyer-signing-high-quality.svg",
+        "type": "PANEL DISCUSSION",
+        "dateBadge": {
+          "day": "21",
+          "month": "JUN",
+          "year": "2025"
+        },
+        "title": "Future of Legal Practice: Trends & Technology",
+        "dateTime": "21 June 2025 | 11:30 AM - 01:00 PM",
+        "location": "India Habitat Centre, New Delhi",
+        "slug": "future-of-legal-practice"
+      },
+      {
+        "id": "ev4",
+        "image": "/Case_study/case-study-lawyer-signing-high-quality.svg",
+        "type": "WORKSHOP",
+        "dateBadge": {
+          "day": "05",
+          "month": "JUL",
+          "year": "2025"
+        },
+        "title": "Contract Drafting Workshop for Legal Professionals",
+        "dateTime": "05 July 2025 | 02:00 PM - 05:00 PM",
+        "location": "Lex & Co. Office, New Delhi",
+        "slug": "contract-drafting-workshop"
+      },
+      {
+        "id": "ev5",
+        "image": "/Case_study/case-study-lawyer-high-quality.svg",
+        "type": "WEBINAR",
+        "dateBadge": {
+          "day": "19",
+          "month": "JUL",
+          "year": "2025"
+        },
+        "title": "Data Protection Law: Compliance & Beyond",
+        "dateTime": "19 July 2025 | 04:30 PM - 05:30 PM",
+        "location": "Online (Google Meet)",
+        "slug": "data-protection-law"
+      },
+      {
+        "id": "ev6",
+        "image": "/Case_study/case-study-gavel-high-quality.svg",
+        "type": "SEMINAR",
+        "dateBadge": {
+          "day": "02",
+          "month": "AUG",
+          "year": "2025"
+        },
+        "title": "Insolvency & Bankruptcy Code: Key Insights",
+        "dateTime": "02 August 2025 | 10:30 AM - 01:00 PM",
+        "location": "The Leela Palace, New Delhi",
+        "slug": "insolvency-bankruptcy-code"
+      }
+    ]
+  },
+  "eventDetail": {
+    "header": {
+      "breadcrumbs": [
+        {
+          "label": "HOME",
+          "href": "/"
+        },
+        {
+          "label": "EVENTS",
+          "href": "/events"
+        }
+      ],
+      "title": "Events Detail"
+    },
+    "badge": "UPCOMING EVENT",
+    "title": "Corporate Law Symposium 2025",
+    "subtitle": "Insights. Strategies. Solutions.",
+    "description": "Join legal experts and industry leaders as we discuss the latest developments in corporate law and their impact on businesses.",
+    "infoBar": [
+      {
+        "icon": "calendar",
+        "title": "June 20, 2025",
+        "sub": "Friday"
+      },
+      {
+        "icon": "clock",
+        "title": "10:00 AM – 4:30 PM",
+        "sub": "(IST)"
+      },
+      {
+        "icon": "map-pin",
+        "title": "The Westin Mumbai Garden City",
+        "sub": "Goregaon (E), Mumbai"
+      }
+    ],
+    "heroImage": {
+      "src": "/Case_study/case-study-legal-team-high-quality.svg",
+      "alt": "Corporate Law Symposium 2025"
+    },
+    "about": {
+      "title": "About the Event",
+      "text": "The Corporate Law Symposium 2025 brings together legal experts, in-house counsel, and business leaders to explore emerging trends, regulatory updates, and practical strategies in corporate law."
+    },
+    "keyTopics": {
+      "title": "Key Topics",
+      "items": [
+        {
+          "icon": "scales",
+          "text": "Corporate Governance and Compliance"
+        },
+        {
+          "icon": "handshake",
+          "text": "M&A Trends and Due Diligence"
+        },
+        {
+          "icon": "file-edit",
+          "text": "Contract Management and Risk Mitigation"
+        },
+        {
+          "icon": "shield-check",
+          "text": "Regulatory Updates and Way Forward"
+        }
+      ]
+    },
+    "whoShouldAttend": {
+      "title": "Who Should Attend?",
+      "items": [
+        {
+          "icon": "user",
+          "text": "In-house Counsels"
+        },
+        {
+          "icon": "user",
+          "text": "Legal Advisors"
+        },
+        {
+          "icon": "user",
+          "text": "Compliance Officers"
+        },
+        {
+          "icon": "user",
+          "text": "Business Leaders"
+        }
+      ]
+    },
+    "agenda": {
+      "title": "Agenda Highlights",
+      "items": [
+        {
+          "time": "10:00 AM – 10:30 AM",
+          "event": "Registration & Networking Tea"
+        },
+        {
+          "time": "10:30 AM – 11:20 AM",
+          "event": "Keynote Address: The Future of Corporate Law"
+        },
+        {
+          "time": "11:45 AM – 01:00 PM",
+          "event": "Panel Discussion: Governance, Risk & Compliance"
+        },
+        {
+          "time": "02:00 PM – 03:15 PM",
+          "event": "Panel Discussion: M&A Trends and Challenges"
+        },
+        {
+          "time": "03:30 PM – 04:15 PM",
+          "event": "Expert Talk: Contract Management Best Practices"
+        },
+        {
+          "time": "04:15 PM – 04:30 PM",
+          "event": "Q&A and Closing Remarks"
+        }
+      ]
+    },
+    "sidebar": {
+      "detailsBox": {
+        "title": "Event Details",
+        "items": [
+          {
+            "icon": "calendar",
+            "label": "Date",
+            "value": "June 20, 2025 (Friday)"
+          },
+          {
+            "icon": "clock",
+            "label": "Time",
+            "value": "10:00 AM – 4:30 PM (IST)"
+          },
+          {
+            "icon": "map-pin",
+            "label": "Venue",
+            "value": "The Westin Mumbai Garden City\nGoregaon (E), Mumbai"
+          },
+          {
+            "icon": "users",
+            "label": "Seats",
+            "value": "Limited Seats Available"
+          },
+          {
+            "icon": "tag",
+            "label": "Registration Fee",
+            "value": "Complimentary\n(Prior Registration Required)"
+          }
+        ]
+      },
+      "registerBox": {
+        "title": "Register Now"
+      },
+      "whyAttendBox": {
+        "title": "Why Attend?",
+        "items": [
+          "Stay updated with key legal developments",
+          "Gain insights from industry experts",
+          "Network with legal professionals and business leaders",
+          "Practical takeaways for your business growth"
+        ]
+      },
+      "moreInfoBox": {
+        "title": "Need More Information?",
+        "text": "Our team is here to help you with any queries regarding the event."
+      }
+    }
+  },
+  "publicationPage": {
+    "header": {
+      "breadcrumbs": [
+        {
+          "label": "HOME",
+          "href": "/"
+        },
+        {
+          "label": "PUBLICATION",
+          "href": "/publication"
+        }
+      ],
+      "title": "Publication"
+    },
+    "heading": "Publications",
+    "description": "Explore our collection of thought leadership, articles, research papers, and guides on key legal issues and industry trends.",
+    "items": [
+      {
+        "id": "pub-1",
+        "image": "/publications/01-glass-office.svg",
+        "icon": "scales",
+        "category": "CORPORATE LAW",
+        "title": "Key Changes in Company Law You Should Know in 2025",
+        "description": "An overview of the significant amendments and their impact on businesses and compliance.",
+        "date": "May 15, 2025",
+        "readTime": "6 min read",
+        "slug": "key-changes-company-law-2025"
+      },
+      {
+        "id": "pub-2",
+        "image": "/publications/02-gavel.svg",
+        "icon": "gavel",
+        "category": "DISPUTE RESOLUTION",
+        "title": "Arbitration vs Litigation: Choosing the Right Path for Your Business",
+        "description": "A comparative analysis to help businesses decide the most effective dispute resolution approach.",
+        "date": "May 10, 2025",
+        "readTime": "7 min read",
+        "slug": "arbitration-vs-litigation"
+      },
+      {
+        "id": "pub-3",
+        "image": "/publications/03-cybersecurity-lock.svg",
+        "icon": "shield-check",
+        "category": "DATA PROTECTION",
+        "title": "Data Protection Act 2025: What Businesses Must Comply With",
+        "description": "Key provisions and compliance requirements every business should be aware of.",
+        "date": "May 5, 2025",
+        "readTime": "8 min read",
+        "slug": "data-protection-act-2025"
+      },
+      {
+        "id": "pub-4",
+        "image": "/publications/04-light-bulb.svg",
+        "icon": "lightbulb",
+        "category": "INTELLECTUAL PROPERTY",
+        "title": "Protecting Your IP in the Digital Age: Strategies for Businesses",
+        "description": "Practical strategies to safeguard your intellectual property in an evolving digital landscape.",
+        "date": "April 28, 2025",
+        "readTime": "8 min read",
+        "slug": "protecting-ip-digital-age"
+      },
+      {
+        "id": "pub-5",
+        "image": "/publications/05-courthouse.svg",
+        "icon": "building",
+        "category": "REAL ESTATE LAW",
+        "title": "RERA Updates 2025: Key Implications for Developers and Buyers",
+        "description": "A look at the latest RERA updates and what they mean for real estate stakeholders.",
+        "date": "April 20, 2025",
+        "readTime": "5 min read",
+        "slug": "rera-updates-2025"
+      },
+      {
+        "id": "pub-6",
+        "image": "/publications/06-pen-contract.svg",
+        "icon": "briefcase",
+        "category": "EMPLOYMENT LAW",
+        "title": "Workplace Policies in 2025: Building Compliant and Future-Ready Workplaces",
+        "description": "Essential policy updates to ensure workplace compliance and employee well-being.",
+        "date": "April 15, 2025",
+        "readTime": "6 min read",
+        "slug": "workplace-policies-2025"
+      },
+      {
+        "id": "pub-7",
+        "image": "/publications/07-gavel-law-books.svg",
+        "icon": "file-edit",
+        "category": "TAXATION",
+        "title": "Recent Tax Law Amendments: What They Mean for Businesses",
+        "description": "An overview of key tax law changes and their implications for business planning and compliance.",
+        "date": "April 10, 2025",
+        "readTime": "7 min read",
+        "slug": "recent-tax-law-amendments"
+      },
+      {
+        "id": "pub-8",
+        "image": "/publications/08-business-handshake.svg",
+        "icon": "handshake",
+        "category": "MERGERS & ACQUISITIONS",
+        "title": "Due Diligence Essentials: A Guide for Successful M&A Transactions",
+        "description": "Key due diligence areas to focus on for smooth and successful M&A deals.",
+        "date": "April 5, 2025",
+        "readTime": "6 min read",
+        "slug": "due-diligence-essentials"
+      },
+      {
+        "id": "pub-9",
+        "image": "/publications/09-sprout-hand.svg",
+        "icon": "heart",
+        "category": "ENVIRONMENTAL LAW",
+        "title": "ESG Compliance and the Evolving Regulatory Landscape",
+        "description": "Understanding ESG compliance requirements and emerging regulatory trends.",
+        "date": "March 30, 2025",
+        "readTime": "5 min read",
+        "slug": "esg-compliance-regulatory-landscape"
+      }
+    ],
+    "totalResults": 24
+  },
+  "eventDetails": {
+    "recent-developments-corporate-law": {
+      "header": {
+        "breadcrumbs": [
+          {
+            "label": "HOME",
+            "href": "/"
+          },
+          {
+            "label": "EVENTS",
+            "href": "/events"
+          }
+        ],
+        "title": "Events Detail"
+      },
+      "badge": "SEMINAR",
+      "title": "Recent Developments in Corporate Law",
+      "subtitle": "Insights. Strategies. Solutions.",
+      "description": "Join legal experts and industry leaders as we discuss the latest developments in corporate law and their impact on businesses.",
+      "infoBar": [
+        {
+          "icon": "calendar",
+          "title": "MAY 24, 2025",
+          "sub": "Friday"
+        },
+        {
+          "icon": "clock",
+          "title": "24 May 2025 | 10:00 AM - 01:00 PM",
+          "sub": "(IST)"
+        },
+        {
+          "icon": "map-pin",
+          "title": "The Claridges, New Delhi",
+          "sub": "Goregaon (E), Mumbai"
+        }
+      ],
+      "heroImage": {
+        "src": "/Case_study/case-study-gavel-high-quality.svg",
+        "alt": "Recent Developments in Corporate Law"
+      },
+      "about": {
+        "title": "About the Event",
+        "text": "The Corporate Law Symposium 2025 brings together legal experts, in-house counsel, and business leaders to explore emerging trends, regulatory updates, and practical strategies in corporate law."
+      },
+      "keyTopics": {
+        "title": "Key Topics",
+        "items": [
+          {
+            "icon": "scales",
+            "text": "Corporate Governance and Compliance"
+          },
+          {
+            "icon": "handshake",
+            "text": "M&A Trends and Due Diligence"
+          },
+          {
+            "icon": "file-edit",
+            "text": "Contract Management and Risk Mitigation"
+          },
+          {
+            "icon": "shield-check",
+            "text": "Regulatory Updates and Way Forward"
+          }
+        ]
+      },
+      "whoShouldAttend": {
+        "title": "Who Should Attend?",
+        "items": [
+          {
+            "icon": "user",
+            "text": "In-house Counsels"
+          },
+          {
+            "icon": "user",
+            "text": "Legal Advisors"
+          },
+          {
+            "icon": "user",
+            "text": "Compliance Officers"
+          },
+          {
+            "icon": "user",
+            "text": "Business Leaders"
+          }
+        ]
+      },
+      "agenda": {
+        "title": "Agenda Highlights",
+        "items": [
+          {
+            "time": "10:00 AM – 10:30 AM",
+            "event": "Registration & Networking Tea"
+          },
+          {
+            "time": "10:30 AM – 11:20 AM",
+            "event": "Keynote Address: The Future of Corporate Law"
+          },
+          {
+            "time": "11:45 AM – 01:00 PM",
+            "event": "Panel Discussion: Governance, Risk & Compliance"
+          },
+          {
+            "time": "02:00 PM – 03:15 PM",
+            "event": "Panel Discussion: M&A Trends and Challenges"
+          },
+          {
+            "time": "03:30 PM – 04:15 PM",
+            "event": "Expert Talk: Contract Management Best Practices"
+          },
+          {
+            "time": "04:15 PM – 04:30 PM",
+            "event": "Q&A and Closing Remarks"
+          }
+        ]
+      },
+      "sidebar": {
+        "detailsBox": {
+          "title": "Event Details",
+          "items": [
+            {
+              "icon": "calendar",
+              "label": "Date",
+              "value": "MAY 24, 2025"
+            },
+            {
+              "icon": "clock",
+              "label": "Time",
+              "value": "24 May 2025 | 10:00 AM - 01:00 PM"
+            },
+            {
+              "icon": "map-pin",
+              "label": "Venue",
+              "value": "The Claridges, New Delhi"
+            },
+            {
+              "icon": "users",
+              "label": "Seats",
+              "value": "Limited Seats Available"
+            },
+            {
+              "icon": "tag",
+              "label": "Registration Fee",
+              "value": "Complimentary\n(Prior Registration Required)"
+            }
+          ]
+        },
+        "registerBox": {
+          "title": "Register Now"
+        },
+        "whyAttendBox": {
+          "title": "Why Attend?",
+          "items": [
+            "Stay updated with key legal developments",
+            "Gain insights from industry experts",
+            "Network with legal professionals and business leaders",
+            "Practical takeaways for your business growth"
+          ]
+        },
+        "moreInfoBox": {
+          "title": "Need More Information?",
+          "text": "Our team is here to help you with any queries regarding the event."
+        }
+      }
+    },
+    "understanding-arbitration": {
+      "header": {
+        "breadcrumbs": [
+          {
+            "label": "HOME",
+            "href": "/"
+          },
+          {
+            "label": "EVENTS",
+            "href": "/events"
+          }
+        ],
+        "title": "Events Detail"
+      },
+      "badge": "WEBINAR",
+      "title": "Understanding Arbitration in Commercial Disputes",
+      "subtitle": "Insights. Strategies. Solutions.",
+      "description": "Join legal experts and industry leaders as we discuss the latest developments in corporate law and their impact on businesses.",
+      "infoBar": [
+        {
+          "icon": "calendar",
+          "title": "JUN 07, 2025",
+          "sub": "Friday"
+        },
+        {
+          "icon": "clock",
+          "title": "07 June 2025 | 04:00 PM - 05:30 PM",
+          "sub": "(IST)"
+        },
+        {
+          "icon": "map-pin",
+          "title": "Online (Zoom)",
+          "sub": "Goregaon (E), Mumbai"
+        }
+      ],
+      "heroImage": {
+        "src": "/Case_study/case-study-legal-team-high-quality.svg",
+        "alt": "Understanding Arbitration in Commercial Disputes"
+      },
+      "about": {
+        "title": "About the Event",
+        "text": "The Corporate Law Symposium 2025 brings together legal experts, in-house counsel, and business leaders to explore emerging trends, regulatory updates, and practical strategies in corporate law."
+      },
+      "keyTopics": {
+        "title": "Key Topics",
+        "items": [
+          {
+            "icon": "scales",
+            "text": "Corporate Governance and Compliance"
+          },
+          {
+            "icon": "handshake",
+            "text": "M&A Trends and Due Diligence"
+          },
+          {
+            "icon": "file-edit",
+            "text": "Contract Management and Risk Mitigation"
+          },
+          {
+            "icon": "shield-check",
+            "text": "Regulatory Updates and Way Forward"
+          }
+        ]
+      },
+      "whoShouldAttend": {
+        "title": "Who Should Attend?",
+        "items": [
+          {
+            "icon": "user",
+            "text": "In-house Counsels"
+          },
+          {
+            "icon": "user",
+            "text": "Legal Advisors"
+          },
+          {
+            "icon": "user",
+            "text": "Compliance Officers"
+          },
+          {
+            "icon": "user",
+            "text": "Business Leaders"
+          }
+        ]
+      },
+      "agenda": {
+        "title": "Agenda Highlights",
+        "items": [
+          {
+            "time": "10:00 AM – 10:30 AM",
+            "event": "Registration & Networking Tea"
+          },
+          {
+            "time": "10:30 AM – 11:20 AM",
+            "event": "Keynote Address: The Future of Corporate Law"
+          },
+          {
+            "time": "11:45 AM – 01:00 PM",
+            "event": "Panel Discussion: Governance, Risk & Compliance"
+          },
+          {
+            "time": "02:00 PM – 03:15 PM",
+            "event": "Panel Discussion: M&A Trends and Challenges"
+          },
+          {
+            "time": "03:30 PM – 04:15 PM",
+            "event": "Expert Talk: Contract Management Best Practices"
+          },
+          {
+            "time": "04:15 PM – 04:30 PM",
+            "event": "Q&A and Closing Remarks"
+          }
+        ]
+      },
+      "sidebar": {
+        "detailsBox": {
+          "title": "Event Details",
+          "items": [
+            {
+              "icon": "calendar",
+              "label": "Date",
+              "value": "JUN 07, 2025"
+            },
+            {
+              "icon": "clock",
+              "label": "Time",
+              "value": "07 June 2025 | 04:00 PM - 05:30 PM"
+            },
+            {
+              "icon": "map-pin",
+              "label": "Venue",
+              "value": "Online (Zoom)"
+            },
+            {
+              "icon": "users",
+              "label": "Seats",
+              "value": "Limited Seats Available"
+            },
+            {
+              "icon": "tag",
+              "label": "Registration Fee",
+              "value": "Complimentary\n(Prior Registration Required)"
+            }
+          ]
+        },
+        "registerBox": {
+          "title": "Register Now"
+        },
+        "whyAttendBox": {
+          "title": "Why Attend?",
+          "items": [
+            "Stay updated with key legal developments",
+            "Gain insights from industry experts",
+            "Network with legal professionals and business leaders",
+            "Practical takeaways for your business growth"
+          ]
+        },
+        "moreInfoBox": {
+          "title": "Need More Information?",
+          "text": "Our team is here to help you with any queries regarding the event."
+        }
+      }
+    },
+    "future-of-legal-practice": {
+      "header": {
+        "breadcrumbs": [
+          {
+            "label": "HOME",
+            "href": "/"
+          },
+          {
+            "label": "EVENTS",
+            "href": "/events"
+          }
+        ],
+        "title": "Events Detail"
+      },
+      "badge": "PANEL DISCUSSION",
+      "title": "Future of Legal Practice: Trends & Technology",
+      "subtitle": "Insights. Strategies. Solutions.",
+      "description": "Join legal experts and industry leaders as we discuss the latest developments in corporate law and their impact on businesses.",
+      "infoBar": [
+        {
+          "icon": "calendar",
+          "title": "JUN 21, 2025",
+          "sub": "Friday"
+        },
+        {
+          "icon": "clock",
+          "title": "21 June 2025 | 11:30 AM - 01:00 PM",
+          "sub": "(IST)"
+        },
+        {
+          "icon": "map-pin",
+          "title": "India Habitat Centre, New Delhi",
+          "sub": "Goregaon (E), Mumbai"
+        }
+      ],
+      "heroImage": {
+        "src": "/Case_study/case-study-lawyer-signing-high-quality.svg",
+        "alt": "Future of Legal Practice: Trends & Technology"
+      },
+      "about": {
+        "title": "About the Event",
+        "text": "The Corporate Law Symposium 2025 brings together legal experts, in-house counsel, and business leaders to explore emerging trends, regulatory updates, and practical strategies in corporate law."
+      },
+      "keyTopics": {
+        "title": "Key Topics",
+        "items": [
+          {
+            "icon": "scales",
+            "text": "Corporate Governance and Compliance"
+          },
+          {
+            "icon": "handshake",
+            "text": "M&A Trends and Due Diligence"
+          },
+          {
+            "icon": "file-edit",
+            "text": "Contract Management and Risk Mitigation"
+          },
+          {
+            "icon": "shield-check",
+            "text": "Regulatory Updates and Way Forward"
+          }
+        ]
+      },
+      "whoShouldAttend": {
+        "title": "Who Should Attend?",
+        "items": [
+          {
+            "icon": "user",
+            "text": "In-house Counsels"
+          },
+          {
+            "icon": "user",
+            "text": "Legal Advisors"
+          },
+          {
+            "icon": "user",
+            "text": "Compliance Officers"
+          },
+          {
+            "icon": "user",
+            "text": "Business Leaders"
+          }
+        ]
+      },
+      "agenda": {
+        "title": "Agenda Highlights",
+        "items": [
+          {
+            "time": "10:00 AM – 10:30 AM",
+            "event": "Registration & Networking Tea"
+          },
+          {
+            "time": "10:30 AM – 11:20 AM",
+            "event": "Keynote Address: The Future of Corporate Law"
+          },
+          {
+            "time": "11:45 AM – 01:00 PM",
+            "event": "Panel Discussion: Governance, Risk & Compliance"
+          },
+          {
+            "time": "02:00 PM – 03:15 PM",
+            "event": "Panel Discussion: M&A Trends and Challenges"
+          },
+          {
+            "time": "03:30 PM – 04:15 PM",
+            "event": "Expert Talk: Contract Management Best Practices"
+          },
+          {
+            "time": "04:15 PM – 04:30 PM",
+            "event": "Q&A and Closing Remarks"
+          }
+        ]
+      },
+      "sidebar": {
+        "detailsBox": {
+          "title": "Event Details",
+          "items": [
+            {
+              "icon": "calendar",
+              "label": "Date",
+              "value": "JUN 21, 2025"
+            },
+            {
+              "icon": "clock",
+              "label": "Time",
+              "value": "21 June 2025 | 11:30 AM - 01:00 PM"
+            },
+            {
+              "icon": "map-pin",
+              "label": "Venue",
+              "value": "India Habitat Centre, New Delhi"
+            },
+            {
+              "icon": "users",
+              "label": "Seats",
+              "value": "Limited Seats Available"
+            },
+            {
+              "icon": "tag",
+              "label": "Registration Fee",
+              "value": "Complimentary\n(Prior Registration Required)"
+            }
+          ]
+        },
+        "registerBox": {
+          "title": "Register Now"
+        },
+        "whyAttendBox": {
+          "title": "Why Attend?",
+          "items": [
+            "Stay updated with key legal developments",
+            "Gain insights from industry experts",
+            "Network with legal professionals and business leaders",
+            "Practical takeaways for your business growth"
+          ]
+        },
+        "moreInfoBox": {
+          "title": "Need More Information?",
+          "text": "Our team is here to help you with any queries regarding the event."
+        }
+      }
+    },
+    "contract-drafting-workshop": {
+      "header": {
+        "breadcrumbs": [
+          {
+            "label": "HOME",
+            "href": "/"
+          },
+          {
+            "label": "EVENTS",
+            "href": "/events"
+          }
+        ],
+        "title": "Events Detail"
+      },
+      "badge": "WORKSHOP",
+      "title": "Contract Drafting Workshop for Legal Professionals",
+      "subtitle": "Insights. Strategies. Solutions.",
+      "description": "Join legal experts and industry leaders as we discuss the latest developments in corporate law and their impact on businesses.",
+      "infoBar": [
+        {
+          "icon": "calendar",
+          "title": "JUL 05, 2025",
+          "sub": "Friday"
+        },
+        {
+          "icon": "clock",
+          "title": "05 July 2025 | 02:00 PM - 05:00 PM",
+          "sub": "(IST)"
+        },
+        {
+          "icon": "map-pin",
+          "title": "Lex & Co. Office, New Delhi",
+          "sub": "Goregaon (E), Mumbai"
+        }
+      ],
+      "heroImage": {
+        "src": "/Case_study/case-study-lawyer-signing-high-quality.svg",
+        "alt": "Contract Drafting Workshop for Legal Professionals"
+      },
+      "about": {
+        "title": "About the Event",
+        "text": "The Corporate Law Symposium 2025 brings together legal experts, in-house counsel, and business leaders to explore emerging trends, regulatory updates, and practical strategies in corporate law."
+      },
+      "keyTopics": {
+        "title": "Key Topics",
+        "items": [
+          {
+            "icon": "scales",
+            "text": "Corporate Governance and Compliance"
+          },
+          {
+            "icon": "handshake",
+            "text": "M&A Trends and Due Diligence"
+          },
+          {
+            "icon": "file-edit",
+            "text": "Contract Management and Risk Mitigation"
+          },
+          {
+            "icon": "shield-check",
+            "text": "Regulatory Updates and Way Forward"
+          }
+        ]
+      },
+      "whoShouldAttend": {
+        "title": "Who Should Attend?",
+        "items": [
+          {
+            "icon": "user",
+            "text": "In-house Counsels"
+          },
+          {
+            "icon": "user",
+            "text": "Legal Advisors"
+          },
+          {
+            "icon": "user",
+            "text": "Compliance Officers"
+          },
+          {
+            "icon": "user",
+            "text": "Business Leaders"
+          }
+        ]
+      },
+      "agenda": {
+        "title": "Agenda Highlights",
+        "items": [
+          {
+            "time": "10:00 AM – 10:30 AM",
+            "event": "Registration & Networking Tea"
+          },
+          {
+            "time": "10:30 AM – 11:20 AM",
+            "event": "Keynote Address: The Future of Corporate Law"
+          },
+          {
+            "time": "11:45 AM – 01:00 PM",
+            "event": "Panel Discussion: Governance, Risk & Compliance"
+          },
+          {
+            "time": "02:00 PM – 03:15 PM",
+            "event": "Panel Discussion: M&A Trends and Challenges"
+          },
+          {
+            "time": "03:30 PM – 04:15 PM",
+            "event": "Expert Talk: Contract Management Best Practices"
+          },
+          {
+            "time": "04:15 PM – 04:30 PM",
+            "event": "Q&A and Closing Remarks"
+          }
+        ]
+      },
+      "sidebar": {
+        "detailsBox": {
+          "title": "Event Details",
+          "items": [
+            {
+              "icon": "calendar",
+              "label": "Date",
+              "value": "JUL 05, 2025"
+            },
+            {
+              "icon": "clock",
+              "label": "Time",
+              "value": "05 July 2025 | 02:00 PM - 05:00 PM"
+            },
+            {
+              "icon": "map-pin",
+              "label": "Venue",
+              "value": "Lex & Co. Office, New Delhi"
+            },
+            {
+              "icon": "users",
+              "label": "Seats",
+              "value": "Limited Seats Available"
+            },
+            {
+              "icon": "tag",
+              "label": "Registration Fee",
+              "value": "Complimentary\n(Prior Registration Required)"
+            }
+          ]
+        },
+        "registerBox": {
+          "title": "Register Now"
+        },
+        "whyAttendBox": {
+          "title": "Why Attend?",
+          "items": [
+            "Stay updated with key legal developments",
+            "Gain insights from industry experts",
+            "Network with legal professionals and business leaders",
+            "Practical takeaways for your business growth"
+          ]
+        },
+        "moreInfoBox": {
+          "title": "Need More Information?",
+          "text": "Our team is here to help you with any queries regarding the event."
+        }
+      }
+    },
+    "data-protection-law": {
+      "header": {
+        "breadcrumbs": [
+          {
+            "label": "HOME",
+            "href": "/"
+          },
+          {
+            "label": "EVENTS",
+            "href": "/events"
+          }
+        ],
+        "title": "Events Detail"
+      },
+      "badge": "WEBINAR",
+      "title": "Data Protection Law: Compliance & Beyond",
+      "subtitle": "Insights. Strategies. Solutions.",
+      "description": "Join legal experts and industry leaders as we discuss the latest developments in corporate law and their impact on businesses.",
+      "infoBar": [
+        {
+          "icon": "calendar",
+          "title": "JUL 19, 2025",
+          "sub": "Friday"
+        },
+        {
+          "icon": "clock",
+          "title": "19 July 2025 | 04:30 PM - 05:30 PM",
+          "sub": "(IST)"
+        },
+        {
+          "icon": "map-pin",
+          "title": "Online (Google Meet)",
+          "sub": "Goregaon (E), Mumbai"
+        }
+      ],
+      "heroImage": {
+        "src": "/Case_study/case-study-lawyer-high-quality.svg",
+        "alt": "Data Protection Law: Compliance & Beyond"
+      },
+      "about": {
+        "title": "About the Event",
+        "text": "The Corporate Law Symposium 2025 brings together legal experts, in-house counsel, and business leaders to explore emerging trends, regulatory updates, and practical strategies in corporate law."
+      },
+      "keyTopics": {
+        "title": "Key Topics",
+        "items": [
+          {
+            "icon": "scales",
+            "text": "Corporate Governance and Compliance"
+          },
+          {
+            "icon": "handshake",
+            "text": "M&A Trends and Due Diligence"
+          },
+          {
+            "icon": "file-edit",
+            "text": "Contract Management and Risk Mitigation"
+          },
+          {
+            "icon": "shield-check",
+            "text": "Regulatory Updates and Way Forward"
+          }
+        ]
+      },
+      "whoShouldAttend": {
+        "title": "Who Should Attend?",
+        "items": [
+          {
+            "icon": "user",
+            "text": "In-house Counsels"
+          },
+          {
+            "icon": "user",
+            "text": "Legal Advisors"
+          },
+          {
+            "icon": "user",
+            "text": "Compliance Officers"
+          },
+          {
+            "icon": "user",
+            "text": "Business Leaders"
+          }
+        ]
+      },
+      "agenda": {
+        "title": "Agenda Highlights",
+        "items": [
+          {
+            "time": "10:00 AM – 10:30 AM",
+            "event": "Registration & Networking Tea"
+          },
+          {
+            "time": "10:30 AM – 11:20 AM",
+            "event": "Keynote Address: The Future of Corporate Law"
+          },
+          {
+            "time": "11:45 AM – 01:00 PM",
+            "event": "Panel Discussion: Governance, Risk & Compliance"
+          },
+          {
+            "time": "02:00 PM – 03:15 PM",
+            "event": "Panel Discussion: M&A Trends and Challenges"
+          },
+          {
+            "time": "03:30 PM – 04:15 PM",
+            "event": "Expert Talk: Contract Management Best Practices"
+          },
+          {
+            "time": "04:15 PM – 04:30 PM",
+            "event": "Q&A and Closing Remarks"
+          }
+        ]
+      },
+      "sidebar": {
+        "detailsBox": {
+          "title": "Event Details",
+          "items": [
+            {
+              "icon": "calendar",
+              "label": "Date",
+              "value": "JUL 19, 2025"
+            },
+            {
+              "icon": "clock",
+              "label": "Time",
+              "value": "19 July 2025 | 04:30 PM - 05:30 PM"
+            },
+            {
+              "icon": "map-pin",
+              "label": "Venue",
+              "value": "Online (Google Meet)"
+            },
+            {
+              "icon": "users",
+              "label": "Seats",
+              "value": "Limited Seats Available"
+            },
+            {
+              "icon": "tag",
+              "label": "Registration Fee",
+              "value": "Complimentary\n(Prior Registration Required)"
+            }
+          ]
+        },
+        "registerBox": {
+          "title": "Register Now"
+        },
+        "whyAttendBox": {
+          "title": "Why Attend?",
+          "items": [
+            "Stay updated with key legal developments",
+            "Gain insights from industry experts",
+            "Network with legal professionals and business leaders",
+            "Practical takeaways for your business growth"
+          ]
+        },
+        "moreInfoBox": {
+          "title": "Need More Information?",
+          "text": "Our team is here to help you with any queries regarding the event."
+        }
+      }
+    },
+    "insolvency-bankruptcy-code": {
+      "header": {
+        "breadcrumbs": [
+          {
+            "label": "HOME",
+            "href": "/"
+          },
+          {
+            "label": "EVENTS",
+            "href": "/events"
+          }
+        ],
+        "title": "Events Detail"
+      },
+      "badge": "SEMINAR",
+      "title": "Insolvency & Bankruptcy Code: Key Insights",
+      "subtitle": "Insights. Strategies. Solutions.",
+      "description": "Join legal experts and industry leaders as we discuss the latest developments in corporate law and their impact on businesses.",
+      "infoBar": [
+        {
+          "icon": "calendar",
+          "title": "AUG 02, 2025",
+          "sub": "Friday"
+        },
+        {
+          "icon": "clock",
+          "title": "02 August 2025 | 10:30 AM - 01:00 PM",
+          "sub": "(IST)"
+        },
+        {
+          "icon": "map-pin",
+          "title": "The Leela Palace, New Delhi",
+          "sub": "Goregaon (E), Mumbai"
+        }
+      ],
+      "heroImage": {
+        "src": "/Case_study/case-study-gavel-high-quality.svg",
+        "alt": "Insolvency & Bankruptcy Code: Key Insights"
+      },
+      "about": {
+        "title": "About the Event",
+        "text": "The Corporate Law Symposium 2025 brings together legal experts, in-house counsel, and business leaders to explore emerging trends, regulatory updates, and practical strategies in corporate law."
+      },
+      "keyTopics": {
+        "title": "Key Topics",
+        "items": [
+          {
+            "icon": "scales",
+            "text": "Corporate Governance and Compliance"
+          },
+          {
+            "icon": "handshake",
+            "text": "M&A Trends and Due Diligence"
+          },
+          {
+            "icon": "file-edit",
+            "text": "Contract Management and Risk Mitigation"
+          },
+          {
+            "icon": "shield-check",
+            "text": "Regulatory Updates and Way Forward"
+          }
+        ]
+      },
+      "whoShouldAttend": {
+        "title": "Who Should Attend?",
+        "items": [
+          {
+            "icon": "user",
+            "text": "In-house Counsels"
+          },
+          {
+            "icon": "user",
+            "text": "Legal Advisors"
+          },
+          {
+            "icon": "user",
+            "text": "Compliance Officers"
+          },
+          {
+            "icon": "user",
+            "text": "Business Leaders"
+          }
+        ]
+      },
+      "agenda": {
+        "title": "Agenda Highlights",
+        "items": [
+          {
+            "time": "10:00 AM – 10:30 AM",
+            "event": "Registration & Networking Tea"
+          },
+          {
+            "time": "10:30 AM – 11:20 AM",
+            "event": "Keynote Address: The Future of Corporate Law"
+          },
+          {
+            "time": "11:45 AM – 01:00 PM",
+            "event": "Panel Discussion: Governance, Risk & Compliance"
+          },
+          {
+            "time": "02:00 PM – 03:15 PM",
+            "event": "Panel Discussion: M&A Trends and Challenges"
+          },
+          {
+            "time": "03:30 PM – 04:15 PM",
+            "event": "Expert Talk: Contract Management Best Practices"
+          },
+          {
+            "time": "04:15 PM – 04:30 PM",
+            "event": "Q&A and Closing Remarks"
+          }
+        ]
+      },
+      "sidebar": {
+        "detailsBox": {
+          "title": "Event Details",
+          "items": [
+            {
+              "icon": "calendar",
+              "label": "Date",
+              "value": "AUG 02, 2025"
+            },
+            {
+              "icon": "clock",
+              "label": "Time",
+              "value": "02 August 2025 | 10:30 AM - 01:00 PM"
+            },
+            {
+              "icon": "map-pin",
+              "label": "Venue",
+              "value": "The Leela Palace, New Delhi"
+            },
+            {
+              "icon": "users",
+              "label": "Seats",
+              "value": "Limited Seats Available"
+            },
+            {
+              "icon": "tag",
+              "label": "Registration Fee",
+              "value": "Complimentary\n(Prior Registration Required)"
+            }
+          ]
+        },
+        "registerBox": {
+          "title": "Register Now"
+        },
+        "whyAttendBox": {
+          "title": "Why Attend?",
+          "items": [
+            "Stay updated with key legal developments",
+            "Gain insights from industry experts",
+            "Network with legal professionals and business leaders",
+            "Practical takeaways for your business growth"
+          ]
+        },
+        "moreInfoBox": {
+          "title": "Need More Information?",
+          "text": "Our team is here to help you with any queries regarding the event."
+        }
+      }
+    }
+  },
+  "publicationDetails": {
+    "key-changes-company-law-2025": {
+      "header": {
+        "breadcrumbs": [
+          {
+            "label": "HOME",
+            "href": "/"
+          },
+          {
+            "label": "PUBLICATION",
+            "href": "/publication"
+          }
+        ],
+        "title": "Publication Detail"
+      },
+      "category": "CORPORATE LAW",
+      "title": "Key Changes in Company Law You Should Know in 2025",
+      "description": "An overview of the significant amendments and their impact on businesses and compliance.",
+      "meta": {
+        "date": "May 15, 2025",
+        "readTime": "6 min read",
+        "author": "JustiLaw Legal Team"
+      },
+      "heroImage": {
+        "src": "/publications/01-glass-office.svg",
+        "alt": "Key Changes in Company Law You Should Know in 2025"
+      },
+      "content": [
+        {
+          "heading": "Introduction",
+          "text": "The year 2025 brings several important amendments to the regulatory frameworks aimed at enhancing transparency, strengthening corporate governance, and promoting ease of doing business. These changes are expected to have a significant impact on companies, directors, and other stakeholders."
+        },
+        {
+          "heading": "1. Enhanced Corporate Governance",
+          "text": "The new amendments emphasize greater accountability of directors and key managerial personnel. Stricter disclosure norms and enhanced responsibilities will ensure more transparent decision-making and protect stakeholder interests."
+        },
+        {
+          "heading": "2. Simplified Compliance Requirements",
+          "text": "Several compliance processes have been simplified through digital integration and a risk-based approach. This move is expected to reduce the compliance burden on businesses, especially for startups and small companies."
+        },
+        {
+          "heading": "3. Strengthened Shareholder Rights",
+          "text": "Shareholder empowerment remains at the core of the 2025 amendments. Provisions related to e-voting, related party transactions, and minority shareholder protection have been further strengthened."
+        },
+        {
+          "heading": "4. Focus on Sustainability and ESG",
+          "text": "The law now places greater emphasis on Environmental, Social, and Governance (ESG) practices. Certain classes of companies will be required to disclose sustainability-related information in their annual reports."
+        },
+        {
+          "heading": "Conclusion",
+          "text": "These changes reflect the government's continued focus on building a transparent, accountable, and globally competitive corporate environment. Businesses should stay informed and adapt to these updates to remain compliant and future-ready."
+        }
+      ],
+      "sidebar": {
+        "tocBox": {
+          "title": "On This Page",
+          "items": [
+            "Introduction",
+            "1. Enhanced Corporate Governance",
+            "2. Simplified Compliance Requirements",
+            "3. Strengthened Shareholder Rights",
+            "4. Focus on Sustainability and ESG",
+            "Conclusion"
+          ]
+        },
+        "relatedBox": {
+          "title": "Related Publications",
+          "items": [
+            {
+              "image": "/publications/02-gavel.svg",
+              "title": "Arbitration vs Litigation: Choosing the Right Path for Your Business",
+              "date": "May 10, 2025",
+              "readTime": "7 min read",
+              "slug": "arbitration-vs-litigation"
+            },
+            {
+              "image": "/publications/03-cybersecurity-lock.svg",
+              "title": "Data Protection Act 2025: What Businesses Must Comply With",
+              "date": "May 5, 2025",
+              "readTime": "8 min read",
+              "slug": "data-protection-act-2025"
+            },
+            {
+              "image": "/publications/04-light-bulb.svg",
+              "title": "Protecting Your IP in the Digital Age: Strategies for Businesses",
+              "date": "April 28, 2025",
+              "readTime": "8 min read",
+              "slug": "protecting-ip-digital-age"
+            },
+            {
+              "image": "/publications/05-courthouse.svg",
+              "title": "RERA Updates 2025: Key Implications for Developers and Buyers",
+              "date": "April 20, 2025",
+              "readTime": "5 min read",
+              "slug": "rera-updates-2025"
+            },
+            {
+              "image": "/publications/06-pen-contract.svg",
+              "title": "Workplace Policies in 2025: Building Compliant and Future-Ready Workplaces",
+              "date": "April 15, 2025",
+              "readTime": "6 min read",
+              "slug": "workplace-policies-2025"
+            }
+          ]
+        },
+        "moreInfoBox": {
+          "title": "Need More Information?",
+          "text": "Our team is here to help you with any queries related to this topic."
+        }
+      }
+    },
+    "arbitration-vs-litigation": {
+      "header": {
+        "breadcrumbs": [
+          {
+            "label": "HOME",
+            "href": "/"
+          },
+          {
+            "label": "PUBLICATION",
+            "href": "/publication"
+          }
+        ],
+        "title": "Publication Detail"
+      },
+      "category": "DISPUTE RESOLUTION",
+      "title": "Arbitration vs Litigation: Choosing the Right Path for Your Business",
+      "description": "A comparative analysis to help businesses decide the most effective dispute resolution approach.",
+      "meta": {
+        "date": "May 10, 2025",
+        "readTime": "7 min read",
+        "author": "JustiLaw Legal Team"
+      },
+      "heroImage": {
+        "src": "/publications/02-gavel.svg",
+        "alt": "Arbitration vs Litigation: Choosing the Right Path for Your Business"
+      },
+      "content": [
+        {
+          "heading": "Introduction",
+          "text": "The year 2025 brings several important amendments to the regulatory frameworks aimed at enhancing transparency, strengthening corporate governance, and promoting ease of doing business. These changes are expected to have a significant impact on companies, directors, and other stakeholders."
+        },
+        {
+          "heading": "1. Enhanced Corporate Governance",
+          "text": "The new amendments emphasize greater accountability of directors and key managerial personnel. Stricter disclosure norms and enhanced responsibilities will ensure more transparent decision-making and protect stakeholder interests."
+        },
+        {
+          "heading": "2. Simplified Compliance Requirements",
+          "text": "Several compliance processes have been simplified through digital integration and a risk-based approach. This move is expected to reduce the compliance burden on businesses, especially for startups and small companies."
+        },
+        {
+          "heading": "3. Strengthened Shareholder Rights",
+          "text": "Shareholder empowerment remains at the core of the 2025 amendments. Provisions related to e-voting, related party transactions, and minority shareholder protection have been further strengthened."
+        },
+        {
+          "heading": "4. Focus on Sustainability and ESG",
+          "text": "The law now places greater emphasis on Environmental, Social, and Governance (ESG) practices. Certain classes of companies will be required to disclose sustainability-related information in their annual reports."
+        },
+        {
+          "heading": "Conclusion",
+          "text": "These changes reflect the government's continued focus on building a transparent, accountable, and globally competitive corporate environment. Businesses should stay informed and adapt to these updates to remain compliant and future-ready."
+        }
+      ],
+      "sidebar": {
+        "tocBox": {
+          "title": "On This Page",
+          "items": [
+            "Introduction",
+            "1. Enhanced Corporate Governance",
+            "2. Simplified Compliance Requirements",
+            "3. Strengthened Shareholder Rights",
+            "4. Focus on Sustainability and ESG",
+            "Conclusion"
+          ]
+        },
+        "relatedBox": {
+          "title": "Related Publications",
+          "items": [
+            {
+              "image": "/publications/03-cybersecurity-lock.svg",
+              "title": "Data Protection Act 2025: What Businesses Must Comply With",
+              "date": "May 5, 2025",
+              "readTime": "8 min read",
+              "slug": "data-protection-act-2025"
+            },
+            {
+              "image": "/publications/04-light-bulb.svg",
+              "title": "Protecting Your IP in the Digital Age: Strategies for Businesses",
+              "date": "April 28, 2025",
+              "readTime": "8 min read",
+              "slug": "protecting-ip-digital-age"
+            },
+            {
+              "image": "/publications/05-courthouse.svg",
+              "title": "RERA Updates 2025: Key Implications for Developers and Buyers",
+              "date": "April 20, 2025",
+              "readTime": "5 min read",
+              "slug": "rera-updates-2025"
+            },
+            {
+              "image": "/publications/06-pen-contract.svg",
+              "title": "Workplace Policies in 2025: Building Compliant and Future-Ready Workplaces",
+              "date": "April 15, 2025",
+              "readTime": "6 min read",
+              "slug": "workplace-policies-2025"
+            },
+            {
+              "image": "/publications/07-gavel-law-books.svg",
+              "title": "Recent Tax Law Amendments: What They Mean for Businesses",
+              "date": "April 10, 2025",
+              "readTime": "7 min read",
+              "slug": "recent-tax-law-amendments"
+            }
+          ]
+        },
+        "moreInfoBox": {
+          "title": "Need More Information?",
+          "text": "Our team is here to help you with any queries related to this topic."
+        }
+      }
+    },
+    "data-protection-act-2025": {
+      "header": {
+        "breadcrumbs": [
+          {
+            "label": "HOME",
+            "href": "/"
+          },
+          {
+            "label": "PUBLICATION",
+            "href": "/publication"
+          }
+        ],
+        "title": "Publication Detail"
+      },
+      "category": "DATA PROTECTION",
+      "title": "Data Protection Act 2025: What Businesses Must Comply With",
+      "description": "Key provisions and compliance requirements every business should be aware of.",
+      "meta": {
+        "date": "May 5, 2025",
+        "readTime": "8 min read",
+        "author": "JustiLaw Legal Team"
+      },
+      "heroImage": {
+        "src": "/publications/03-cybersecurity-lock.svg",
+        "alt": "Data Protection Act 2025: What Businesses Must Comply With"
+      },
+      "content": [
+        {
+          "heading": "Introduction",
+          "text": "The year 2025 brings several important amendments to the regulatory frameworks aimed at enhancing transparency, strengthening corporate governance, and promoting ease of doing business. These changes are expected to have a significant impact on companies, directors, and other stakeholders."
+        },
+        {
+          "heading": "1. Enhanced Corporate Governance",
+          "text": "The new amendments emphasize greater accountability of directors and key managerial personnel. Stricter disclosure norms and enhanced responsibilities will ensure more transparent decision-making and protect stakeholder interests."
+        },
+        {
+          "heading": "2. Simplified Compliance Requirements",
+          "text": "Several compliance processes have been simplified through digital integration and a risk-based approach. This move is expected to reduce the compliance burden on businesses, especially for startups and small companies."
+        },
+        {
+          "heading": "3. Strengthened Shareholder Rights",
+          "text": "Shareholder empowerment remains at the core of the 2025 amendments. Provisions related to e-voting, related party transactions, and minority shareholder protection have been further strengthened."
+        },
+        {
+          "heading": "4. Focus on Sustainability and ESG",
+          "text": "The law now places greater emphasis on Environmental, Social, and Governance (ESG) practices. Certain classes of companies will be required to disclose sustainability-related information in their annual reports."
+        },
+        {
+          "heading": "Conclusion",
+          "text": "These changes reflect the government's continued focus on building a transparent, accountable, and globally competitive corporate environment. Businesses should stay informed and adapt to these updates to remain compliant and future-ready."
+        }
+      ],
+      "sidebar": {
+        "tocBox": {
+          "title": "On This Page",
+          "items": [
+            "Introduction",
+            "1. Enhanced Corporate Governance",
+            "2. Simplified Compliance Requirements",
+            "3. Strengthened Shareholder Rights",
+            "4. Focus on Sustainability and ESG",
+            "Conclusion"
+          ]
+        },
+        "relatedBox": {
+          "title": "Related Publications",
+          "items": [
+            {
+              "image": "/publications/04-light-bulb.svg",
+              "title": "Protecting Your IP in the Digital Age: Strategies for Businesses",
+              "date": "April 28, 2025",
+              "readTime": "8 min read",
+              "slug": "protecting-ip-digital-age"
+            },
+            {
+              "image": "/publications/05-courthouse.svg",
+              "title": "RERA Updates 2025: Key Implications for Developers and Buyers",
+              "date": "April 20, 2025",
+              "readTime": "5 min read",
+              "slug": "rera-updates-2025"
+            },
+            {
+              "image": "/publications/06-pen-contract.svg",
+              "title": "Workplace Policies in 2025: Building Compliant and Future-Ready Workplaces",
+              "date": "April 15, 2025",
+              "readTime": "6 min read",
+              "slug": "workplace-policies-2025"
+            },
+            {
+              "image": "/publications/07-gavel-law-books.svg",
+              "title": "Recent Tax Law Amendments: What They Mean for Businesses",
+              "date": "April 10, 2025",
+              "readTime": "7 min read",
+              "slug": "recent-tax-law-amendments"
+            },
+            {
+              "image": "/publications/08-business-handshake.svg",
+              "title": "Due Diligence Essentials: A Guide for Successful M&A Transactions",
+              "date": "April 5, 2025",
+              "readTime": "6 min read",
+              "slug": "due-diligence-essentials"
+            }
+          ]
+        },
+        "moreInfoBox": {
+          "title": "Need More Information?",
+          "text": "Our team is here to help you with any queries related to this topic."
+        }
+      }
+    },
+    "protecting-ip-digital-age": {
+      "header": {
+        "breadcrumbs": [
+          {
+            "label": "HOME",
+            "href": "/"
+          },
+          {
+            "label": "PUBLICATION",
+            "href": "/publication"
+          }
+        ],
+        "title": "Publication Detail"
+      },
+      "category": "INTELLECTUAL PROPERTY",
+      "title": "Protecting Your IP in the Digital Age: Strategies for Businesses",
+      "description": "Practical strategies to safeguard your intellectual property in an evolving digital landscape.",
+      "meta": {
+        "date": "April 28, 2025",
+        "readTime": "8 min read",
+        "author": "JustiLaw Legal Team"
+      },
+      "heroImage": {
+        "src": "/publications/04-light-bulb.svg",
+        "alt": "Protecting Your IP in the Digital Age: Strategies for Businesses"
+      },
+      "content": [
+        {
+          "heading": "Introduction",
+          "text": "The year 2025 brings several important amendments to the regulatory frameworks aimed at enhancing transparency, strengthening corporate governance, and promoting ease of doing business. These changes are expected to have a significant impact on companies, directors, and other stakeholders."
+        },
+        {
+          "heading": "1. Enhanced Corporate Governance",
+          "text": "The new amendments emphasize greater accountability of directors and key managerial personnel. Stricter disclosure norms and enhanced responsibilities will ensure more transparent decision-making and protect stakeholder interests."
+        },
+        {
+          "heading": "2. Simplified Compliance Requirements",
+          "text": "Several compliance processes have been simplified through digital integration and a risk-based approach. This move is expected to reduce the compliance burden on businesses, especially for startups and small companies."
+        },
+        {
+          "heading": "3. Strengthened Shareholder Rights",
+          "text": "Shareholder empowerment remains at the core of the 2025 amendments. Provisions related to e-voting, related party transactions, and minority shareholder protection have been further strengthened."
+        },
+        {
+          "heading": "4. Focus on Sustainability and ESG",
+          "text": "The law now places greater emphasis on Environmental, Social, and Governance (ESG) practices. Certain classes of companies will be required to disclose sustainability-related information in their annual reports."
+        },
+        {
+          "heading": "Conclusion",
+          "text": "These changes reflect the government's continued focus on building a transparent, accountable, and globally competitive corporate environment. Businesses should stay informed and adapt to these updates to remain compliant and future-ready."
+        }
+      ],
+      "sidebar": {
+        "tocBox": {
+          "title": "On This Page",
+          "items": [
+            "Introduction",
+            "1. Enhanced Corporate Governance",
+            "2. Simplified Compliance Requirements",
+            "3. Strengthened Shareholder Rights",
+            "4. Focus on Sustainability and ESG",
+            "Conclusion"
+          ]
+        },
+        "relatedBox": {
+          "title": "Related Publications",
+          "items": [
+            {
+              "image": "/publications/05-courthouse.svg",
+              "title": "RERA Updates 2025: Key Implications for Developers and Buyers",
+              "date": "April 20, 2025",
+              "readTime": "5 min read",
+              "slug": "rera-updates-2025"
+            },
+            {
+              "image": "/publications/06-pen-contract.svg",
+              "title": "Workplace Policies in 2025: Building Compliant and Future-Ready Workplaces",
+              "date": "April 15, 2025",
+              "readTime": "6 min read",
+              "slug": "workplace-policies-2025"
+            },
+            {
+              "image": "/publications/07-gavel-law-books.svg",
+              "title": "Recent Tax Law Amendments: What They Mean for Businesses",
+              "date": "April 10, 2025",
+              "readTime": "7 min read",
+              "slug": "recent-tax-law-amendments"
+            },
+            {
+              "image": "/publications/08-business-handshake.svg",
+              "title": "Due Diligence Essentials: A Guide for Successful M&A Transactions",
+              "date": "April 5, 2025",
+              "readTime": "6 min read",
+              "slug": "due-diligence-essentials"
+            },
+            {
+              "image": "/publications/09-sprout-hand.svg",
+              "title": "ESG Compliance and the Evolving Regulatory Landscape",
+              "date": "March 30, 2025",
+              "readTime": "5 min read",
+              "slug": "esg-compliance-regulatory-landscape"
+            }
+          ]
+        },
+        "moreInfoBox": {
+          "title": "Need More Information?",
+          "text": "Our team is here to help you with any queries related to this topic."
+        }
+      }
+    },
+    "rera-updates-2025": {
+      "header": {
+        "breadcrumbs": [
+          {
+            "label": "HOME",
+            "href": "/"
+          },
+          {
+            "label": "PUBLICATION",
+            "href": "/publication"
+          }
+        ],
+        "title": "Publication Detail"
+      },
+      "category": "REAL ESTATE LAW",
+      "title": "RERA Updates 2025: Key Implications for Developers and Buyers",
+      "description": "A look at the latest RERA updates and what they mean for real estate stakeholders.",
+      "meta": {
+        "date": "April 20, 2025",
+        "readTime": "5 min read",
+        "author": "JustiLaw Legal Team"
+      },
+      "heroImage": {
+        "src": "/publications/05-courthouse.svg",
+        "alt": "RERA Updates 2025: Key Implications for Developers and Buyers"
+      },
+      "content": [
+        {
+          "heading": "Introduction",
+          "text": "The year 2025 brings several important amendments to the regulatory frameworks aimed at enhancing transparency, strengthening corporate governance, and promoting ease of doing business. These changes are expected to have a significant impact on companies, directors, and other stakeholders."
+        },
+        {
+          "heading": "1. Enhanced Corporate Governance",
+          "text": "The new amendments emphasize greater accountability of directors and key managerial personnel. Stricter disclosure norms and enhanced responsibilities will ensure more transparent decision-making and protect stakeholder interests."
+        },
+        {
+          "heading": "2. Simplified Compliance Requirements",
+          "text": "Several compliance processes have been simplified through digital integration and a risk-based approach. This move is expected to reduce the compliance burden on businesses, especially for startups and small companies."
+        },
+        {
+          "heading": "3. Strengthened Shareholder Rights",
+          "text": "Shareholder empowerment remains at the core of the 2025 amendments. Provisions related to e-voting, related party transactions, and minority shareholder protection have been further strengthened."
+        },
+        {
+          "heading": "4. Focus on Sustainability and ESG",
+          "text": "The law now places greater emphasis on Environmental, Social, and Governance (ESG) practices. Certain classes of companies will be required to disclose sustainability-related information in their annual reports."
+        },
+        {
+          "heading": "Conclusion",
+          "text": "These changes reflect the government's continued focus on building a transparent, accountable, and globally competitive corporate environment. Businesses should stay informed and adapt to these updates to remain compliant and future-ready."
+        }
+      ],
+      "sidebar": {
+        "tocBox": {
+          "title": "On This Page",
+          "items": [
+            "Introduction",
+            "1. Enhanced Corporate Governance",
+            "2. Simplified Compliance Requirements",
+            "3. Strengthened Shareholder Rights",
+            "4. Focus on Sustainability and ESG",
+            "Conclusion"
+          ]
+        },
+        "relatedBox": {
+          "title": "Related Publications",
+          "items": [
+            {
+              "image": "/publications/06-pen-contract.svg",
+              "title": "Workplace Policies in 2025: Building Compliant and Future-Ready Workplaces",
+              "date": "April 15, 2025",
+              "readTime": "6 min read",
+              "slug": "workplace-policies-2025"
+            },
+            {
+              "image": "/publications/07-gavel-law-books.svg",
+              "title": "Recent Tax Law Amendments: What They Mean for Businesses",
+              "date": "April 10, 2025",
+              "readTime": "7 min read",
+              "slug": "recent-tax-law-amendments"
+            },
+            {
+              "image": "/publications/08-business-handshake.svg",
+              "title": "Due Diligence Essentials: A Guide for Successful M&A Transactions",
+              "date": "April 5, 2025",
+              "readTime": "6 min read",
+              "slug": "due-diligence-essentials"
+            },
+            {
+              "image": "/publications/09-sprout-hand.svg",
+              "title": "ESG Compliance and the Evolving Regulatory Landscape",
+              "date": "March 30, 2025",
+              "readTime": "5 min read",
+              "slug": "esg-compliance-regulatory-landscape"
+            },
+            {
+              "image": "/publications/01-glass-office.svg",
+              "title": "Key Changes in Company Law You Should Know in 2025",
+              "date": "May 15, 2025",
+              "readTime": "6 min read",
+              "slug": "key-changes-company-law-2025"
+            }
+          ]
+        },
+        "moreInfoBox": {
+          "title": "Need More Information?",
+          "text": "Our team is here to help you with any queries related to this topic."
+        }
+      }
+    },
+    "workplace-policies-2025": {
+      "header": {
+        "breadcrumbs": [
+          {
+            "label": "HOME",
+            "href": "/"
+          },
+          {
+            "label": "PUBLICATION",
+            "href": "/publication"
+          }
+        ],
+        "title": "Publication Detail"
+      },
+      "category": "EMPLOYMENT LAW",
+      "title": "Workplace Policies in 2025: Building Compliant and Future-Ready Workplaces",
+      "description": "Essential policy updates to ensure workplace compliance and employee well-being.",
+      "meta": {
+        "date": "April 15, 2025",
+        "readTime": "6 min read",
+        "author": "JustiLaw Legal Team"
+      },
+      "heroImage": {
+        "src": "/publications/06-pen-contract.svg",
+        "alt": "Workplace Policies in 2025: Building Compliant and Future-Ready Workplaces"
+      },
+      "content": [
+        {
+          "heading": "Introduction",
+          "text": "The year 2025 brings several important amendments to the regulatory frameworks aimed at enhancing transparency, strengthening corporate governance, and promoting ease of doing business. These changes are expected to have a significant impact on companies, directors, and other stakeholders."
+        },
+        {
+          "heading": "1. Enhanced Corporate Governance",
+          "text": "The new amendments emphasize greater accountability of directors and key managerial personnel. Stricter disclosure norms and enhanced responsibilities will ensure more transparent decision-making and protect stakeholder interests."
+        },
+        {
+          "heading": "2. Simplified Compliance Requirements",
+          "text": "Several compliance processes have been simplified through digital integration and a risk-based approach. This move is expected to reduce the compliance burden on businesses, especially for startups and small companies."
+        },
+        {
+          "heading": "3. Strengthened Shareholder Rights",
+          "text": "Shareholder empowerment remains at the core of the 2025 amendments. Provisions related to e-voting, related party transactions, and minority shareholder protection have been further strengthened."
+        },
+        {
+          "heading": "4. Focus on Sustainability and ESG",
+          "text": "The law now places greater emphasis on Environmental, Social, and Governance (ESG) practices. Certain classes of companies will be required to disclose sustainability-related information in their annual reports."
+        },
+        {
+          "heading": "Conclusion",
+          "text": "These changes reflect the government's continued focus on building a transparent, accountable, and globally competitive corporate environment. Businesses should stay informed and adapt to these updates to remain compliant and future-ready."
+        }
+      ],
+      "sidebar": {
+        "tocBox": {
+          "title": "On This Page",
+          "items": [
+            "Introduction",
+            "1. Enhanced Corporate Governance",
+            "2. Simplified Compliance Requirements",
+            "3. Strengthened Shareholder Rights",
+            "4. Focus on Sustainability and ESG",
+            "Conclusion"
+          ]
+        },
+        "relatedBox": {
+          "title": "Related Publications",
+          "items": [
+            {
+              "image": "/publications/07-gavel-law-books.svg",
+              "title": "Recent Tax Law Amendments: What They Mean for Businesses",
+              "date": "April 10, 2025",
+              "readTime": "7 min read",
+              "slug": "recent-tax-law-amendments"
+            },
+            {
+              "image": "/publications/08-business-handshake.svg",
+              "title": "Due Diligence Essentials: A Guide for Successful M&A Transactions",
+              "date": "April 5, 2025",
+              "readTime": "6 min read",
+              "slug": "due-diligence-essentials"
+            },
+            {
+              "image": "/publications/09-sprout-hand.svg",
+              "title": "ESG Compliance and the Evolving Regulatory Landscape",
+              "date": "March 30, 2025",
+              "readTime": "5 min read",
+              "slug": "esg-compliance-regulatory-landscape"
+            },
+            {
+              "image": "/publications/01-glass-office.svg",
+              "title": "Key Changes in Company Law You Should Know in 2025",
+              "date": "May 15, 2025",
+              "readTime": "6 min read",
+              "slug": "key-changes-company-law-2025"
+            },
+            {
+              "image": "/publications/02-gavel.svg",
+              "title": "Arbitration vs Litigation: Choosing the Right Path for Your Business",
+              "date": "May 10, 2025",
+              "readTime": "7 min read",
+              "slug": "arbitration-vs-litigation"
+            }
+          ]
+        },
+        "moreInfoBox": {
+          "title": "Need More Information?",
+          "text": "Our team is here to help you with any queries related to this topic."
+        }
+      }
+    },
+    "recent-tax-law-amendments": {
+      "header": {
+        "breadcrumbs": [
+          {
+            "label": "HOME",
+            "href": "/"
+          },
+          {
+            "label": "PUBLICATION",
+            "href": "/publication"
+          }
+        ],
+        "title": "Publication Detail"
+      },
+      "category": "TAXATION",
+      "title": "Recent Tax Law Amendments: What They Mean for Businesses",
+      "description": "An overview of key tax law changes and their implications for business planning and compliance.",
+      "meta": {
+        "date": "April 10, 2025",
+        "readTime": "7 min read",
+        "author": "JustiLaw Legal Team"
+      },
+      "heroImage": {
+        "src": "/publications/07-gavel-law-books.svg",
+        "alt": "Recent Tax Law Amendments: What They Mean for Businesses"
+      },
+      "content": [
+        {
+          "heading": "Introduction",
+          "text": "The year 2025 brings several important amendments to the regulatory frameworks aimed at enhancing transparency, strengthening corporate governance, and promoting ease of doing business. These changes are expected to have a significant impact on companies, directors, and other stakeholders."
+        },
+        {
+          "heading": "1. Enhanced Corporate Governance",
+          "text": "The new amendments emphasize greater accountability of directors and key managerial personnel. Stricter disclosure norms and enhanced responsibilities will ensure more transparent decision-making and protect stakeholder interests."
+        },
+        {
+          "heading": "2. Simplified Compliance Requirements",
+          "text": "Several compliance processes have been simplified through digital integration and a risk-based approach. This move is expected to reduce the compliance burden on businesses, especially for startups and small companies."
+        },
+        {
+          "heading": "3. Strengthened Shareholder Rights",
+          "text": "Shareholder empowerment remains at the core of the 2025 amendments. Provisions related to e-voting, related party transactions, and minority shareholder protection have been further strengthened."
+        },
+        {
+          "heading": "4. Focus on Sustainability and ESG",
+          "text": "The law now places greater emphasis on Environmental, Social, and Governance (ESG) practices. Certain classes of companies will be required to disclose sustainability-related information in their annual reports."
+        },
+        {
+          "heading": "Conclusion",
+          "text": "These changes reflect the government's continued focus on building a transparent, accountable, and globally competitive corporate environment. Businesses should stay informed and adapt to these updates to remain compliant and future-ready."
+        }
+      ],
+      "sidebar": {
+        "tocBox": {
+          "title": "On This Page",
+          "items": [
+            "Introduction",
+            "1. Enhanced Corporate Governance",
+            "2. Simplified Compliance Requirements",
+            "3. Strengthened Shareholder Rights",
+            "4. Focus on Sustainability and ESG",
+            "Conclusion"
+          ]
+        },
+        "relatedBox": {
+          "title": "Related Publications",
+          "items": [
+            {
+              "image": "/publications/08-business-handshake.svg",
+              "title": "Due Diligence Essentials: A Guide for Successful M&A Transactions",
+              "date": "April 5, 2025",
+              "readTime": "6 min read",
+              "slug": "due-diligence-essentials"
+            },
+            {
+              "image": "/publications/09-sprout-hand.svg",
+              "title": "ESG Compliance and the Evolving Regulatory Landscape",
+              "date": "March 30, 2025",
+              "readTime": "5 min read",
+              "slug": "esg-compliance-regulatory-landscape"
+            },
+            {
+              "image": "/publications/01-glass-office.svg",
+              "title": "Key Changes in Company Law You Should Know in 2025",
+              "date": "May 15, 2025",
+              "readTime": "6 min read",
+              "slug": "key-changes-company-law-2025"
+            },
+            {
+              "image": "/publications/02-gavel.svg",
+              "title": "Arbitration vs Litigation: Choosing the Right Path for Your Business",
+              "date": "May 10, 2025",
+              "readTime": "7 min read",
+              "slug": "arbitration-vs-litigation"
+            },
+            {
+              "image": "/publications/03-cybersecurity-lock.svg",
+              "title": "Data Protection Act 2025: What Businesses Must Comply With",
+              "date": "May 5, 2025",
+              "readTime": "8 min read",
+              "slug": "data-protection-act-2025"
+            }
+          ]
+        },
+        "moreInfoBox": {
+          "title": "Need More Information?",
+          "text": "Our team is here to help you with any queries related to this topic."
+        }
+      }
+    },
+    "due-diligence-essentials": {
+      "header": {
+        "breadcrumbs": [
+          {
+            "label": "HOME",
+            "href": "/"
+          },
+          {
+            "label": "PUBLICATION",
+            "href": "/publication"
+          }
+        ],
+        "title": "Publication Detail"
+      },
+      "category": "MERGERS & ACQUISITIONS",
+      "title": "Due Diligence Essentials: A Guide for Successful M&A Transactions",
+      "description": "Key due diligence areas to focus on for smooth and successful M&A deals.",
+      "meta": {
+        "date": "April 5, 2025",
+        "readTime": "6 min read",
+        "author": "JustiLaw Legal Team"
+      },
+      "heroImage": {
+        "src": "/publications/08-business-handshake.svg",
+        "alt": "Due Diligence Essentials: A Guide for Successful M&A Transactions"
+      },
+      "content": [
+        {
+          "heading": "Introduction",
+          "text": "The year 2025 brings several important amendments to the regulatory frameworks aimed at enhancing transparency, strengthening corporate governance, and promoting ease of doing business. These changes are expected to have a significant impact on companies, directors, and other stakeholders."
+        },
+        {
+          "heading": "1. Enhanced Corporate Governance",
+          "text": "The new amendments emphasize greater accountability of directors and key managerial personnel. Stricter disclosure norms and enhanced responsibilities will ensure more transparent decision-making and protect stakeholder interests."
+        },
+        {
+          "heading": "2. Simplified Compliance Requirements",
+          "text": "Several compliance processes have been simplified through digital integration and a risk-based approach. This move is expected to reduce the compliance burden on businesses, especially for startups and small companies."
+        },
+        {
+          "heading": "3. Strengthened Shareholder Rights",
+          "text": "Shareholder empowerment remains at the core of the 2025 amendments. Provisions related to e-voting, related party transactions, and minority shareholder protection have been further strengthened."
+        },
+        {
+          "heading": "4. Focus on Sustainability and ESG",
+          "text": "The law now places greater emphasis on Environmental, Social, and Governance (ESG) practices. Certain classes of companies will be required to disclose sustainability-related information in their annual reports."
+        },
+        {
+          "heading": "Conclusion",
+          "text": "These changes reflect the government's continued focus on building a transparent, accountable, and globally competitive corporate environment. Businesses should stay informed and adapt to these updates to remain compliant and future-ready."
+        }
+      ],
+      "sidebar": {
+        "tocBox": {
+          "title": "On This Page",
+          "items": [
+            "Introduction",
+            "1. Enhanced Corporate Governance",
+            "2. Simplified Compliance Requirements",
+            "3. Strengthened Shareholder Rights",
+            "4. Focus on Sustainability and ESG",
+            "Conclusion"
+          ]
+        },
+        "relatedBox": {
+          "title": "Related Publications",
+          "items": [
+            {
+              "image": "/publications/09-sprout-hand.svg",
+              "title": "ESG Compliance and the Evolving Regulatory Landscape",
+              "date": "March 30, 2025",
+              "readTime": "5 min read",
+              "slug": "esg-compliance-regulatory-landscape"
+            },
+            {
+              "image": "/publications/01-glass-office.svg",
+              "title": "Key Changes in Company Law You Should Know in 2025",
+              "date": "May 15, 2025",
+              "readTime": "6 min read",
+              "slug": "key-changes-company-law-2025"
+            },
+            {
+              "image": "/publications/02-gavel.svg",
+              "title": "Arbitration vs Litigation: Choosing the Right Path for Your Business",
+              "date": "May 10, 2025",
+              "readTime": "7 min read",
+              "slug": "arbitration-vs-litigation"
+            },
+            {
+              "image": "/publications/03-cybersecurity-lock.svg",
+              "title": "Data Protection Act 2025: What Businesses Must Comply With",
+              "date": "May 5, 2025",
+              "readTime": "8 min read",
+              "slug": "data-protection-act-2025"
+            },
+            {
+              "image": "/publications/04-light-bulb.svg",
+              "title": "Protecting Your IP in the Digital Age: Strategies for Businesses",
+              "date": "April 28, 2025",
+              "readTime": "8 min read",
+              "slug": "protecting-ip-digital-age"
+            }
+          ]
+        },
+        "moreInfoBox": {
+          "title": "Need More Information?",
+          "text": "Our team is here to help you with any queries related to this topic."
+        }
+      }
+    },
+    "esg-compliance-regulatory-landscape": {
+      "header": {
+        "breadcrumbs": [
+          {
+            "label": "HOME",
+            "href": "/"
+          },
+          {
+            "label": "PUBLICATION",
+            "href": "/publication"
+          }
+        ],
+        "title": "Publication Detail"
+      },
+      "category": "ENVIRONMENTAL LAW",
+      "title": "ESG Compliance and the Evolving Regulatory Landscape",
+      "description": "Understanding ESG compliance requirements and emerging regulatory trends.",
+      "meta": {
+        "date": "March 30, 2025",
+        "readTime": "5 min read",
+        "author": "JustiLaw Legal Team"
+      },
+      "heroImage": {
+        "src": "/publications/09-sprout-hand.svg",
+        "alt": "ESG Compliance and the Evolving Regulatory Landscape"
+      },
+      "content": [
+        {
+          "heading": "Introduction",
+          "text": "The year 2025 brings several important amendments to the regulatory frameworks aimed at enhancing transparency, strengthening corporate governance, and promoting ease of doing business. These changes are expected to have a significant impact on companies, directors, and other stakeholders."
+        },
+        {
+          "heading": "1. Enhanced Corporate Governance",
+          "text": "The new amendments emphasize greater accountability of directors and key managerial personnel. Stricter disclosure norms and enhanced responsibilities will ensure more transparent decision-making and protect stakeholder interests."
+        },
+        {
+          "heading": "2. Simplified Compliance Requirements",
+          "text": "Several compliance processes have been simplified through digital integration and a risk-based approach. This move is expected to reduce the compliance burden on businesses, especially for startups and small companies."
+        },
+        {
+          "heading": "3. Strengthened Shareholder Rights",
+          "text": "Shareholder empowerment remains at the core of the 2025 amendments. Provisions related to e-voting, related party transactions, and minority shareholder protection have been further strengthened."
+        },
+        {
+          "heading": "4. Focus on Sustainability and ESG",
+          "text": "The law now places greater emphasis on Environmental, Social, and Governance (ESG) practices. Certain classes of companies will be required to disclose sustainability-related information in their annual reports."
+        },
+        {
+          "heading": "Conclusion",
+          "text": "These changes reflect the government's continued focus on building a transparent, accountable, and globally competitive corporate environment. Businesses should stay informed and adapt to these updates to remain compliant and future-ready."
+        }
+      ],
+      "sidebar": {
+        "tocBox": {
+          "title": "On This Page",
+          "items": [
+            "Introduction",
+            "1. Enhanced Corporate Governance",
+            "2. Simplified Compliance Requirements",
+            "3. Strengthened Shareholder Rights",
+            "4. Focus on Sustainability and ESG",
+            "Conclusion"
+          ]
+        },
+        "relatedBox": {
+          "title": "Related Publications",
+          "items": [
+            {
+              "image": "/publications/01-glass-office.svg",
+              "title": "Key Changes in Company Law You Should Know in 2025",
+              "date": "May 15, 2025",
+              "readTime": "6 min read",
+              "slug": "key-changes-company-law-2025"
+            },
+            {
+              "image": "/publications/02-gavel.svg",
+              "title": "Arbitration vs Litigation: Choosing the Right Path for Your Business",
+              "date": "May 10, 2025",
+              "readTime": "7 min read",
+              "slug": "arbitration-vs-litigation"
+            },
+            {
+              "image": "/publications/03-cybersecurity-lock.svg",
+              "title": "Data Protection Act 2025: What Businesses Must Comply With",
+              "date": "May 5, 2025",
+              "readTime": "8 min read",
+              "slug": "data-protection-act-2025"
+            },
+            {
+              "image": "/publications/04-light-bulb.svg",
+              "title": "Protecting Your IP in the Digital Age: Strategies for Businesses",
+              "date": "April 28, 2025",
+              "readTime": "8 min read",
+              "slug": "protecting-ip-digital-age"
+            },
+            {
+              "image": "/publications/05-courthouse.svg",
+              "title": "RERA Updates 2025: Key Implications for Developers and Buyers",
+              "date": "April 20, 2025",
+              "readTime": "5 min read",
+              "slug": "rera-updates-2025"
+            }
+          ]
+        },
+        "moreInfoBox": {
+          "title": "Need More Information?",
+          "text": "Our team is here to help you with any queries related to this topic."
+        }
       }
     }
   }

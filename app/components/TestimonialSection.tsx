@@ -1,9 +1,9 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface TestimonialItem {
   id: string;
@@ -25,11 +25,26 @@ interface TestimonialData {
 }
 
 export const TestimonialSection: React.FC<{ data: TestimonialData }> = ({ data }) => {
-  const [current, setCurrent] = useState(0);
+  const [[current, direction], setPage] = useState([0, 0]);
   const item = data.items[current];
 
-  const prev = () => setCurrent((c) => (c - 1 + data.items.length) % data.items.length);
-  const next = () => setCurrent((c) => (c + 1) % data.items.length);
+  const paginate = (newDirection: number) => {
+    setPage([
+      (current + newDirection + data.items.length) % data.items.length,
+      newDirection
+    ]);
+  };
+
+  const prev = () => paginate(-1);
+  const next = () => paginate(1);
+
+  // Auto-slide every 5 seconds
+  useEffect(() => {
+    const timer = setInterval(() => {
+      paginate(1);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, [current, data.items.length]);
 
   return (
     <section className="w-full bg-[#f8f6f2] py-16 lg:py-20 overflow-hidden">
@@ -87,63 +102,72 @@ export const TestimonialSection: React.FC<{ data: TestimonialData }> = ({ data }
           </button>
 
           {/* Card Wrapper (Allows the badge to stick out without being clipped by overflow-hidden) */}
-          <div className="relative w-full rounded-md shadow-[0_10px_40px_rgba(0,0,0,0.15)]">
+          <div className="relative w-full h-[480px] sm:h-[500px] rounded-md shadow-[0_10px_40px_rgba(0,0,0,0.15)] bg-[#0b1320]">
             
-            {/* The Actual Card with overflow-hidden for the inner elements */}
-            <div className="relative w-full h-[480px] sm:h-[500px] rounded-md overflow-hidden bg-[#0b1320]">
-              
-              {/* Right Panel: Image Container */}
-              <div className="absolute top-0 bottom-0 right-0 w-full md:w-[60%] z-0">
-                <Image
-                  src={item.image.src}
-                  alt={item.image.alt}
-                  fill
-                  className="object-cover object-center"
-                  priority
-                />
-              </div>
-
-              {/* Mobile Overlay */}
-              <div className="absolute inset-0 bg-[#0b1320]/85 z-10 md:hidden"></div>
-
-              {/* Left Panel: Skewed Overlay (Desktop Only) */}
-              <div 
-                className="absolute top-[-50px] bottom-[-50px] left-[-20%] w-[65%] bg-[#0b1320] z-10 border-r-[5px] border-[#d89f4b] hidden md:block"
-                style={{ transform: "skewX(-14deg)", transformOrigin: "bottom right" }}
-              ></div>
-
-              {/* Content Container (Unskewed) */}
-              <div className="relative z-20 w-full md:w-[45%] h-full flex flex-col justify-center px-8 sm:px-12 lg:px-16 py-10">
+            <AnimatePresence custom={direction}>
+              <motion.div
+                key={current}
+                custom={direction}
+                initial={{ opacity: 0, scale: 0.96 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.96 }}
+                transition={{ duration: 0.6, ease: "easeInOut" }}
+                className="absolute inset-0 w-full h-full rounded-md overflow-hidden bg-[#0b1320]"
+              >
                 
-                {/* Quote icon */}
-                <div className="text-[#d89f4b] mb-5">
-                  <DynamicIcon name="quote" className="w-14 h-14" />
+                {/* Right Panel: Image Container */}
+                <div className="absolute top-0 bottom-0 right-0 w-full md:w-[60%] z-0">
+                  <Image
+                    src={item.image.src}
+                    alt={item.image.alt}
+                    fill
+                    className="object-cover object-center"
+                    priority
+                  />
                 </div>
 
-                {/* Quote text */}
-                <p className="text-slate-200 text-[15px] sm:text-[17px] leading-relaxed italic mb-8 max-w-[360px]">
-                  {item.quote}
-                </p>
+                {/* Mobile Overlay */}
+                <div className="absolute inset-0 bg-[#0b1320]/85 z-10 md:hidden"></div>
 
-                {/* Gold divider */}
-                <div className="w-10 h-[2px] bg-[#d89f4b] mb-6" />
+                {/* Left Panel: Skewed Overlay (Desktop Only) */}
+                <div 
+                  className="absolute top-[-50px] bottom-[-50px] left-[-20%] w-[65%] bg-[#0b1320] z-10 border-r-[5px] border-[#d89f4b] hidden md:block"
+                  style={{ transform: "skewX(-14deg)", transformOrigin: "bottom right" }}
+                ></div>
 
-                {/* Author */}
-                <h4 className="font-serif font-bold text-[#d89f4b] text-xl sm:text-[22px] mb-1">{item.name}</h4>
-                <span className="text-slate-400 text-[13px] font-medium block mb-4">{item.title}</span>
+                {/* Content Container (Unskewed) */}
+                <div className="relative z-20 w-full md:w-[45%] h-full flex flex-col justify-center px-8 sm:px-12 lg:px-16 py-10">
+                  
+                  {/* Quote icon */}
+                  <div className="text-[#d89f4b] mb-5">
+                    <DynamicIcon name="quote" className="w-14 h-14" />
+                  </div>
 
-                {/* Stars */}
-                <div className="flex items-center gap-1">
-                  {[...Array(5)].map((_, i) => (
-                    <DynamicIcon
-                      key={i}
-                      name="star"
-                      className={`w-[18px] h-[18px] ${i < item.rating ? "text-[#d89f4b]" : "text-slate-600"}`}
-                    />
-                  ))}
+                  {/* Quote text */}
+                  <p className="text-slate-200 text-[15px] sm:text-[17px] leading-relaxed italic mb-8 max-w-[360px]">
+                    {item.quote}
+                  </p>
+
+                  {/* Gold divider */}
+                  <div className="w-10 h-[2px] bg-[#d89f4b] mb-6" />
+
+                  {/* Author */}
+                  <h4 className="font-serif font-bold text-[#d89f4b] text-xl sm:text-[22px] mb-1">{item.name}</h4>
+                  <span className="text-slate-400 text-[13px] font-medium block mb-4">{item.title}</span>
+
+                  {/* Stars */}
+                  <div className="flex items-center gap-1">
+                    {[...Array(5)].map((_, i) => (
+                      <DynamicIcon
+                        key={i}
+                        name="star"
+                        className={`w-[18px] h-[18px] ${i < item.rating ? "text-[#d89f4b]" : "text-slate-600"}`}
+                      />
+                    ))}
+                  </div>
                 </div>
-              </div>
-            </div>
+              </motion.div>
+            </AnimatePresence>
 
             {/* Floating Quote Badge (Outside overflow-hidden so it can overlap the corner) */}
             <div className="absolute -bottom-6 -right-6 sm:-bottom-8 sm:-right-8 z-30 w-[80px] h-[80px] sm:w-[95px] sm:h-[95px] rounded-full bg-[#0b1320] border-[5px] border-[#d89f4b] flex items-center justify-center shadow-xl">
