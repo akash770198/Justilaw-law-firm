@@ -20,7 +20,7 @@ export function BlogsClient({ data }: { data: any }) {
             </div>
             <div className="w-12 h-[1px] bg-[#d89f4b]"></div>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#0c1626] mb-2 font-serif">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#0c1626] mb-2 font-serif">
             {data.sectionHeader?.headingDark || "Latest News & Articles"}
           </h2>
           <h3 className="text-4xl md:text-5xl font-bold text-[#d89f4b] mb-6 font-serif italic">

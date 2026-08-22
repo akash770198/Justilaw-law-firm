@@ -5,12 +5,7 @@ import { Header } from "@/app/components/Header";
 import { Footer } from "@/app/components/Footer";
 import { BreadcrumbBanner } from "@/app/components/BreadcrumbBanner";
 import { BlogDetailClient } from "@/app/blogs/[slug]/BlogDetailClient";
-
-interface PageProps {
-  params: Promise<{
-    slug: string;
-  }>;
-}
+import { PageProps } from "@/lib/types";
 
 export function generateStaticParams() {
   if (!(siteData as any).blogDetails) return [];

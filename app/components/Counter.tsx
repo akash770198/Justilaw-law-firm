@@ -1,13 +1,7 @@
 "use client";
 
 import React, { useEffect, useState, useRef } from "react";
-
-interface CounterProps {
-  end: number;
-  duration?: number; // duration in ms
-  suffix?: string;
-  className?: string;
-}
+import { CounterProps } from "@/lib/types";
 
 export const Counter: React.FC<CounterProps> = ({ end, duration = 2000, suffix = "", className = "" }) => {
   const [count, setCount] = useState(0);

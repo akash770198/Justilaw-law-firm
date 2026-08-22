@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
+import { CaseStudyItem, CaseStudyData } from "@/lib/types";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -22,23 +23,6 @@ const itemVariants = {
     transition: { duration: 0.6 },
   },
 };
-
-interface CaseStudyItem {
-  id: string;
-  src: string;
-  alt: string;
-  location: string;
-  title: string;
-}
-
-interface CaseStudyData {
-  tagline: string;
-  taglineIcon: string;
-  headingDark: string;
-  headingGold: string;
-  items: CaseStudyItem[];
-}
-
 export const CaseStudySection: React.FC<{ data: CaseStudyData }> = ({ data }) => {
   return (
     <section className="w-full bg-white py-16 lg:py-20 overflow-hidden">
@@ -52,7 +36,7 @@ export const CaseStudySection: React.FC<{ data: CaseStudyData }> = ({ data }) =>
               {data.tagline}
             </h3>
           </div>
-          <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.15] tracking-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-[1.15] tracking-tight">
             <span className="text-[#111827] mr-3">{data.headingDark}</span>
             <span className="text-[#d89f4b]">{data.headingGold}</span>
           </h2>

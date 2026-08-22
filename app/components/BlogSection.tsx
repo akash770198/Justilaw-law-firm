@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
+import { Author, BlogItem, BlogData } from "@/lib/types";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -21,41 +22,6 @@ const itemVariants = {
     transition: { duration: 0.6 },
   },
 };
-
-interface Author {
-  name: string;
-  role: string;
-  avatar: string;
-}
-
-interface BlogItem {
-  id: string;
-  image: { src: string; alt: string };
-  category: string;
-  categoryIcon: string;
-  date: string;
-  dateIcon: string;
-  title: string;
-  description: string;
-  author: Author;
-  link: string;
-}
-
-interface BlogData {
-  tagline: string;
-  taglineIcon: string;
-  headingDark: string;
-  headingGold: string;
-  headingIcon: string;
-  description: string;
-  items: BlogItem[];
-  button: {
-    text: string;
-    href: string;
-    icon: string;
-  };
-}
-
 export const BlogSection: React.FC<{ data: BlogData }> = ({ data }) => {
   return (
     <section className="w-full bg-[#f8f6f2] py-16 lg:py-20">
@@ -72,7 +38,7 @@ export const BlogSection: React.FC<{ data: BlogData }> = ({ data }) => {
             <DynamicIcon name={data.taglineIcon} className="w-5 h-5" />
             <h3 className="font-bold text-[13px] tracking-widest uppercase">{data.tagline}</h3>
           </div>
-          <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.15] tracking-tight mb-6">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-[1.15] tracking-tight mb-6">
             <div className="text-[#111827] mb-2">{data.headingDark}</div>
             <div className="text-[#d89f4b] relative inline-block">
               {data.headingGold}

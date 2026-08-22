@@ -3,6 +3,7 @@
 import React from "react";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
+import { Step, WorkProcessData, WorkProcessSectionProps } from "@/lib/types";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -20,26 +21,6 @@ const itemVariants = {
     transition: { duration: 0.6 },
   },
 };
-
-interface Step {
-  id: string;
-  title: string;
-  description: string;
-  icon: string;
-}
-
-interface WorkProcessData {
-  sectionIcon: string;
-  sectionTitle: string;
-  headingDark: string;
-  headingGold: string;
-  steps: Step[];
-}
-
-interface WorkProcessSectionProps {
-  data: WorkProcessData;
-}
-
 export const WorkProcessSection: React.FC<WorkProcessSectionProps> = ({ data }) => {
   return (
     <section className="bg-white py-16 lg:py-20 overflow-hidden relative">
@@ -58,7 +39,7 @@ export const WorkProcessSection: React.FC<WorkProcessSectionProps> = ({ data }) 
               {data.sectionTitle}
             </span>
           </div>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold tracking-tight text-[#1a283c]">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold tracking-tight text-[#1a283c]">
             {data.headingDark}{" "}
             <span className="text-[#d89f4b] block mt-2">{data.headingGold}</span>
           </h2>

@@ -5,25 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
-
-interface EventDetailData {
-  badge: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  infoBar: Array<{ icon: string; title: string; sub: string }>;
-  heroImage: { src: string; alt: string };
-  about: { title: string; text: string };
-  keyTopics: { title: string; items: Array<{ icon: string; text: string }> };
-  whoShouldAttend: { title: string; items: Array<{ icon: string; text: string }> };
-  agenda: { title: string; items: Array<{ time: string; event: string }> };
-  sidebar: {
-    detailsBox: { title: string; items: Array<{ icon: string; label: string; value: string }> };
-    registerBox: { title: string };
-    whyAttendBox: { title: string; items: string[] };
-    moreInfoBox: { title: string; text: string };
-  };
-}
+import { EventDetailData } from "@/lib/types";
 
 export const EventDetailClient: React.FC<{ data: EventDetailData }> = ({ data }) => {
   return (
@@ -39,7 +21,7 @@ export const EventDetailClient: React.FC<{ data: EventDetailData }> = ({ data })
               <span className="text-[#d89f4b] font-bold text-xs sm:text-[13px] tracking-widest uppercase mb-4 block">
                 {data.badge}
               </span>
-              <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-[#1a283c] leading-[1.15] mb-4">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-[#1a283c] leading-[1.15] mb-4">
                 {data.title}
               </h1>
               <div className="w-12 h-[2px] bg-[#d89f4b] mb-6"></div>

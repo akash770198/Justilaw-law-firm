@@ -47,24 +47,12 @@
           "href": "#pages",
           "dropdown": [
             {
-              "name": "Why Choose Us",
-              "href": "/why-choose-us"
-            },
-            {
-              "name": "Our Approach",
-              "href": "/our-approach"
-            },
-            {
-              "name": "Our Team",
-              "href": "/our-team"
-            },
-            {
               "name": "Case Studies",
               "href": "/case-studies"
             },
             {
               "name": "FAQ",
-              "href": "#faq"
+              "href": "/faq"
             },
             {
               "name": "Industries",
@@ -85,12 +73,46 @@
             {
               "name": "Publications",
               "href": "/publication"
+            },
+            {
+              "name": "Awards Recognition",
+              "href": "/awards-recognition"
+            },
+            {
+              "name": "Testimonials",
+              "href": "/testimonials"
+            },
+            {
+              "name": "Client Resources",
+              "href": "/client-resources"
+            },
+            {
+              "name": "Office Location",
+              "href": "/office-location"
+            },
+            {
+              "name": "Book Consultation",
+              "href": "/book-consultation"
             }
           ]
         },
         {
           "name": "About Us",
-          "href": "/about"
+          "href": "/about",
+          "dropdown": [
+            {
+              "name": "Why Choose Us",
+              "href": "/why-choose-us"
+            },
+            {
+              "name": "Our Approach",
+              "href": "/our-approach"
+            },
+            {
+              "name": "Our Team",
+              "href": "/our-team"
+            }
+          ]
         },
         {
           "name": "Practice Areas",
@@ -132,12 +154,12 @@
         },
         {
           "name": "Contact",
-          "href": "#contact"
+          "href": "/contact"
         }
       ],
       "careersButton": {
         "text": "Careers",
-        "href": "#careers",
+        "href": "/career",
         "icon": "briefcase"
       },
       "quickCall": {
@@ -509,47 +531,57 @@
     "items": [
       {
         "id": "t1",
-        "quote": "The team at ProCounsel provided outstanding legal support and guided me through every step of my case with professionalism and care. Highly recommended!",
+        "quote": "The corporate law team provided outstanding legal support and guided our merger through every step with professionalism and care. Highly recommended!",
         "name": "Kevin Martin",
-        "title": "CEO, ProCounsel",
-        "image": {
-          "src": "/Testimonial/testimonial-man-1-rectangular.svg",
-          "alt": "Kevin Martin portrait"
-        },
-        "rating": 5
+        "role": "CEO, ProCounsel",
+        "image": "/Testimonial/testimonial-man-1-rectangular.svg",
+        "rating": 5,
+        "category": "Corporate Law"
       },
       {
         "id": "t2",
-        "quote": "ProCounsel handled my divorce case with the utmost sensitivity and dedication. I felt supported every step of the way. Outstanding service!",
-        "name": "Sarah Williams",
-        "title": "Business Owner",
-        "image": {
-          "src": "/Testimonial/testimonial-woman-1-rectangular.svg",
-          "alt": "Sarah Williams portrait"
-        },
-        "rating": 5
+        "quote": "In a very difficult time for our family, JUSTILAW offered compassionate and incredibly effective representation in our custody case. We couldn't be more grateful.",
+        "name": "Sarah Jenkins",
+        "role": "Client",
+        "image": "/Testimonial/testimonial-woman-1-rectangular.svg",
+        "rating": 5,
+        "category": "Family Law"
       },
       {
         "id": "t3",
-        "quote": "Their expertise in corporate law is unmatched. They protected our company's interests flawlessly. A truly professional and reliable team.",
-        "name": "James Anderson",
-        "title": "CFO, Anderson Corp",
-        "image": {
-          "src": "/Testimonial/testimonial-man-2-rectangular.svg",
-          "alt": "James Anderson portrait"
-        },
-        "rating": 5
+        "quote": "Their criminal defense lawyers are top-notch. They meticulously examined every detail of my case and secured a complete dismissal. True lifesavers.",
+        "name": "David Ramirez",
+        "role": "Client",
+        "image": "/Testimonial/testimonial-man-2-rectangular.svg",
+        "rating": 5,
+        "category": "Criminal Law"
       },
       {
         "id": "t4",
-        "quote": "I was impressed by how quickly and efficiently they resolved my real estate dispute. Their attention to detail gave me complete peace of mind.",
-        "name": "Emily Carter",
-        "title": "Property Investor",
-        "image": {
-          "src": "/Testimonial/testimonial-woman-2-rectangular.svg",
-          "alt": "Emily Carter portrait"
-        },
-        "rating": 5
+        "quote": "Navigating our civil litigation seemed impossible until we partnered with JUSTILAW. Their strategic approach and dedication won our case decisively.",
+        "name": "Elena Rostova",
+        "role": "Director, Apex Holdings",
+        "image": "/Testimonial/testimonial-woman-2-rectangular.svg",
+        "rating": 5,
+        "category": "Civil Law"
+      },
+      {
+        "id": "t5",
+        "quote": "From drafting our foundational contracts to navigating complex intellectual property issues, they have been an indispensable partner to our startup.",
+        "name": "Marcus Thorne",
+        "role": "Founder, InnovateTech",
+        "image": "/Testimonial/01_testimonial_man.svg",
+        "rating": 5,
+        "category": "Corporate Law"
+      },
+      {
+        "id": "t6",
+        "quote": "I needed assistance with an immigration issue and their team was responsive, highly knowledgeable, and got my visa approved much faster than expected.",
+        "name": "Aisha Patel",
+        "role": "Client",
+        "image": "/Testimonial/02_testimonial_woman.svg",
+        "rating": 4,
+        "category": "Others"
       }
     ]
   },
@@ -728,83 +760,83 @@
     "services": [
       {
         "name": "Criminal Law",
-        "href": "#"
+        "href": "/services/criminal"
       },
       {
         "name": "Family Law",
-        "href": "#"
+        "href": "/services/family"
       },
       {
         "name": "Real Estate Law",
-        "href": "#"
+        "href": "/services/real-estate"
       },
       {
         "name": "Employment Law",
-        "href": "#"
+        "href": "/services/employment"
       },
       {
         "name": "Business Law",
-        "href": "#"
+        "href": "/services/business"
       },
       {
         "name": "Civil Litigation",
-        "href": "#"
+        "href": "/services/civil-litigation"
       },
       {
         "name": "Legal Consultation",
-        "href": "#"
+        "href": "/book-consultation"
       }
     ],
     "quickLinks": [
       {
         "name": "About Us",
-        "href": "#"
+        "href": "/about"
       },
       {
         "name": "Our Team",
-        "href": "#"
+        "href": "/our-team"
       },
       {
         "name": "Case Studies",
-        "href": "#"
+        "href": "/case-studies"
       },
       {
         "name": "Testimonials",
-        "href": "#"
+        "href": "/testimonials"
       },
       {
         "name": "Blog & Articles",
-        "href": "#"
+        "href": "/blogs"
       },
       {
         "name": "FAQs",
-        "href": "#"
+        "href": "/faq"
       },
       {
         "name": "Contact Us",
-        "href": "#"
+        "href": "/contact"
       }
     ],
     "resources": [
       {
         "name": "Legal Guide",
-        "href": "#"
+        "href": "/client-resources"
       },
       {
-        "name": "Downloads",
-        "href": "#"
+        "name": "Office Location",
+        "href": "/office-location"
       },
       {
         "name": "Client Support",
-        "href": "#"
+        "href": "/contact"
       },
       {
         "name": "Privacy Policy",
-        "href": "#"
+        "href": "/privacy-policy"
       },
       {
         "name": "Terms & Conditions",
-        "href": "#"
+        "href": "/terms-conditions"
       }
     ],
     "contact": {
@@ -6496,5 +6528,745 @@
         }
       }
     }
+  },
+  "awardsRecognitionPage": {
+    "metadata": {
+      "title": "Awards Recognition | JUSTILAW Legal Partners",
+      "description": "Discover our prestigious awards, accolades, and top-tier rankings in the legal industry."
+    },
+    "hero": {
+      "tagline": "RECOGNITION & EXCELLENCE",
+      "titleDark": "Awards &",
+      "titleGold": "Accolades",
+      "description": "JustiLaw Legal Partners has been consistently recognized as a leading law firm for our expertise, integrity, and client focus. Our achievements reflect our commitment to delivering exceptional legal solutions and creating lasting impact.",
+      "image": "/final_award_svgs/trophy_award_landscape.svg"
+    },
+    "stats": [
+      {
+        "icon": "wreath",
+        "value": "15+",
+        "label": "Awards Won"
+      },
+      {
+        "icon": "badge",
+        "value": "10+",
+        "label": "Years of Recognition"
+      },
+      {
+        "icon": "building",
+        "value": "Top Tier",
+        "label": "Ranked Law Firm"
+      },
+      {
+        "icon": "users",
+        "value": "Trusted by",
+        "label": "Clients & Peers"
+      }
+    ],
+    "awards": [
+      {
+        "id": "aw-1",
+        "image": "/final_award_svgs/02_IBLJ_2025.svg",
+        "title": "Indian Law Firm Award",
+        "year": "2025",
+        "description": "India Business Law Journal recognizes JustiLaw as a top-performing law firm."
+      },
+      {
+        "id": "aw-2",
+        "image": "/final_award_svgs/03_IBLJ_2024.svg",
+        "title": "Indian Law Firm Award",
+        "year": "2024",
+        "description": "India Business Law Journal recognizes JustiLaw for excellence in legal services."
+      },
+      {
+        "id": "aw-3",
+        "image": "/final_award_svgs/04_Benchmark_2024.svg",
+        "title": "Benchmark Litigation Asia-Pacific",
+        "year": "2024",
+        "description": "Recognized as a Top Tier Firm in Tax practice."
+      },
+      {
+        "id": "aw-4",
+        "image": "/final_award_svgs/05_IBLJ_2023.svg",
+        "title": "Indian Law Firm Award",
+        "year": "2023",
+        "description": "Recognized for outstanding performance in Taxation (Direct)."
+      },
+      {
+        "id": "aw-5",
+        "image": "/final_award_svgs/06_IBLJ_2022.svg",
+        "title": "Indian Law Firm Award",
+        "year": "2022",
+        "description": "Honored for excellence in Taxation (Direct) practice."
+      },
+      {
+        "id": "aw-6",
+        "image": "/final_award_svgs/07_Global_Law_Experts_2020.svg",
+        "title": "Global Law Experts Award",
+        "year": "2020",
+        "description": "Awarded as Tax Disputes Law Firm of the Year."
+      },
+      {
+        "id": "aw-7",
+        "image": "/final_award_svgs/08_IBLJ_2020.svg",
+        "title": "Indian Law Firm Award",
+        "year": "2020",
+        "description": "Recognized for excellence in Taxation practice."
+      },
+      {
+        "id": "aw-8",
+        "image": "/final_award_svgs/09_Benchmark_2020.svg",
+        "title": "Benchmark Litigation Asia-Pacific",
+        "year": "2020",
+        "description": "Recognized as a Top Tier Firm in Tax practice."
+      },
+      {
+        "id": "aw-9",
+        "image": "/final_award_svgs/10_IBLJ_2019.svg",
+        "title": "Indian Law Firm Award",
+        "year": "2019",
+        "description": "Recognized for excellence in Taxation practice."
+      }
+    ]
+  },
+  "testimonialsPage": {
+    "header": {
+      "title": "Client Experiences That Matter",
+      "subtitle": "Real stories from real clients who have experienced our commitment, dedication, and results."
+    },
+    "categories": [
+      "All Testimonials",
+      "Corporate Law",
+      "Family Law",
+      "Criminal Law",
+      "Civil Law",
+      "Others"
+    ]
+  },
+  "clientResourcesPage": {
+    "hero": {
+      "titleDark": "Client",
+      "titleGold": "Resources",
+      "description": "Practical insights, tools, and updates to help you navigate legal matters with confidence.",
+      "image": "/Client_resources/01_client_resources_hero_books_scales.svg"
+    },
+    "practiceAreas": {
+      "title": "Browse by Practice Area",
+      "items": [
+        {
+          "name": "Corporate Law",
+          "icon": "landmark"
+        },
+        {
+          "name": "Dispute Resolution",
+          "icon": "scale"
+        },
+        {
+          "name": "Employment Law",
+          "icon": "users"
+        },
+        {
+          "name": "Intellectual Property",
+          "icon": "lightbulb"
+        },
+        {
+          "name": "Taxation",
+          "icon": "calculator"
+        },
+        {
+          "name": "Regulatory & Compliance",
+          "icon": "shield-check"
+        },
+        {
+          "name": "Real Estate Law",
+          "icon": "home"
+        },
+        {
+          "name": "Family Law",
+          "icon": "users"
+        }
+      ]
+    },
+    "featuredResources": {
+      "title": "Featured Resources",
+      "items": [
+        {
+          "id": "fr-1",
+          "type": "GUIDE",
+          "title": "Guide to Commercial Contracts",
+          "description": "An overview of key clauses, negotiation tips, and best practices for robust commercial agreements.",
+          "image": "/Client_resources/02_guide_commercial_contracts.svg",
+          "meta": "PDF • 2.4 MB",
+          "linkText": "Download",
+          "linkHref": "#"
+        },
+        {
+          "id": "fr-2",
+          "type": "CHECKLIST",
+          "title": "Employment Compliance Checklist",
+          "description": "A practical checklist to help businesses stay compliant with employment laws and regulations.",
+          "image": "/Client_resources/03_employment_compliance_checklist.svg",
+          "meta": "PDF • 1.5 MB",
+          "linkText": "Download",
+          "linkHref": "#"
+        },
+        {
+          "id": "fr-3",
+          "type": "WEBINAR",
+          "title": "Navigating Legal Risks in 2025",
+          "description": "Watch our experts discuss key legal risks businesses face in 2025 and how to mitigate them.",
+          "image": "/Client_resources/04_legal_regulatory_guide.svg",
+          "meta": "Video • 45 min",
+          "linkText": "Watch Now",
+          "linkHref": "#"
+        },
+        {
+          "id": "fr-4",
+          "type": "TEMPLATE",
+          "title": "NDA Agreement Template",
+          "description": "Standard non-disclosure agreement template for your business needs.",
+          "image": "/Client_resources/05_nda_agreement_template.svg",
+          "meta": "DOCX • 55 KB",
+          "linkText": "Download",
+          "linkHref": "#"
+        }
+      ]
+    },
+    "latestInsights": {
+      "title": "Latest Insights",
+      "items": [
+        {
+          "id": "li-1",
+          "type": "ARTICLE",
+          "title": "Key Legal Developments Businesses Should Know in 2025",
+          "image": "/Client_resources/06_legal_technology_courthouse.svg",
+          "date": "May 10, 2025",
+          "readTime": "5 min read",
+          "linkHref": "#"
+        },
+        {
+          "id": "li-2",
+          "type": "ARTICLE",
+          "title": "Data Protection Compliance: What Businesses Need to Prepare For",
+          "image": "/Client_resources/07_cybersecurity_data_protection.svg",
+          "date": "May 5, 2025",
+          "readTime": "8 min read",
+          "linkHref": "#"
+        },
+        {
+          "id": "li-3",
+          "type": "INSIGHT",
+          "title": "Force Majeure Clauses: Key Considerations for Your Contracts",
+          "image": "/Client_resources/08_corporate_law_contract.svg",
+          "date": "April 28, 2025",
+          "readTime": "6 min read",
+          "linkHref": "#"
+        },
+        {
+          "id": "li-4",
+          "type": "ARTICLE",
+          "title": "Mergers & Acquisitions Trends to Watch in 2025",
+          "image": "/Client_resources/09_cross_border_disputes_building.svg",
+          "date": "April 20, 2025",
+          "readTime": "7 min read",
+          "linkHref": "#"
+        }
+      ]
+    },
+    "toolsTemplates": {
+      "title": "Tools & Templates",
+      "items": [
+        {
+          "id": "tt-1",
+          "title": "NDA Template",
+          "description": "Standard Non-Disclosure Agreement template.",
+          "icon": "file-text",
+          "format": "DOCX",
+          "size": "56 KB",
+          "linkHref": "#"
+        },
+        {
+          "id": "tt-2",
+          "title": "Service Agreement Template",
+          "description": "Professional service agreement template.",
+          "icon": "handshake",
+          "format": "DOCX",
+          "size": "72 KB",
+          "linkHref": "#"
+        },
+        {
+          "id": "tt-3",
+          "title": "Legal Risk Assessment Template",
+          "description": "Identify and assess potential legal risks in your business.",
+          "icon": "clipboard-check",
+          "format": "XLSX",
+          "size": "34 KB",
+          "linkHref": "#"
+        },
+        {
+          "id": "tt-4",
+          "title": "Privacy Policy Template",
+          "description": "Website privacy policy template.",
+          "icon": "shield",
+          "format": "DOCX",
+          "size": "48 KB",
+          "linkHref": "#"
+        }
+      ]
+    }
+  },
+  "faqPage": {
+    "header": {
+      "titleDark": "Have Questions?",
+      "titleGold": "We Have Answers.",
+      "description": "Find clear and helpful answers to common legal questions. If you can't find what you're looking for, feel free to contact us."
+    },
+    "items": [
+      {
+        "id": "01",
+        "question": "What Is Attorney-Client Privilege?",
+        "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+      },
+      {
+        "id": "02",
+        "question": "How Much Does A Lawyer Cost?",
+        "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+      },
+      {
+        "id": "03",
+        "question": "Can A Lawyer Help Get My Charges Reduced?",
+        "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+      },
+      {
+        "id": "04",
+        "question": "What Are The Grounds For Divorce?",
+        "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+      },
+      {
+        "id": "05",
+        "question": "How Long Does It Take To Settle A Case?",
+        "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+      },
+      {
+        "id": "06",
+        "question": "Do I Need A Lawyer For A Small Claim?",
+        "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+      },
+      {
+        "id": "07",
+        "question": "What Should I Do If I'm Arrested?",
+        "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+      },
+      {
+        "id": "08",
+        "question": "How Do I Start A Business?",
+        "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+      },
+      {
+        "id": "09",
+        "question": "Can A Lawyer Help With Property Disputes?",
+        "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+      },
+      {
+        "id": "10",
+        "question": "What Are My Rights As An Employee?",
+        "answer": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+      }
+    ],
+    "sidebar": {
+      "images": [
+        {
+          "src": "/faq_main.svg",
+          "alt": "Lawyers consulting"
+        },
+        {
+          "src": "/weighing_scale.svg",
+          "alt": "Weighing Scale"
+        }
+      ],
+      "cta": {
+        "title": "Still Have Questions?",
+        "description": "Our legal experts are here to help you.",
+        "buttonText": "Contact Us",
+        "buttonLink": "/contact"
+      }
+    }
+  },
+  "careerPage": {
+    "header": {
+      "titleDark": "Our",
+      "titleGold": "Featured",
+      "titleSuffix": "Jobs",
+      "description": "Explore exciting career opportunities and take the next step in your legal journey."
+    },
+    "jobs": [
+      {
+        "id": "job-01",
+        "title": "Associate – Corporate Law",
+        "type": "Full Time, On-site",
+        "department": "Corporate Advisory",
+        "location": "Mumbai, India",
+        "experience": "2–3 Years",
+        "salary": "₹8 – ₹12 LPA",
+        "deadline": "15 June, 2025",
+        "link": "#",
+        "company": "JUSTILAW Legal Partners",
+        "verified": true,
+        "overview": "We are looking for a detail-oriented and highly motivated Associate – Corporate Law to join our Corporate Advisory team. The ideal candidate will have strong legal research, drafting, and analytical skills with a keen eye for detail.",
+        "responsibilities": [
+          "Provide legal support on corporate transactions, including mergers, acquisitions, and restructuring.",
+          "Draft, review, and negotiate corporate agreements and documentation.",
+          "Conduct legal research and due diligence on corporate matters.",
+          "Advise clients on corporate governance, compliance, and regulatory requirements.",
+          "Liaise with clients, regulators, and other stakeholders on legal matters.",
+          "Support senior lawyers in delivering high-quality legal services."
+        ],
+        "education": [
+          "Bachelor's degree in Law (LL.B.) from a recognized university.",
+          "Additional qualification such as LL.M. is preferred."
+        ],
+        "experienceReq": [
+          "2–3 Years of post-qualification experience in Corporate Advisory."
+        ],
+        "skills": [
+          "Strong understanding of corporate laws and regulations.",
+          "Excellent legal drafting and communication skills.",
+          "Ability to manage multiple tasks and meet deadlines.",
+          "Strong attention to detail and analytical thinking."
+        ],
+        "summary": {
+          "expiration": "15 June, 2025",
+          "vacancy": "02 Positions",
+          "experience": "2–3 Years",
+          "education": "LL.B. (Mandatory)",
+          "gender": "Any",
+          "postedOn": "15 May, 2025"
+        }
+      },
+      {
+        "id": "job-02",
+        "title": "Senior Associate – Dispute Resolution",
+        "type": "Full Time, On-site",
+        "department": "Litigation & Arbitration",
+        "location": "Delhi, India",
+        "experience": "4–7 Years",
+        "salary": "₹12 – ₹18 LPA",
+        "deadline": "15 June, 2025",
+        "link": "#",
+        "company": "JUSTILAW Legal Partners",
+        "verified": true,
+        "overview": "We are looking for a detail-oriented and highly motivated Senior Associate – Dispute Resolution to join our Litigation & Arbitration team. The ideal candidate will have strong legal research, drafting, and analytical skills with a keen eye for detail.",
+        "responsibilities": [
+          "Provide legal support on corporate transactions, including mergers, acquisitions, and restructuring.",
+          "Draft, review, and negotiate corporate agreements and documentation.",
+          "Conduct legal research and due diligence on corporate matters.",
+          "Advise clients on corporate governance, compliance, and regulatory requirements.",
+          "Liaise with clients, regulators, and other stakeholders on legal matters.",
+          "Support senior lawyers in delivering high-quality legal services."
+        ],
+        "education": [
+          "Bachelor's degree in Law (LL.B.) from a recognized university.",
+          "Additional qualification such as LL.M. is preferred."
+        ],
+        "experienceReq": [
+          "4–7 Years of post-qualification experience in Litigation & Arbitration."
+        ],
+        "skills": [
+          "Strong understanding of corporate laws and regulations.",
+          "Excellent legal drafting and communication skills.",
+          "Ability to manage multiple tasks and meet deadlines.",
+          "Strong attention to detail and analytical thinking."
+        ],
+        "summary": {
+          "expiration": "15 June, 2025",
+          "vacancy": "02 Positions",
+          "experience": "4–7 Years",
+          "education": "LL.B. (Mandatory)",
+          "gender": "Any",
+          "postedOn": "15 May, 2025"
+        }
+      },
+      {
+        "id": "job-03",
+        "title": "Legal Counsel – Contracts",
+        "type": "Full Time, On-site",
+        "department": "Contracts & Commercial",
+        "location": "Bengaluru, India",
+        "experience": "3–6 Years",
+        "salary": "₹10 – ₹16 LPA",
+        "deadline": "15 June, 2025",
+        "link": "#",
+        "company": "JUSTILAW Legal Partners",
+        "verified": true,
+        "overview": "We are looking for a detail-oriented and highly motivated Legal Counsel – Contracts to join our Contracts & Commercial team. The ideal candidate will have strong legal research, drafting, and analytical skills with a keen eye for detail.",
+        "responsibilities": [
+          "Provide legal support on corporate transactions, including mergers, acquisitions, and restructuring.",
+          "Draft, review, and negotiate corporate agreements and documentation.",
+          "Conduct legal research and due diligence on corporate matters.",
+          "Advise clients on corporate governance, compliance, and regulatory requirements.",
+          "Liaise with clients, regulators, and other stakeholders on legal matters.",
+          "Support senior lawyers in delivering high-quality legal services."
+        ],
+        "education": [
+          "Bachelor's degree in Law (LL.B.) from a recognized university.",
+          "Additional qualification such as LL.M. is preferred."
+        ],
+        "experienceReq": [
+          "3–6 Years of post-qualification experience in Contracts & Commercial."
+        ],
+        "skills": [
+          "Strong understanding of corporate laws and regulations.",
+          "Excellent legal drafting and communication skills.",
+          "Ability to manage multiple tasks and meet deadlines.",
+          "Strong attention to detail and analytical thinking."
+        ],
+        "summary": {
+          "expiration": "15 June, 2025",
+          "vacancy": "02 Positions",
+          "experience": "3–6 Years",
+          "education": "LL.B. (Mandatory)",
+          "gender": "Any",
+          "postedOn": "15 May, 2025"
+        }
+      },
+      {
+        "id": "job-04",
+        "title": "Associate – Intellectual Property",
+        "type": "Full Time, On-site",
+        "department": "Intellectual Property",
+        "location": "Mumbai, India",
+        "experience": "2–4 Years",
+        "salary": "₹8 – ₹14 LPA",
+        "deadline": "15 June, 2025",
+        "link": "#",
+        "company": "JUSTILAW Legal Partners",
+        "verified": true,
+        "overview": "We are looking for a detail-oriented and highly motivated Associate – Intellectual Property to join our Intellectual Property team. The ideal candidate will have strong legal research, drafting, and analytical skills with a keen eye for detail.",
+        "responsibilities": [
+          "Provide legal support on corporate transactions, including mergers, acquisitions, and restructuring.",
+          "Draft, review, and negotiate corporate agreements and documentation.",
+          "Conduct legal research and due diligence on corporate matters.",
+          "Advise clients on corporate governance, compliance, and regulatory requirements.",
+          "Liaise with clients, regulators, and other stakeholders on legal matters.",
+          "Support senior lawyers in delivering high-quality legal services."
+        ],
+        "education": [
+          "Bachelor's degree in Law (LL.B.) from a recognized university.",
+          "Additional qualification such as LL.M. is preferred."
+        ],
+        "experienceReq": [
+          "2–4 Years of post-qualification experience in Intellectual Property."
+        ],
+        "skills": [
+          "Strong understanding of corporate laws and regulations.",
+          "Excellent legal drafting and communication skills.",
+          "Ability to manage multiple tasks and meet deadlines.",
+          "Strong attention to detail and analytical thinking."
+        ],
+        "summary": {
+          "expiration": "15 June, 2025",
+          "vacancy": "02 Positions",
+          "experience": "2–4 Years",
+          "education": "LL.B. (Mandatory)",
+          "gender": "Any",
+          "postedOn": "15 May, 2025"
+        }
+      }
+    ]
+  },
+  "contactPage": {
+    "header": {
+      "subtitle": "CONTACT WITH US",
+      "titleDark": "We're Here to",
+      "titleGold": "Help You",
+      "description": "Have a question or need legal assistance? Our team is ready to help. Reach out to us and we'll get back to you as soon as possible."
+    },
+    "contactDetails": [
+      {
+        "icon": "phone",
+        "text1": "+92 3800 8060",
+        "text2": "+21 9655-0114"
+      },
+      {
+        "icon": "mail",
+        "text1": "info@justilaw.com",
+        "text2": "www.justilaw.com"
+      },
+      {
+        "icon": "map-pin",
+        "text1": "123 Justice Lane, Suite 500",
+        "text2": "New York, NY 10001, USA"
+      }
+    ],
+    "form": {
+      "titleDark": "Send Us a",
+      "titleGold": "Message"
+    },
+    "map": {
+      "iframeSrc": "https://maps.google.com/maps?q=Noida,%20UP&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    }
+  },
+  "officeLocationPage": {
+    "header": {
+      "subtitle": "OUR OFFICES",
+      "titleDark": "Our Office",
+      "titleGold": "Locations",
+      "description": "We are located in key cities to serve you better. Visit our nearest office or connect with us online."
+    },
+    "heroImage": "/law_firm_reception.svg",
+    "offices": [
+      {
+        "id": "delhi",
+        "city": "Delhi Office",
+        "address": "A-26, Green Park Extension,\nNew Delhi - 110016, India",
+        "phone": "+91 11 4100 1234",
+        "email": "delhi@justilaw.com",
+        "mapUrl": "https://maps.google.com/maps?q=New%20Delhi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      },
+      {
+        "id": "mumbai",
+        "city": "Mumbai Office",
+        "address": "1203, 12th Floor, World Trade\nCentre, Cuffe Parade,\nMumbai - 400005, India",
+        "phone": "+91 22 4500 1234",
+        "email": "mumbai@justilaw.com",
+        "mapUrl": "https://maps.google.com/maps?q=Mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      },
+      {
+        "id": "bangalore",
+        "city": "Bangalore Office",
+        "address": "Unit No. 205, 2nd Floor,\nPrestige Meridian II, M.G. Road,\nBangalore - 560001, India",
+        "phone": "+91 80 4567 1234",
+        "email": "bangalore@justilaw.com",
+        "mapUrl": "https://maps.google.com/maps?q=Bangalore&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      }
+    ]
+  },
+  "bookConsultationPage": {
+    "header": {
+      "subtitle": "BOOK CONSULTATION",
+      "titleDark": "Book Your",
+      "titleGold": "Consultation",
+      "description": "Schedule a one-on-one consultation with our legal experts. We're here to understand your concerns and provide the right legal guidance."
+    },
+    "form": {
+      "title": "Consultation Details",
+      "fields": {
+        "fullName": {
+          "label": "Full Name",
+          "placeholder": "Enter your full name"
+        },
+        "email": {
+          "label": "Email Address",
+          "placeholder": "Enter your email address"
+        },
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "Enter your phone number"
+        },
+        "practiceArea": {
+          "label": "Area of Practice",
+          "placeholder": "Select area of practice"
+        },
+        "date": {
+          "label": "Preferred Date",
+          "placeholder": "Select date"
+        },
+        "time": {
+          "label": "Preferred Time",
+          "placeholder": "Select time"
+        },
+        "caseBrief": {
+          "label": "Brief About Your Case",
+          "placeholder": "Please provide a brief description of your legal concern"
+        }
+      },
+      "submitText": "Book Consultation",
+      "secureText": "Your information is secure and confidential."
+    },
+    "infoSection": {
+      "image": "/legal_advice.jpg",
+      "benefits": [
+        {
+          "icon": "users",
+          "title": "Personalized Consultation",
+          "description": "One-on-one meeting with experienced legal professionals."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Confidential & Secure",
+          "description": "Your information and case details are always kept confidential."
+        },
+        {
+          "icon": "clock",
+          "title": "Flexible Scheduling",
+          "description": "Choose a date and time that works best for you."
+        },
+        {
+          "icon": "file-text",
+          "title": "Expert Legal Guidance",
+          "description": "Get clarity and the right legal direction for your matter."
+        }
+      ]
+    }
+  },
+  "termsConditionsPage": {
+    "header": {
+      "titleDark": "Terms &",
+      "titleGold": "Conditions",
+      "lastUpdated": "Last Updated: May 20, 2024",
+      "intro": "Welcome to JustiLaw Legal Partners. By accessing or using our website, you agree to be bound by these Terms and Conditions. Please read them carefully."
+    },
+    "terms": [
+      {
+        "id": "01",
+        "title": "Acceptance of Terms",
+        "description": "By accessing or using our website, you agree to comply with and be bound by these Terms and Conditions and our Privacy Policy. If you do not agree, please do not use our website."
+      },
+      {
+        "id": "02",
+        "title": "Use of Our Website",
+        "description": "You agree to use our website only for lawful purposes and in a way that does not infringe the rights of, or restrict or inhibit anyone else's use of the website."
+      },
+      {
+        "id": "03",
+        "title": "Intellectual Property",
+        "description": "All content on this website, including text, graphics, logos, images, and design, is the property of JustiLaw Legal Partners and is protected by intellectual property laws."
+      },
+      {
+        "id": "04",
+        "title": "Legal Disclaimer",
+        "description": "The content on this website is for general informational purposes only and does not constitute legal advice. You should not act or rely on any information without consulting a qualified attorney."
+      },
+      {
+        "id": "05",
+        "title": "Limitation of Liability",
+        "description": "JustiLaw Legal Partners shall not be liable for any direct, indirect, incidental, or consequential damages arising from the use or inability to use our website or services."
+      },
+      {
+        "id": "06",
+        "title": "Third-Party Links",
+        "description": "Our website may contain links to third-party websites. We are not responsible for the content, policies, or practices of any third-party sites."
+      },
+      {
+        "id": "07",
+        "title": "Privacy Policy",
+        "description": "Your use of our website is also governed by our Privacy Policy, which outlines how we collect, use, and protect your information."
+      },
+      {
+        "id": "08",
+        "title": "Changes to These Terms",
+        "description": "We reserve the right to modify or update these Terms and Conditions at any time without prior notice. Your continued use of the website constitutes acceptance of the changes."
+      },
+      {
+        "id": "09",
+        "title": "Governing Law",
+        "description": "These Terms and Conditions shall be governed by and construed in accordance with the laws of the State of New York, without regard to its conflict of law principles."
+      },
+      {
+        "id": "10",
+        "title": "Contact Us",
+        "description": "If you have any questions about these Terms and Conditions, please contact us using the information provided on our Contact page."
+      }
+    ]
   }
 }

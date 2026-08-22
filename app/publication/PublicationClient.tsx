@@ -5,25 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
-
-interface PublicationItem {
-  id: string;
-  image: string;
-  icon: string;
-  category: string;
-  title: string;
-  description: string;
-  date: string;
-  readTime: string;
-  slug: string;
-}
-
-interface PublicationData {
-  heading: string;
-  description: string;
-  items: PublicationItem[];
-  totalResults: number;
-}
+import { PublicationItem, PublicationData } from "@/lib/types";
 
 export const PublicationClient: React.FC<{ data: PublicationData }> = ({ data }) => {
   return (
@@ -38,7 +20,7 @@ export const PublicationClient: React.FC<{ data: PublicationData }> = ({ data })
             viewport={{ once: true }}
             className="flex flex-col gap-4 max-w-3xl"
           >
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#1a283c]">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-[#1a283c]">
               {data.heading}
             </h2>
             <div className="w-16 h-[2px] bg-[#d89f4b]"></div>

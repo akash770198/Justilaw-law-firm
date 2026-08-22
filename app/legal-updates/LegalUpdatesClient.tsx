@@ -5,23 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
-
-interface LegalUpdateItem {
-  id: string;
-  image: string;
-  category: string;
-  title: string;
-  date: string;
-  author: string;
-  readTime: string;
-  description: string;
-  slug: string;
-}
-
-interface LegalUpdatesData {
-  filters: string[];
-  items: LegalUpdateItem[];
-}
+import { LegalUpdateItem, LegalUpdatesData } from "@/lib/types";
 
 export const LegalUpdatesClient: React.FC<{ data: LegalUpdatesData }> = ({ data }) => {
   const [activeFilter, setActiveFilter] = useState("All Updates");

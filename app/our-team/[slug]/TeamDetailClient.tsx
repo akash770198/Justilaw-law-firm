@@ -5,23 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
-
-interface TeamMemberDetail {
-  id: string;
-  name: string;
-  title: string;
-  description: string;
-  image: { src: string; alt: string };
-  phone: string;
-  email: string;
-  linkedin: string;
-  about: string;
-  practiceAreas: string[];
-  education: { degree: string; school: string; year: string }[];
-  barAdmissions: string[];
-  experience: { role: string; company: string; duration: string; description: string }[];
-  affiliations: string[];
-}
+import { TeamMemberDetail } from "@/lib/types";
 
 export const TeamDetailClient: React.FC<{ member: TeamMemberDetail }> = ({ member }) => {
   useEffect(() => {
@@ -134,7 +118,7 @@ export const TeamDetailClient: React.FC<{ member: TeamMemberDetail }> = ({ membe
               transition={{ duration: 0.6, delay: 0.2 }}
               className="flex flex-col justify-center"
             >
-              <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-4">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold mb-4">
                 <span className="text-[#111827]">{firstName} </span>
                 <span className="text-[#d89f4b]">{lastName}</span>
               </h1>

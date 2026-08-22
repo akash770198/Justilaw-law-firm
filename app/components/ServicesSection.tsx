@@ -4,29 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
-
-interface ServiceCard {
-  id: string;
-  icon: string;
-  title: string;
-  description: string;
-  linkText: string;
-  linkHref: string;
-}
-
-interface ServicesData {
-  sectionTitle: string;
-  sectionIcon: string;
-  headingWhite: string;
-  headingGold: string;
-  description: string;
-  cards: ServiceCard[];
-  viewAllButton: {
-    text: string;
-    href: string;
-    icon: string;
-  };
-}
+import { ServiceCard, ServicesData } from "@/lib/types";
 
 // Animation Variants
 const containerVariants = {
@@ -79,7 +57,7 @@ export const ServicesSection: React.FC<{ data: ServicesData }> = ({ data }) => {
             <span className="w-10 h-px bg-[#d89f4b]/50"></span>
           </motion.div>
 
-          <motion.h2 variants={itemVariants} className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.15] text-white tracking-tight mb-6">
+          <motion.h2 variants={itemVariants} className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-[1.15] text-white tracking-tight mb-6">
             {data.headingWhite} <br className="hidden sm:block" />
             <span className="text-[#d89f4b]">{data.headingGold}</span>
           </motion.h2>

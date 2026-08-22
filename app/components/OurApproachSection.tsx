@@ -3,54 +3,34 @@
 import React from "react";
 import Image from "next/image";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
+import { Step, Banner, OurApproachData, OurApproachSectionProps } from "@/lib/types";
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    transition: { staggerChildren: 0.15 },
+    transition: { 
+      staggerChildren: 0.15,
+      delayChildren: 0.1
+    },
   },
 };
 
-const itemVariants = {
-  hidden: { opacity: 0, y: 30 },
+const itemVariants: Variants = {
+  hidden: { opacity: 0, x: -30, y: 0 },
   visible: {
     opacity: 1,
+    x: 0,
     y: 0,
-    transition: { duration: 0.5 },
+    transition: { 
+      type: "spring",
+      stiffness: 120,
+      damping: 14,
+      mass: 0.8
+    },
   },
 };
-
-interface Step {
-  id: string;
-  title: string;
-  description: string;
-  icon: string;
-}
-
-interface Banner {
-  icon: string;
-  textDark: string;
-  textGold: string;
-  description: string;
-  image: string;
-}
-
-interface OurApproachData {
-  sectionIcon: string;
-  sectionTitle: string;
-  headingDark: string;
-  headingGold: string;
-  description: string;
-  steps: Step[];
-  banner: Banner;
-}
-
-interface OurApproachSectionProps {
-  data: OurApproachData;
-}
-
 export const OurApproachSection: React.FC<OurApproachSectionProps> = ({ data }) => {
   return (
     <section className="bg-white py-16 lg:py-20 relative overflow-hidden">
@@ -73,7 +53,7 @@ export const OurApproachSection: React.FC<OurApproachSectionProps> = ({ data }) 
             </span>
             <div className="w-12 h-[1px] bg-[#d89f4b]"></div>
           </div>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold tracking-tight text-[#1a283c] mb-6">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold tracking-tight text-[#1a283c] mb-6">
             {data.headingDark} <span className="text-[#d89f4b]">{data.headingGold}</span>
           </h2>
           <p className="text-slate-500 text-[15px] max-w-2xl mx-auto leading-relaxed">
@@ -94,7 +74,7 @@ export const OurApproachSection: React.FC<OurApproachSectionProps> = ({ data }) 
               {/* Step Card */}
               <motion.div variants={itemVariants} className="relative flex-1 bg-white rounded-xl border border-slate-200 shadow-[0_8px_30px_rgba(0,0,0,0.08)] pt-14 pb-8 px-6 flex flex-col items-center text-center w-full max-w-[300px] lg:max-w-none hover:shadow-[0_8px_40px_rgba(0,0,0,0.12)] transition-shadow">
                 {/* Overlapping Icon Circle */}
-                <div className="absolute -top-8 left-1/2 -translate-x-1/2 w-16 h-16 rounded-full bg-[#fdfaf6] border border-slate-100 shadow-sm flex items-center justify-center">
+                <div className="absolute -top-8 left-1/2 -translate-x-1/2 w-16 h-16 rounded-full bg-[#f5efe6] border border-slate-100 shadow-sm flex items-center justify-center">
                   <DynamicIcon name={step.icon} className="w-7 h-7 text-[#1a283c]" />
                 </div>
                 
@@ -109,9 +89,9 @@ export const OurApproachSection: React.FC<OurApproachSectionProps> = ({ data }) 
 
               {/* Connecting Chevron (Hidden on mobile) */}
               {idx < data.steps.length - 1 && (
-                <div className="hidden lg:flex flex-col justify-center h-full mt-16 text-[#d89f4b] px-1 xl:px-2 flex-shrink-0">
+                <motion.div variants={itemVariants} className="hidden lg:flex flex-col justify-center h-full mt-16 text-[#d89f4b] px-1 xl:px-2 flex-shrink-0">
                   <DynamicIcon name="chevron-right" className="w-6 h-6" />
-                </div>
+                </motion.div>
               )}
             </React.Fragment>
           ))}

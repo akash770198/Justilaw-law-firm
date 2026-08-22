@@ -50,7 +50,7 @@ export const BlogDetailClient: React.FC<{ data: any }> = ({ data }) => {
               </div>
 
               {/* Title & Divider */}
-              <h1 className="font-serif text-[32px] sm:text-[40px] font-bold text-[#0a1422] leading-tight mb-5">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif text-[32px] sm:text-[40px] font-bold text-[#0a1422] leading-tight mb-5">
                 {data.hero.title}
               </h1>
               <div className="w-12 h-[2px] bg-[#d89f4b] mb-8"></div>

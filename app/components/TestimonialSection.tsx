@@ -4,25 +4,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion, AnimatePresence } from "framer-motion";
-
-interface TestimonialItem {
-  id: string;
-  quote: string;
-  name: string;
-  title: string;
-  image: { src: string; alt: string };
-  rating: number;
-}
-
-interface TestimonialData {
-  tagline: string;
-  taglineIcon: string;
-  headingDark: string;
-  headingGold: string;
-  headingDarkSuffix?: string;
-  description: string;
-  items: TestimonialItem[];
-}
+import { TestimonialItem, TestimonialData } from "@/lib/types";
 
 export const TestimonialSection: React.FC<{ data: TestimonialData }> = ({ data }) => {
   const [[current, direction], setPage] = useState([0, 0]);
@@ -64,7 +46,7 @@ export const TestimonialSection: React.FC<{ data: TestimonialData }> = ({ data }
             <h3 className="font-bold text-[13px] tracking-widest uppercase">{data.tagline}</h3>
             <div className="h-[1px] w-10 bg-[#d89f4b]" />
           </div>
-          <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.15] tracking-tight mb-6">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-[1.15] tracking-tight mb-6">
             <span className="text-[#111827] mr-3">{data.headingDark}</span>
             <span className="text-[#d89f4b] mr-3">{data.headingGold}</span>
             {data.headingDarkSuffix && <span className="text-[#111827]">{data.headingDarkSuffix}</span>}
@@ -118,8 +100,8 @@ export const TestimonialSection: React.FC<{ data: TestimonialData }> = ({ data }
                 {/* Right Panel: Image Container */}
                 <div className="absolute top-0 bottom-0 right-0 w-full md:w-[60%] z-0">
                   <Image
-                    src={item.image.src}
-                    alt={item.image.alt}
+                    src={typeof item.image === 'string' ? item.image : item.image.src}
+                    alt={typeof item.image === 'string' ? item.name : item.image.alt}
                     fill
                     className="object-cover object-center"
                     priority

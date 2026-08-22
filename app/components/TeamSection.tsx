@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
+import { TeamMember, TeamData } from "@/lib/types";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -21,29 +22,6 @@ const itemVariants = {
     transition: { duration: 0.6 },
   },
 };
-
-interface TeamMember {
-  id: string;
-  slug?: string;
-  name: string;
-  title: string;
-  description: string;
-  image: { src: string; alt: string };
-}
-
-interface TeamData {
-  tagline: string;
-  headingDark: string;
-  headingGold: string;
-  description: string;
-  members: TeamMember[];
-  button: {
-    text: string;
-    href: string;
-    icon: string;
-  };
-}
-
 export const TeamSection: React.FC<{ data: TeamData; hideButton?: boolean }> = ({ data, hideButton }) => {
   return (
     <section className="w-full bg-white py-16 lg:py-20">
@@ -61,7 +39,7 @@ export const TeamSection: React.FC<{ data: TeamData; hideButton?: boolean }> = (
             <h3 className="font-bold text-[13px] tracking-widest uppercase">{data.tagline}</h3>
             <div className="h-[1px] w-10 bg-[#d89f4b]" />
           </div>
-          <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.15] tracking-tight mb-6">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-[1.15] tracking-tight mb-6">
             <div className="text-[#111827] mb-2">{data.headingDark}</div>
             <div className="text-[#d89f4b] relative inline-block">
               {data.headingGold}

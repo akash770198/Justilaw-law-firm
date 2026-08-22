@@ -5,42 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
-
-interface Feature {
-  id: string;
-  icon: string;
-  title: string;
-  desc: string;
-}
-
-interface Stat {
-  value: string;
-  label: string;
-}
-
-interface WhyChooseUsData {
-  tagline: string;
-  taglineIcon: string;
-  headingDark: string;
-  headingGold: string;
-  description: string;
-  features: Feature[];
-  stats: Stat[];
-  avatars: {
-    images: string[];
-    label: string;
-    countBadge: string;
-  };
-  button: {
-    text: string;
-    href: string;
-    icon: string;
-  };
-  images: {
-    left: { src: string; alt: string };
-    right: { src: string; alt: string };
-  };
-}
+import { Feature, Stat, WhyChooseUsData } from "@/lib/types";
 
 export const WhyChooseUsSection: React.FC<{ data: WhyChooseUsData }> = ({ data }) => {
   return (
@@ -94,7 +59,7 @@ export const WhyChooseUsSection: React.FC<{ data: WhyChooseUsData }> = ({ data }
             </div>
 
             {/* Heading */}
-            <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.15] tracking-tight text-center mb-6">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-[1.15] tracking-tight text-center mb-6">
               <span className="text-[#111827] block">{data.headingDark}</span>
               <span className="text-[#d89f4b] block">{data.headingGold}</span>
             </h2>

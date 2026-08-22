@@ -5,59 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
-
-interface CaseStudyDetailData {
-  slug: string;
-  title: string;
-  tagline: string;
-  taglineIcon: string;
-  image: string;
-  heroDescription: string;
-  meta: {
-    date: string;
-    client: string;
-    status: string;
-  };
-  projectDetails: {
-    title: string;
-    client: string;
-    category: string;
-    date: string;
-    status: string;
-    address: string;
-    shareText: string;
-    socials: Array<{
-      name: string;
-      icon: string;
-      url: string;
-    }>;
-  };
-  ctaBox: {
-    title: string;
-    description: string;
-    buttonText: string;
-    buttonHref: string;
-  };
-  caseOverview: {
-    title: string;
-    description: string;
-  };
-  practiceArea: {
-    title: string;
-    icon: string;
-    subtitle: string;
-    description: string;
-    checklist: string[];
-    followUp: string;
-  };
-  caseOutcome: {
-    title: string;
-    icon: string;
-    subtitle: string;
-    paragraphs: string[];
-    quote: string;
-  };
-}
+import { CaseStudyDetailData } from "@/lib/types";
 
 export const CaseStudyDetailClient: React.FC<{ data: CaseStudyDetailData }> = ({ data }) => {
   return (
@@ -95,7 +43,7 @@ export const CaseStudyDetailClient: React.FC<{ data: CaseStudyDetailData }> = ({
                 </div>
 
                 {/* Title */}
-                <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold leading-[1.2] tracking-tight text-white mb-4">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-[1.2] tracking-tight text-white mb-4">
                   {data.title}
                 </h1>
 
@@ -290,7 +238,7 @@ export const CaseStudyDetailClient: React.FC<{ data: CaseStudyDetailData }> = ({
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a283c] mb-4">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-[#1a283c] mb-4">
                 {data.caseOverview?.title || "Case Overview"}
               </h2>
               <p className="text-slate-600 text-base sm:text-[17px] leading-relaxed mb-8">
@@ -305,7 +253,7 @@ export const CaseStudyDetailClient: React.FC<{ data: CaseStudyDetailData }> = ({
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a283c] mb-2">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-[#1a283c] mb-2">
                 {data.practiceArea?.title || "Practice Area"}
               </h2>
               <div className="w-12 h-0.5 bg-[#d89f4b] mb-6"></div>
@@ -348,7 +296,7 @@ export const CaseStudyDetailClient: React.FC<{ data: CaseStudyDetailData }> = ({
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1a283c] mb-2">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-[#1a283c] mb-2">
                 {data.caseOutcome?.title || "Case Outcome"}
               </h2>
               <div className="w-12 h-0.5 bg-[#d89f4b] mb-6"></div>

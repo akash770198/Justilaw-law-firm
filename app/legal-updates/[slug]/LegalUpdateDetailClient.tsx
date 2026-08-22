@@ -24,7 +24,7 @@ export const LegalUpdateDetailClient: React.FC<{ data: any, slug: string }> = ({
             </div>
 
             {/* Title */}
-            <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-[#1a283c] leading-[1.2] mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-[#1a283c] leading-[1.2] mb-6">
               {content.title}
             </h1>
 

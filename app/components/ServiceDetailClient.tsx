@@ -5,40 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
-
-interface FAQ {
-  question: string;
-  answer: string;
-}
-
-interface ServiceDetail {
-  title: string;
-  description: string;
-  heroImage: string;
-  feature: {
-    icon: string;
-    title: string;
-    description: string;
-  };
-  whyChooseUs: {
-    title: string;
-    cards: { icon: string; title: string; description: string }[];
-  };
-  benefits: {
-    title: string;
-    description: string;
-    image: string;
-    list: string[];
-  };
-  faqs: FAQ[];
-}
-
-interface Props {
-  slug: string;
-  data: ServiceDetail;
-  allServices: { title: string; link: string }[];
-  contactInfo: { phone: string; email: string; location: string };
-}
+import { FAQ, ServiceDetail, Props } from "@/lib/types";
 
 export const ServiceDetailClient: React.FC<Props> = ({ slug, data, allServices, contactInfo }) => {
   const [openFaqIndex, setOpenFaqIndex] = useState<number>(2); // Default open to the 3rd item as per design
@@ -198,7 +165,7 @@ transition-colors ${
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h1 className="font-serif text-4xl md:text-5xl font-bold text-[#1a283c] mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-[#1a283c] mb-6">
               {data.title}
             </h1>
             <p className="text-slate-600 leading-relaxed">

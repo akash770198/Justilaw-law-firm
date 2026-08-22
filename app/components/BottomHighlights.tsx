@@ -3,12 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
-
-interface BottomHighlight {
-  id: string;
-  icon: string;
-  title: string;
-}
+import { BottomHighlight } from "@/lib/types";
 
 const containerVariants = {
   hidden: { opacity: 0 },

@@ -5,42 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
-
-interface HeroData {
-  tagline: string;
-  taglineIcon: string;
-  titlePrefix: string;
-  titleMain: string;
-  titleHighlight: string;
-  description: string;
-  features: Array<{
-    id: string;
-    icon: string;
-    title: string;
-  }>;
-  buttons: {
-    primary: {
-      text: string;
-      href: string;
-      icon: string;
-    };
-    secondary: {
-      text: string;
-      href: string;
-      icon: string;
-    };
-  };
-  stats: Array<{
-    id: string;
-    value: string;
-    label: string;
-    icon: string;
-  }>;
-  bannerImage: {
-    src: string;
-    alt: string;
-  };
-}
+import { HeroData } from "@/lib/types";
 
 export const HeroSection: React.FC<{ data: HeroData }> = ({ data }) => {
   return (
@@ -65,7 +30,7 @@ export const HeroSection: React.FC<{ data: HeroData }> = ({ data }) => {
           </div>
 
           {/* Main Headline */}
-          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.15] tracking-tight text-white mb-5">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-[1.15] tracking-tight text-white mb-5">
             <span>{data.titlePrefix}</span>
             <br />
             <span>{data.titleMain}</span>

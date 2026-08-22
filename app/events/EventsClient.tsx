@@ -5,28 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
-
-interface EventItem {
-  id: string;
-  image: string;
-  type: string;
-  dateBadge: {
-    day: string;
-    month: string;
-    year: string;
-  };
-  title: string;
-  dateTime: string;
-  location: string;
-  slug: string;
-}
-
-interface EventsData {
-  sectionTitle: string;
-  heading: string;
-  description: string;
-  items: EventItem[];
-}
+import { EventItem, EventsData } from "@/lib/types";
 
 export const EventsClient: React.FC<{ data: EventsData }> = ({ data }) => {
   return (
@@ -45,7 +24,7 @@ export const EventsClient: React.FC<{ data: EventsData }> = ({ data }) => {
             <span>{data.sectionTitle}</span>
             <div className="w-12 h-[2px] bg-[#d89f4b]"></div>
           </h4>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-[#1a283c] leading-tight mb-5">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-[#1a283c] leading-tight mb-5">
             {data.heading}
           </h2>
           <p className="text-slate-500 text-[15px] leading-relaxed">

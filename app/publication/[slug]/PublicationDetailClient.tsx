@@ -5,37 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
-
-interface ContentSection {
-  heading: string;
-  text: string;
-}
-
-interface RelatedPublication {
-  image: string;
-  title: string;
-  date: string;
-  readTime: string;
-  slug: string;
-}
-
-interface PublicationDetailData {
-  category: string;
-  title: string;
-  description: string;
-  meta: {
-    date: string;
-    readTime: string;
-    author: string;
-  };
-  heroImage: { src: string; alt: string };
-  content: ContentSection[];
-  sidebar: {
-    tocBox: { title: string; items: string[] };
-    relatedBox: { title: string; items: RelatedPublication[] };
-    moreInfoBox: { title: string; text: string };
-  };
-}
+import { ContentSection, RelatedPublication, PublicationDetailData } from "@/lib/types";
 
 export const PublicationDetailClient: React.FC<{ data: PublicationDetailData }> = ({ data }) => {
   return (
@@ -56,7 +26,7 @@ export const PublicationDetailClient: React.FC<{ data: PublicationDetailData }> 
               <span className="text-[#d89f4b] font-bold text-[11px] sm:text-[12px] tracking-widest uppercase mb-4 block">
                 {data.category}
               </span>
-              <h1 className="font-serif text-3xl sm:text-4xl md:text-[42px] font-bold text-[#1a283c] leading-[1.2] mb-5">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif md:text-[42px] font-bold text-[#1a283c] leading-[1.2] mb-5">
                 {data.title}
               </h1>
               <div className="w-12 h-[2px] bg-[#d89f4b] mb-6"></div>

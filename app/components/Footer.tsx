@@ -4,50 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
-
-interface FooterLink {
-  name: string;
-  href: string;
-}
-
-interface FooterSocial {
-  name: string;
-  url: string;
-  icon: string;
-}
-
-interface FooterData {
-  logo: {
-    src: string;
-    name: string;
-    subtitle: string;
-  };
-  description: string;
-  leftImage: {
-    src: string;
-    alt: string;
-  };
-  services: FooterLink[];
-  quickLinks: FooterLink[];
-  resources: FooterLink[];
-  contact: {
-    address: string;
-    phone: string;
-    email: string;
-    hours: string;
-  };
-  newsletter: {
-    title: string;
-    description: string;
-    placeholder: string;
-  };
-  copyright: string;
-  centerText: {
-    title: string;
-    subtitle: string;
-  };
-  socials: FooterSocial[];
-}
+import { FooterLink, FooterSocial, FooterData } from "@/lib/types";
 
 export const Footer: React.FC<{ data: FooterData }> = ({ data }) => {
   return (
@@ -79,11 +36,11 @@ export const Footer: React.FC<{ data: FooterData }> = ({ data }) => {
             
             {/* Column 1: Logo & Description */}
           <div className="lg:col-span-3">
-            <Link href="/" className="inline-block mb-6 -ml-3 -mt-4">
+            <Link href="/" className="inline-block mb-6 -ml-3">
               <img 
                 src={data.logo.src} 
                 alt={data.logo.name || "Logo"} 
-                className="h-16 sm:h-20 w-auto object-contain object-left-top"
+                className="h-16 sm:h-20 w-auto object-contain object-left"
               />
             </Link>
             <p className="text-[14px] leading-relaxed max-w-sm border-l-2 border-slate-700/50 pl-4 py-1">

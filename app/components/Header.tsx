@@ -4,54 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
-
-interface TopBarData {
-  phone: string;
-  phoneHref: string;
-  workingHours: string;
-  email: string;
-  emailHref: string;
-  socials: Array<{
-    name: string;
-    url: string;
-    icon: string;
-  }>;
-}
-
-interface NavLink {
-  name: string;
-  href: string;
-  active?: boolean;
-  dropdown?: Array<{
-    name: string;
-    href: string;
-  }>;
-}
-
-interface HeaderData {
-  topBar: TopBarData;
-  navbar: {
-    logo: {
-      name: string;
-      subtitle: string;
-      imageSrc?: string;
-      icon?: string;
-      href: string;
-    };
-    navLinks: NavLink[];
-    careersButton: {
-      text: string;
-      href: string;
-      icon: string;
-    };
-    quickCall: {
-      label: string;
-      phone: string;
-      phoneHref: string;
-      icon: string;
-    };
-  };
-}
+import { TopBarData, NavLink, HeaderData } from "@/lib/types";
 
 export const Header: React.FC<{ data: HeaderData }> = ({ data }) => {
   const { topBar, navbar } = data;
@@ -113,7 +66,7 @@ export const Header: React.FC<{ data: HeaderData }> = ({ data }) => {
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full flex items-center justify-between gap-4">
           
           {/* Logo */}
-          <Link href={navbar.logo.href} className="flex items-center shrink-0 group">
+          <Link href={navbar.logo.href} className="flex items-center shrink-0 group -ml-3">
             {navbar.logo.imageSrc ? (
                 <img 
                   src={navbar.logo.imageSrc} 

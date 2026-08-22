@@ -5,18 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
-
-interface NewsMediaItem {
-  id: string;
-  logo: string;
-  title: string;
-  date: string;
-  slug: string;
-}
-
-interface NewsMediaData {
-  items: NewsMediaItem[];
-}
+import { NewsMediaItem, NewsMediaData } from "@/lib/types";
 
 export const NewsMediaClient: React.FC<{ data: NewsMediaData }> = ({ data }) => {
   return (

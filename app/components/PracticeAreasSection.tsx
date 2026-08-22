@@ -5,27 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
-
-interface PracticeArea {
-  id: string;
-  title: string;
-  description: string;
-  icon: string;
-  image: {
-    src: string;
-    alt: string;
-  };
-  link: string;
-}
-
-interface PracticeAreasData {
-  sectionTitle: string;
-  sectionIcon: string;
-  headingDark: string;
-  headingGold: string;
-  description: string;
-  areas: PracticeArea[];
-}
+import { PracticeArea, PracticeAreasData } from "@/lib/types";
 
 export const PracticeAreasSection: React.FC<{ data: PracticeAreasData }> = ({ data }) => {
   const containerVariants = {
@@ -67,7 +47,7 @@ export const PracticeAreasSection: React.FC<{ data: PracticeAreasData }> = ({ da
               <div className="h-[1px] w-6 bg-[#d89f4b]/50" />
             </div>
           </div>
-          <h2 className="font-serif text-4xl sm:text-5xl font-bold leading-tight text-[#1a283c] mb-6 tracking-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-tight text-[#1a283c] mb-6 tracking-tight">
             {data.headingDark} <span className="text-[#d89f4b]">{data.headingGold}</span>
           </h2>
           <p className="text-slate-600 text-[15px] leading-relaxed max-w-2xl mx-auto">

@@ -4,28 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
-
-interface IndustryDetailData {
-  title: string;
-  subtitle: string;
-  tagline: string;
-  description: string;
-  image: string;
-  aboutSection: {
-    icon: string;
-    title: string;
-    description: string;
-  };
-  supportSection: {
-    title: string;
-    items: {
-      number: string;
-      icon: string;
-      title: string;
-      description: string;
-    }[];
-  };
-}
+import { IndustryDetailData } from "@/lib/types";
 
 export const IndustryDetailClient: React.FC<{ data: IndustryDetailData }> = ({ data }) => {
   return (
@@ -44,7 +23,7 @@ export const IndustryDetailClient: React.FC<{ data: IndustryDetailData }> = ({ d
               <h3 className="font-bold text-[13px] tracking-widest uppercase text-[#d89f4b] mb-4">
                 {data.subtitle}
               </h3>
-              <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-[#1a283c] mb-6">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-[1.1] tracking-tight text-[#1a283c] mb-6">
                 {data.title}
               </h2>
               <div className="w-16 h-[2px] bg-[#d89f4b] mb-6"></div>
@@ -117,7 +96,7 @@ export const IndustryDetailClient: React.FC<{ data: IndustryDetailData }> = ({ d
               viewport={{ once: true }}
               className="text-center mb-12"
             >
-              <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#1a283c] mb-6">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-[#1a283c] mb-6">
                 {data.supportSection.title}
               </h2>
               <div className="w-16 h-[2px] bg-[#d89f4b] mx-auto"></div>

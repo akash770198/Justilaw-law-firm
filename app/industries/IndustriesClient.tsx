@@ -5,37 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
-
-interface IndustryItem {
-  icon: string;
-  title: string;
-  description: string;
-  link: string;
-}
-
-interface IndustriesData {
-  hero: {
-    subtitle: string;
-    titleDark: string;
-    titleGold: string;
-    description: string;
-    image: string;
-  };
-  industries: {
-    title: string;
-    description: string;
-    items: IndustryItem[];
-  };
-  cta: {
-    icon: string;
-    title: string;
-    description: string;
-    button: {
-      text: string;
-      href: string;
-    };
-  };
-}
+import { IndustryItem, IndustriesData } from "@/lib/types";
 
 export const IndustriesClient: React.FC<{ data: IndustriesData }> = ({ data }) => {
   return (
@@ -58,10 +28,14 @@ export const IndustriesClient: React.FC<{ data: IndustriesData }> = ({ data }) =
                 <DynamicIcon name="landmark" className="w-5 h-5" />
                 <span className="font-bold text-[13px] tracking-widest uppercase">{data.hero.subtitle}</span>
               </div>
-              <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight mb-6 text-[#1a283c]">
-                {data.hero.titleDark} <br />
-                <span className="text-[#d89f4b]">{data.hero.titleGold}</span>
-              </h2>
+              <div className="mb-6">
+                <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-[1.2] tracking-tight text-[#1a283c]">
+                  {data.hero.titleDark} <br />
+                  <span className="text-[#d89f4b]">{data.hero.titleGold}</span>
+                </h2>
+                {/* Golden Line */}
+                <div className="w-16 h-1 bg-[#d89f4b] mt-6"></div>
+              </div>
               <p className="text-slate-500 text-base sm:text-lg leading-relaxed max-w-xl">
                 {data.hero.description}
               </p>
@@ -75,7 +49,7 @@ export const IndustriesClient: React.FC<{ data: IndustriesData }> = ({ data }) =
               transition={{ duration: 0.6 }}
               className="w-full lg:w-1/2"
             >
-              <div className="relative w-full aspect-[4/3] rounded-sm overflow-hidden border-l-[6px] border-[#d89f4b] shadow-xl">
+              <div className="relative w-full max-w-[600px] mx-auto aspect-[16/10] rounded-sm overflow-hidden border-l-[6px] border-[#d89f4b] shadow-xl">
                 <Image 
                   src={data.hero.image} 
                   alt="Industries Hero" 
@@ -99,7 +73,7 @@ export const IndustriesClient: React.FC<{ data: IndustriesData }> = ({ data }) =
             transition={{ duration: 0.6 }}
             className="text-center max-w-3xl mx-auto mb-16"
           >
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-[#1a283c] mb-6">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-[#1a283c] mb-6">
               {data.industries.title}
             </h2>
             <div className="w-16 h-[2px] bg-[#d89f4b] mx-auto mb-6"></div>

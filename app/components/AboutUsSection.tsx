@@ -6,38 +6,7 @@ import Link from "next/link";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { Counter } from "@/app/components/Counter";
 import { motion } from "framer-motion";
-
-interface AboutFeature {
-  id: string;
-  number?: number;
-  suffix?: string;
-  text: string;
-  icon: string;
-}
-
-interface AboutData {
-  sectionTitle: string;
-  headingBlack: string;
-  headingGold: string;
-  paragraph1: string;
-  paragraph2: string;
-  features: AboutFeature[];
-  button: {
-    text: string;
-    href: string;
-    icon: string;
-  };
-  image: {
-    src: string;
-    alt: string;
-  };
-  experienceBadge: {
-    number: number;
-    suffix: string;
-    label: string;
-    icon: string;
-  };
-}
+import { AboutFeature, AboutData } from "@/lib/types";
 
 export const AboutUsSection: React.FC<{ data: AboutData }> = ({ data }) => {
   return (
@@ -106,7 +75,7 @@ export const AboutUsSection: React.FC<{ data: AboutData }> = ({ data }) => {
             </div>
 
             {/* Main Heading */}
-            <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.15] text-[#111827] tracking-tight mb-5">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-[1.15] text-[#111827] tracking-tight mb-5">
               <span className="whitespace-pre-line">{data.headingBlack}</span>
               <span className="text-[#d89f4b]"> {data.headingGold}</span>
             </h2>
