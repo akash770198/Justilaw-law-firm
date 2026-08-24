@@ -24,9 +24,9 @@ export default function AboutPage() {
 
       {/* About Us Content */}
       <div className="flex-grow flex flex-col">
-        <AboutUsSection data={siteData.aboutUs} />
+        <AboutUsSection data={siteData.aboutUs} hideButton={true} />
         <WorkProcessSection data={siteData.workProcess} />
-        <WhyChooseUsSection data={siteData.whyChooseUs} />
+        <WhyChooseUsSection data={siteData.whyChooseUs} hideButton={true} />
         <OurApproachSection data={siteData.ourApproach} />
       </div>
 

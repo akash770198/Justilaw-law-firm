@@ -21,7 +21,7 @@ export default function WhyChooseUsPage() {
 
       {/* Why Choose Us Content (To be added later) */}
       <div className="flex-grow flex flex-col">
-        <WhyChooseUsSection data={siteData.whyChooseUs} />
+        <WhyChooseUsSection data={siteData.whyChooseUs} hideButton={true} />
         <WorkProcessSection data={siteData.workProcess} />
       </div>
 

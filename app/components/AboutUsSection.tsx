@@ -8,7 +8,7 @@ import { Counter } from "@/app/components/Counter";
 import { motion } from "framer-motion";
 import { AboutFeature, AboutData } from "@/lib/types";
 
-export const AboutUsSection: React.FC<{ data: AboutData }> = ({ data }) => {
+export const AboutUsSection: React.FC<{ data: AboutData; hideButton?: boolean }> = ({ data, hideButton }) => {
   return (
     <section className="w-full bg-[#f8f6f2] py-16 lg:py-20 overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -37,21 +37,21 @@ export const AboutUsSection: React.FC<{ data: AboutData }> = ({ data }) => {
                 fill
                 className="object-cover"
               />
-            </div>
 
-            {/* Shield Badge (Bottom Center) */}
-            <div 
-              className="absolute -bottom-12 left-1/2 -translate-x-1/2 z-20 w-[180px] sm:w-[200px] flex flex-col items-center text-center bg-[#0b1320] border-[1.5px] border-[#d89f4b]/30 shadow-xl"
-              style={{ clipPath: "polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%)" }}
-            >
-              <div className="pt-8 pb-10 px-4 w-full h-full flex flex-col items-center">
-                <div className="text-[#d89f4b] font-bold text-4xl sm:text-5xl font-serif mb-1 leading-none tracking-tight">
-                  <Counter end={data.experienceBadge.number} suffix={data.experienceBadge.suffix} />
+              {/* Shield Badge (Bottom Center of Image) */}
+              <div 
+                className="absolute -bottom-20 left-1/2 -translate-x-1/2 z-20 w-[180px] sm:w-[200px] flex flex-col items-center text-center bg-[#0b1320] border-[1.5px] border-[#d89f4b]/30 shadow-xl"
+                style={{ clipPath: "polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%)" }}
+              >
+                <div className="pt-8 pb-10 px-4 w-full h-full flex flex-col items-center">
+                  <div className="text-[#d89f4b] font-bold text-4xl sm:text-5xl font-serif mb-1 leading-none tracking-tight">
+                    <Counter end={data.experienceBadge.number} suffix={data.experienceBadge.suffix} />
+                  </div>
+                  <div className="text-white text-[10px] sm:text-[11px] font-semibold tracking-[0.1em] mb-4 whitespace-pre-line leading-relaxed uppercase">
+                    {data.experienceBadge.label}
+                  </div>
+                  <DynamicIcon name={data.experienceBadge.icon} className="w-7 h-7 text-[#d89f4b] opacity-80" />
                 </div>
-                <div className="text-white text-[10px] sm:text-[11px] font-semibold tracking-[0.1em] mb-4 whitespace-pre-line leading-relaxed uppercase">
-                  {data.experienceBadge.label}
-                </div>
-                <DynamicIcon name={data.experienceBadge.icon} className="w-7 h-7 text-[#d89f4b] opacity-80" />
               </div>
             </div>
           </motion.div>
@@ -90,7 +90,7 @@ export const AboutUsSection: React.FC<{ data: AboutData }> = ({ data }) => {
             </div>
 
             {/* Features Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-8 gap-x-6 mb-12">
+            <div className={`grid grid-cols-1 sm:grid-cols-2 gap-y-8 gap-x-6 ${hideButton ? '' : 'mb-12'}`}>
               {data.features.map((feature, idx) => (
                 <div 
                   key={feature.id} 
@@ -115,18 +115,20 @@ export const AboutUsSection: React.FC<{ data: AboutData }> = ({ data }) => {
             </div>
 
             {/* CTA Button */}
-            <div>
-              <Link
-                href={data.button.href}
-                className="group inline-flex items-center justify-center gap-3 bg-[#c59239] hover:bg-[#b0802c] text-white font-semibold text-[13px] uppercase tracking-widest px-8 py-4 rounded transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
-              >
-                <span>{data.button.text}</span>
-                <DynamicIcon
-                  name={data.button.icon}
-                  className="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300"
-                />
-              </Link>
-            </div>
+            {!hideButton && (
+              <div>
+                <Link
+                  href={data.button.href}
+                  className="group inline-flex items-center justify-center gap-3 bg-[#c59239] hover:bg-[#b0802c] text-white font-semibold text-[13px] uppercase tracking-widest px-8 py-4 rounded transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
+                >
+                  <span>{data.button.text}</span>
+                  <DynamicIcon
+                    name={data.button.icon}
+                    className="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300"
+                  />
+                </Link>
+              </div>
+            )}
 
           </motion.div>
         </div>

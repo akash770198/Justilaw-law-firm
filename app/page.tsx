@@ -13,7 +13,7 @@ import { Footer } from "@/app/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col bg-[#0a1422] overflow-x-hidden">
+    <main className="min-h-screen flex flex-col bg-[#0a1422]">
       {/* Header component with topbar and main navbar */}
       <Header data={siteData.header} />
 
@@ -27,7 +27,17 @@ export default function Home() {
       <AboutUsSection data={siteData.aboutUs} />
 
       {/* Services Section */}
-      <ServicesSection data={siteData.services} />
+      <ServicesSection data={{
+        ...siteData.services,
+        cards: siteData.practiceAreas.areas.slice(0, 4).map((area: any) => ({
+          id: area.id,
+          icon: area.icon,
+          title: area.title,
+          description: area.description,
+          linkText: "Learn More",
+          linkHref: area.link
+        }))
+      }} />
 
       {/* Why Choose Us Section */}
       <WhyChooseUsSection data={siteData.whyChooseUs} />
@@ -45,7 +55,10 @@ export default function Home() {
       }} />
 
       {/* Blog Section */}
-      <BlogSection data={siteData.blog} />
+      <BlogSection data={{
+        ...siteData.blog,
+        items: siteData.blogsPage.items.slice(0, 3)
+      }} />
 
       {/* Footer */}
       <Footer data={siteData.footer} />

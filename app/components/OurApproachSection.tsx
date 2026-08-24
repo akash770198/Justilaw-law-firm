@@ -110,7 +110,7 @@ export const OurApproachSection: React.FC<OurApproachSectionProps> = ({ data }) 
           <div className="flex-1 py-10 px-8 md:py-14 md:px-10 flex flex-col lg:flex-row items-center lg:items-start justify-center gap-8">
             {/* Icon & Title */}
             <div className="flex items-center gap-6 flex-shrink-0">
-              <div className="w-16 h-16 rounded-full bg-slate-50 flex items-center justify-center flex-shrink-0">
+              <div className="w-16 h-16 rounded-full bg-[#f5efe6] flex items-center justify-center flex-shrink-0">
                 <DynamicIcon name={data.banner.icon} className="w-8 h-8 text-[#1a283c]" />
               </div>
               <h3 className="font-serif text-2xl font-bold text-[#1a283c] leading-tight">

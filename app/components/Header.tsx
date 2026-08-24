@@ -96,21 +96,34 @@ export const Header: React.FC<{ data: HeaderData }> = ({ data }) => {
               const isActive = link.href === pathname;
               return (
                 <div key={link.name} className="relative group py-2">
+                {link.href ? (
                   <Link
                     href={link.href}
-                    className={`flex items-center gap-1.5 transition-colors duration-200 hover:text-[#c59d5f] ${
-                      isActive ? "text-[#c59d5f] font-semibold" : "text-slate-700"
+                    className={`flex items-center gap-1.5 transition-colors duration-200 hover:text-[#c59d5f] font-semibold ${
+                      isActive ? "text-[#c59d5f]" : "text-black"
                     }`}
                   >
                     {link.name}
-                  {link.dropdown && (
+                  {link.children && (
                     <DynamicIcon name="chevron-down" className="w-3.5 h-3.5 text-slate-400 group-hover:text-[#c59d5f] transition-transform duration-200 group-hover:rotate-180" />
                   )}
                 </Link>
+                ) : (
+                  <span
+                    className={`flex items-center gap-1.5 transition-colors duration-200 hover:text-[#c59d5f] cursor-pointer font-semibold ${
+                      isActive ? "text-[#c59d5f]" : "text-black"
+                    }`}
+                  >
+                    {link.name}
+                  {link.children && (
+                    <DynamicIcon name="chevron-down" className="w-3.5 h-3.5 text-slate-400 group-hover:text-[#c59d5f] transition-transform duration-200 group-hover:rotate-180" />
+                  )}
+                </span>
+                )}
 
-                {link.dropdown && (
+                {link.children && (
                   <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-xl border border-slate-100 py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0 z-50">
-                    {link.dropdown.map((sub) => (
+                    {link.children.map((sub) => (
                       <Link
                         key={sub.name}
                         href={sub.href}
@@ -175,18 +188,28 @@ export const Header: React.FC<{ data: HeaderData }> = ({ data }) => {
               const isActive = link.href === pathname;
               return (
                 <div key={link.name} className="flex flex-col border-b border-slate-50 last:border-0 py-1">
-                  <Link
-                    href={link.href}
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className={`flex items-center justify-between py-3 font-medium transition-colors ${
-                      isActive ? "text-[#d89f4b]" : "text-slate-700"
-                    }`}
-                  >
-                    <span>{link.name}</span>
-                  </Link>
-                  {link.dropdown && (
+                  {link.href ? (
+                    <Link
+                      href={link.href}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className={`flex items-center justify-between py-3 font-medium transition-colors ${
+                        isActive ? "text-[#d89f4b]" : "text-slate-700"
+                      }`}
+                    >
+                      <span>{link.name}</span>
+                    </Link>
+                  ) : (
+                    <span
+                      className={`flex items-center justify-between py-3 font-medium transition-colors cursor-pointer ${
+                        isActive ? "text-[#d89f4b]" : "text-slate-700"
+                      }`}
+                    >
+                      <span>{link.name}</span>
+                    </span>
+                  )}
+                  {link.children && (
                     <div className="flex flex-col pl-4 pb-2 space-y-3 mt-1 border-l-2 border-[#f3ede5]">
-                      {link.dropdown.map((sub) => (
+                      {link.children.map((sub) => (
                         <Link
                           key={sub.name}
                           href={sub.href}

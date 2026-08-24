@@ -176,9 +176,9 @@ export interface TopBarData {
 
 export interface NavLink {
     name: string;
-    href: string;
+    href?: string;
     active?: boolean;
-    dropdown?: Array<{
+    children?: Array<{
         name: string;
         href: string;
         }>;

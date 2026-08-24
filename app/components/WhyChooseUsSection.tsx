@@ -7,7 +7,7 @@ import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { motion } from "framer-motion";
 import { Feature, Stat, WhyChooseUsData } from "@/lib/types";
 
-export const WhyChooseUsSection: React.FC<{ data: WhyChooseUsData }> = ({ data }) => {
+export const WhyChooseUsSection: React.FC<{ data: WhyChooseUsData; hideButton?: boolean }> = ({ data, hideButton }) => {
   return (
     <section className="w-full bg-[#f8f6f2] py-16 lg:py-20 overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -86,55 +86,38 @@ export const WhyChooseUsSection: React.FC<{ data: WhyChooseUsData }> = ({ data }
               ))}
             </div>
 
-            {/* Stat Card */}
-            <div className="bg-white/70 backdrop-blur-sm border border-slate-200 shadow-xl rounded-2xl p-6 sm:p-8 mb-10">
-              <div className="flex flex-col sm:flex-row items-center justify-between gap-6 sm:gap-0 divide-y sm:divide-y-0 sm:divide-x divide-slate-200">
-                
-                {/* Stats */}
-                {data.stats.map((stat, idx) => (
-                  <div key={idx} className="flex flex-col items-center text-center px-4 w-full sm:w-auto">
-                    <span className="text-3xl sm:text-4xl font-bold text-[#d89f4b] font-serif mb-1">
-                      {stat.value}
-                    </span>
-                    <span className="text-[#111827] font-semibold text-[13px] sm:text-[14px]">
-                      {stat.label}
-                    </span>
+            {/* Avatars */}
+            <div className={`flex flex-col items-center justify-center w-full ${hideButton ? '' : 'mb-10'}`}>
+              <div className="flex items-center justify-center -space-x-3 mb-3">
+                {data.avatars.images.map((src, idx) => (
+                  <div key={idx} className="w-10 h-10 rounded-full border-2 border-[#f8f6f2] bg-slate-200 flex items-center justify-center overflow-hidden shadow-sm relative">
+                     <Image src={src} alt="Client avatar" fill className="object-cover" />
                   </div>
                 ))}
-
-                {/* Avatars */}
-                <div className="flex flex-col items-center justify-center px-4 w-full sm:w-auto pt-6 sm:pt-0">
-                  <div className="flex items-center justify-center -space-x-3 mb-3">
-                    {data.avatars.images.map((src, idx) => (
-                      <div key={idx} className="w-10 h-10 rounded-full border-2 border-white bg-slate-200 flex items-center justify-center overflow-hidden shadow-sm relative">
-                         <Image src={src} alt="Client avatar" fill className="object-cover" />
-                      </div>
-                    ))}
-                    <div className="w-10 h-10 rounded-full border-2 border-white bg-[#0b1320] text-white text-[11px] font-bold flex items-center justify-center shadow-sm z-10">
-                      {data.avatars.countBadge}
-                    </div>
-                  </div>
-                  <span className="text-[#111827] font-semibold text-[13px] sm:text-[14px]">
-                    {data.avatars.label}
-                  </span>
+                <div className="w-10 h-10 rounded-full border-2 border-[#f8f6f2] bg-[#0b1320] text-white text-[11px] font-bold flex items-center justify-center shadow-sm z-10">
+                  {data.avatars.countBadge}
                 </div>
-
               </div>
+              <span className="font-bold text-[#111827] text-lg sm:text-[19px] leading-snug font-serif">
+                {data.avatars.label}
+              </span>
             </div>
 
             {/* Discover More Button */}
-            <div className="flex justify-center">
-              <Link
-                href={data.button.href}
-                className="group inline-flex items-center justify-center gap-3 bg-[#0b1320] hover:bg-[#182c47] text-[#d89f4b] font-semibold text-[12px] sm:text-[13px] uppercase tracking-widest px-8 py-4 rounded transition-all duration-300 shadow-lg hover:-translate-y-1"
-              >
-                <span>{data.button.text}</span>
-                <DynamicIcon
-                  name={data.button.icon}
-                  className="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300 text-slate-400"
-                />
-              </Link>
-            </div>
+            {!hideButton && (
+              <div className="flex justify-center">
+                <Link
+                  href={data.button.href}
+                  className="group inline-flex items-center justify-center gap-3 bg-[#0b1320] hover:bg-[#182c47] text-[#d89f4b] font-semibold text-[12px] sm:text-[13px] uppercase tracking-widest px-8 py-4 rounded transition-all duration-300 shadow-lg hover:-translate-y-1"
+                >
+                  <span>{data.button.text}</span>
+                  <DynamicIcon
+                    name={data.button.icon}
+                    className="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-300 text-slate-400"
+                  />
+                </Link>
+              </div>
+            )}
 
           </motion.div>
 

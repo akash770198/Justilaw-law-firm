@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import siteData from "@/app/data/siteData.json";
+import siteData from "@/app/data";
 import { Header } from "@/app/components/Header";
 import { Footer } from "@/app/components/Footer";
 import { BreadcrumbBanner } from "@/app/components/BreadcrumbBanner";
