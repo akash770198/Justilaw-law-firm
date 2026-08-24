@@ -13,7 +13,7 @@ import { Footer } from "@/app/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col bg-[#0a1422]">
+    <main className="min-h-screen flex flex-col bg-[#0a1422] overflow-x-hidden">
       {/* Header component with topbar and main navbar */}
       <Header data={siteData.header} />
 

@@ -41,9 +41,9 @@ export const Header: React.FC<{ data: HeaderData }> = ({ data }) => {
           </div>
 
           {/* Social Links */}
-          <div className="flex items-center gap-3 sm:gap-4 ml-auto">
-            <span className="text-slate-400 font-medium text-xs hidden sm:inline">Follow Us :</span>
-            <div className="flex items-center gap-3">
+          <div className="flex items-center w-full sm:w-auto sm:ml-auto pt-1 sm:pt-0">
+            <span className="text-slate-400 font-medium text-xs hidden sm:inline mr-3">Follow Us :</span>
+            <div className="flex items-center justify-between w-full sm:w-auto sm:gap-3 px-2 sm:px-0">
               {topBar.socials.map((social) => (
                 <a
                   key={social.name}
@@ -51,9 +51,9 @@ export const Header: React.FC<{ data: HeaderData }> = ({ data }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={social.name}
-                  className="w-6 h-6 rounded-full flex items-center justify-center text-slate-300 hover:text-[#0b1626] hover:bg-[#c59d5f] transition-all duration-200"
+                  className="w-8 h-8 sm:w-6 sm:h-6 rounded-full flex items-center justify-center text-slate-300 hover:text-[#0b1626] hover:bg-[#c59d5f] transition-all duration-200"
                 >
-                  <DynamicIcon name={social.icon} className="w-3.5 h-3.5" />
+                  <DynamicIcon name={social.icon} className="w-4 h-4 sm:w-3.5 sm:h-3.5" />
                 </a>
               ))}
             </div>
@@ -140,12 +140,12 @@ export const Header: React.FC<{ data: HeaderData }> = ({ data }) => {
             {/* Quick Call Box */}
             <a
               href={navbar.quickCall.phoneHref}
-              className="flex items-center gap-3 text-left pl-2 group"
+              className="flex items-center gap-2 sm:gap-3 text-left sm:pl-2 group"
             >
-              <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[#be8b4b]/15 group-hover:bg-[#be8b4b] text-[#be8b4b] group-hover:text-white flex items-center justify-center transition-all duration-300 shadow-inner">
-                <DynamicIcon name={navbar.quickCall.icon} className="w-5 h-5" />
+              <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-full bg-[#be8b4b]/15 group-hover:bg-[#be8b4b] text-[#be8b4b] group-hover:text-white flex items-center justify-center transition-all duration-300 shadow-inner">
+                <DynamicIcon name={navbar.quickCall.icon} className="w-4 h-4 sm:w-5 sm:h-5" />
               </div>
-              <div className="flex flex-col">
+              <div className="hidden sm:flex flex-col">
                 <span className="text-[10px] sm:text-xs text-slate-500 font-medium">
                   {navbar.quickCall.label}
                 </span>

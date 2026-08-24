@@ -947,3 +947,17 @@ export interface TermsConditionsPageData {
     description: string;
   }>;
 }
+
+export interface SitemapCategory {
+  id: string;
+  title: string;
+  icon: string;
+  links: Array<{ name: string; href: string }>;
+}
+
+export interface SitemapPageData {
+  title: string;
+  icon: string;
+  subtitle: string;
+  categories: SitemapCategory[];
+}

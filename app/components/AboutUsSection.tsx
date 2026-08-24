@@ -20,7 +20,7 @@ export const AboutUsSection: React.FC<{ data: AboutData }> = ({ data }) => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="relative flex justify-start"
+            className="relative flex justify-start mb-16 lg:mb-0"
           >
             {/* Decorative Dot Pattern (Bottom Left) */}
             <div className="absolute -bottom-8 left-4 w-40 h-40 grid grid-cols-5 gap-3 opacity-60 z-0">

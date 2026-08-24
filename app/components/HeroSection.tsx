@@ -9,10 +9,10 @@ import { HeroData } from "@/lib/types";
 
 export const HeroSection: React.FC<{ data: HeroData }> = ({ data }) => {
   return (
-    <section className="relative w-full bg-[#0b1320] text-white overflow-hidden min-h-[700px]">
+    <section className="relative w-full bg-[#0b1320] text-white overflow-hidden min-h-[500px] lg:min-h-[700px]">
       
       {/* Full-width container to establish alignment */}
-      <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row relative z-10 min-h-[700px]">
+      <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row relative z-10 min-h-[500px] lg:min-h-[700px]">
         
         {/* Left Half (Text Content) */}
         <motion.div 
@@ -20,7 +20,7 @@ export const HeroSection: React.FC<{ data: HeroData }> = ({ data }) => {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="w-full lg:w-1/2 flex flex-col justify-center py-14 lg:py-20 lg:pr-12"
+          className="w-full lg:w-1/2 flex flex-col justify-center pt-8 pb-12 lg:py-20 lg:pr-12"
         >
           
           {/* Tagline Badge */}
@@ -48,11 +48,11 @@ export const HeroSection: React.FC<{ data: HeroData }> = ({ data }) => {
           </p>
 
           {/* Key Features */}
-          <div className="flex items-center mb-10">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 sm:gap-0 mb-10">
             {data.features.map((feature, idx) => (
               <React.Fragment key={feature.id}>
                 <div className="flex items-center gap-4 group">
-                  <div className="w-12 h-12 rounded-full border border-[#2c3d55] flex items-center justify-center text-[#d89f4b] group-hover:border-[#d89f4b] transition-colors">
+                  <div className="w-12 h-12 rounded-full border border-[#2c3d55] flex items-center justify-center text-[#d89f4b] group-hover:border-[#d89f4b] transition-colors shrink-0">
                     <DynamicIcon name={feature.icon} className="w-5 h-5" />
                   </div>
                   <span className="text-[15px] font-bold text-slate-200 font-serif leading-snug max-w-[160px] whitespace-pre-line">
@@ -61,7 +61,7 @@ export const HeroSection: React.FC<{ data: HeroData }> = ({ data }) => {
                 </div>
                 {/* Vertical Divider */}
                 {idx === 0 && (
-                  <div className="h-10 w-px bg-[#2c3d55] mx-6 sm:mx-8"></div>
+                  <div className="hidden sm:block h-10 w-px bg-[#2c3d55] mx-6 sm:mx-8"></div>
                 )}
               </React.Fragment>
             ))}
@@ -121,10 +121,10 @@ export const HeroSection: React.FC<{ data: HeroData }> = ({ data }) => {
 
       {/* Right Half (Full Bleed Image Background) */}
       <motion.div 
-        initial={{ opacity: 0, x: 30 }}
-        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.8, delay: 0.2 }}
+        transition={{ duration: 1 }}
         className="absolute top-0 right-0 w-full lg:w-1/2 h-full z-0"
       >
         <Image
@@ -132,10 +132,10 @@ export const HeroSection: React.FC<{ data: HeroData }> = ({ data }) => {
           alt={data.bannerImage.alt}
           fill
           priority
-          className="object-cover object-center"
+          className="object-cover object-[center_10%] lg:object-center"
         />
-        {/* Responsive Overlay: Strong dark on mobile, completely transparent on desktop */}
-        <div className="absolute inset-0 bg-[#0b1320]/85 lg:hidden z-10"></div>
+        {/* Responsive Overlay: Transparent on mobile to prevent obscuring the image, solid on desktop */}
+        <div className="absolute inset-0 bg-[#0b1320]/40 lg:hidden z-10"></div>
       </motion.div>
 
     </section>
