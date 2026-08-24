@@ -235,26 +235,26 @@ export const CareerDetailClient: React.FC<{ job: JobItem }> = ({ job }) => {
                 <input 
                   type="text" 
                   placeholder="Full Name" 
-                  className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm text-sm focus:outline-none focus:border-[#d89f4b]/50 transition-colors placeholder:text-slate-400"
+                  className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm text-sm text-slate-800 focus:outline-none focus:border-[#d89f4b]/50 transition-colors placeholder:text-slate-400"
                   required
                 />
                 <input 
                   type="email" 
                   placeholder="Email Address" 
-                  className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm text-sm focus:outline-none focus:border-[#d89f4b]/50 transition-colors placeholder:text-slate-400"
+                  className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm text-sm text-slate-800 focus:outline-none focus:border-[#d89f4b]/50 transition-colors placeholder:text-slate-400"
                   required
                 />
                 <input 
                   type="tel" 
                   placeholder="Phone Number" 
-                  className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm text-sm focus:outline-none focus:border-[#d89f4b]/50 transition-colors placeholder:text-slate-400"
+                  className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm text-sm text-slate-800 focus:outline-none focus:border-[#d89f4b]/50 transition-colors placeholder:text-slate-400"
                   required
                 />
                 
                 {/* Select Dropdown */}
                 <div className="relative">
                   <select 
-                    className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm text-sm focus:outline-none focus:border-[#d89f4b]/50 transition-colors text-slate-500 appearance-none"
+                    className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm text-sm text-slate-800 focus:outline-none focus:border-[#d89f4b]/50 transition-colors appearance-none"
                     required
                     defaultValue=""
                   >
@@ -284,7 +284,7 @@ export const CareerDetailClient: React.FC<{ job: JobItem }> = ({ job }) => {
                 <textarea 
                   placeholder="Cover Letter (Optional)" 
                   rows={4}
-                  className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm text-sm focus:outline-none focus:border-[#d89f4b]/50 transition-colors placeholder:text-slate-400 resize-y"
+                  className="w-full px-4 py-3 bg-white border border-slate-200 rounded-sm text-sm text-slate-800 focus:outline-none focus:border-[#d89f4b]/50 transition-colors placeholder:text-slate-400 resize-y"
                 ></textarea>
 
                 <button 

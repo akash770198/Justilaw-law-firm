@@ -40,10 +40,10 @@ export const Counter: React.FC<CounterProps> = ({ end, duration = 2000, suffix =
       const progress = timestamp - startTime;
       const percentage = Math.min(progress / duration, 1);
       
-      // Easing function (easeOutExpo)
-      const easePercentage = percentage === 1 ? 1 : 1 - Math.pow(2, -10 * percentage);
+      // Easing function (easeOutQuad)
+      const easePercentage = 1 - Math.pow(1 - percentage, 3);
       
-      setCount(Math.floor(easePercentage * end));
+      setCount(Math.round(easePercentage * end));
 
       if (progress < duration) {
         animationFrame = requestAnimationFrame(animate);
