@@ -21,7 +21,7 @@ export const NewsMediaClient: React.FC<{ data: NewsMediaData }> = ({ data }) => 
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: idx * 0.05 }}
-              className="bg-white border border-slate-200 rounded-lg p-6 sm:p-8 flex flex-col group hover:shadow-[0_10px_40px_rgba(0,0,0,0.06)] transition-all duration-300 h-full"
+              className="bg-white border border-slate-200 rounded-lg p-6 sm:p-8 flex flex-col group shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-[0_10px_40px_rgba(0,0,0,0.08)] transition-all duration-300 h-full"
             >
               {/* Logo Box */}
               <div className="w-full h-24 sm:h-28 flex items-center justify-center mb-6 px-4 py-2">
@@ -39,9 +39,15 @@ export const NewsMediaClient: React.FC<{ data: NewsMediaData }> = ({ data }) => 
               <div className="flex flex-col flex-grow">
                 {/* Title */}
                 <h3 className="font-serif text-lg font-bold text-[#1a283c] leading-snug mb-6 flex-grow group-hover:text-[#d89f4b] transition-colors line-clamp-3">
-                  <Link href={`/news-media/${item.slug}`}>
-                    {item.title}
-                  </Link>
+                  {item.externalLink ? (
+                    <a href={item.externalLink} target="_blank" rel="noopener noreferrer">
+                      {item.title}
+                    </a>
+                  ) : (
+                    <Link href={`/news-media/${item.slug}`}>
+                      {item.title}
+                    </Link>
+                  )}
                 </h3>
 
                 {/* Footer / Meta */}
@@ -51,13 +57,25 @@ export const NewsMediaClient: React.FC<{ data: NewsMediaData }> = ({ data }) => 
                     <span>{item.date}</span>
                   </div>
                   
-                  <Link 
-                    href={`/news-media/${item.slug}`}
-                    className="inline-flex items-center gap-2 text-[13px] font-bold text-[#d89f4b] hover:text-[#1a283c] transition-colors group/link mt-1"
-                  >
-                    <span>Read More</span>
-                    <DynamicIcon name="arrow-right" className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
-                  </Link>
+                  {item.externalLink ? (
+                    <a 
+                      href={item.externalLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-[13px] font-bold text-[#d89f4b] hover:text-[#1a283c] transition-colors group/link mt-1"
+                    >
+                      <span>Read More</span>
+                      <DynamicIcon name="arrow-right" className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
+                    </a>
+                  ) : (
+                    <Link 
+                      href={`/news-media/${item.slug}`}
+                      className="inline-flex items-center gap-2 text-[13px] font-bold text-[#d89f4b] hover:text-[#1a283c] transition-colors group/link mt-1"
+                    >
+                      <span>Read More</span>
+                      <DynamicIcon name="arrow-right" className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
+                    </Link>
+                  )}
                 </div>
               </div>
             </motion.div>

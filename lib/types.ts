@@ -519,6 +519,7 @@ export interface NewsMediaItem {
     title: string;
     date: string;
     slug: string;
+    externalLink?: string;
 }
 
 export interface NewsMediaData {

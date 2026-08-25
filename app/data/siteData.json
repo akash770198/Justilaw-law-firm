@@ -13495,84 +13495,96 @@
                 "logo": "/News_logos/lallantop.svg",
                 "title": "What the Latest Tax Amendments Mean for Individuals and Businesses",
                 "date": "10 Sep, 2024",
-                "slug": "tax-amendments"
+                "slug": "tax-amendments",
+                "externalLink": "https://www.thelallantop.com/"
               },
               {
                 "id": "nm2",
                 "logo": "/News_logos/news-india.svg",
                 "title": "Upcoming Webinar: Navigating Legal Challenges in 2024",
                 "date": "05 Sep, 2024",
-                "slug": "webinar-legal-challenges"
+                "slug": "webinar-legal-challenges",
+                "externalLink": "https://www.indiatoday.in"
               },
               {
                 "id": "nm3",
                 "logo": "/News_logos/india-tv.svg",
                 "title": "Changes in Arbitration Laws: What You Need to Know",
                 "date": "01 Sep, 2024",
-                "slug": "changes-arbitration-laws"
+                "slug": "changes-arbitration-laws",
+                "externalLink": "https://www.indiatv.in"
               },
               {
                 "id": "nm4",
                 "logo": "/News_logos/aaj-tak.svg",
                 "title": "New Labour Code Updates: Key Compliance Highlights",
                 "date": "28 Aug, 2024",
-                "slug": "labour-code-updates"
+                "slug": "labour-code-updates",
+                "externalLink": "https://www.aajtak.in"
               },
               {
                 "id": "nm5",
                 "logo": "/News_logos/economic-times.svg",
                 "title": "RBI Announces New Guidelines for Digital Transactions",
                 "date": "25 Aug, 2024",
-                "slug": "rbi-digital-transactions"
+                "slug": "rbi-digital-transactions",
+                "externalLink": "https://economictimes.indiatimes.com"
               },
               {
                 "id": "nm6",
                 "logo": "/News_logos/business-standard.svg",
                 "title": "Insolvency and Bankruptcy Code Amendments Explained",
                 "date": "22 Aug, 2024",
-                "slug": "insolvency-bankruptcy-amendments"
+                "slug": "insolvency-bankruptcy-amendments",
+                "externalLink": "https://www.business-standard.com"
               },
               {
                 "id": "nm7",
                 "logo": "/News_logos/mint.svg",
                 "title": "Impact of New Foreign Direct Investment Rules in India",
                 "date": "20 Aug, 2024",
-                "slug": "fdi-rules-india"
+                "slug": "fdi-rules-india",
+                "externalLink": "https://www.livemint.com"
               },
               {
                 "id": "nm8",
                 "logo": "/News_logos/ndtv.svg",
                 "title": "Data Protection Law: What Businesses Must Prepare For",
                 "date": "18 Aug, 2024",
-                "slug": "data-protection-law"
+                "slug": "data-protection-law",
+                "externalLink": "https://www.ndtv.com"
               },
               {
                 "id": "nm9",
                 "logo": "/News_logos/zee-news.svg",
                 "title": "Supreme Court Rulings That Impact Businesses in 2024",
                 "date": "15 Aug, 2024",
-                "slug": "supreme-court-rulings-business"
+                "slug": "supreme-court-rulings-business",
+                "externalLink": "https://zeenews.india.com"
               },
               {
                 "id": "nm10",
                 "logo": "/News_logos/financial-express.svg",
                 "title": "New SEBI Regulations: What Investors Should Know",
                 "date": "12 Aug, 2024",
-                "slug": "sebi-regulations"
+                "slug": "sebi-regulations",
+                "externalLink": "https://www.financialexpress.com"
               },
               {
                 "id": "nm11",
                 "logo": "/News_logos/livelaw.svg",
                 "title": "Child Custody Laws in India: Recent Legal Developments",
                 "date": "10 Aug, 2024",
-                "slug": "child-custody-laws"
+                "slug": "child-custody-laws",
+                "externalLink": "https://lawlive.in"
               },
               {
                 "id": "nm12",
                 "logo": "/News_logos/outlook.svg",
                 "title": "Competition Law Amendments and Their Industry Impact",
                 "date": "08 Aug, 2024",
-                "slug": "competition-law-amendments"
+                "slug": "competition-law-amendments",
+                "externalLink": "https://www.microsoft.com/en-in"
               }
             ]
           },
