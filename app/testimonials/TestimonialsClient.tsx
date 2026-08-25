@@ -6,6 +6,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { DynamicIcon } from "@/app/components/DynamicIcon";
 import { TestimonialsPageData } from "@/lib/types";
 
+
+// Testimonial
 export const TestimonialsClientComponent: React.FC<{ data: TestimonialsPageData }> = ({ data }) => {
   const [activeFilter, setActiveFilter] = useState("All Testimonials");
 
