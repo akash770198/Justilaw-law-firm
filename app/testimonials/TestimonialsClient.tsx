@@ -14,7 +14,7 @@ export const TestimonialsClientComponent: React.FC<{ data: TestimonialsPageData 
     : data.items.filter(item => item.category === activeFilter);
 
   return (
-    <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+    <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
       
       {/* Header text */}
       <div className="text-center max-w-3xl mx-auto mb-12">

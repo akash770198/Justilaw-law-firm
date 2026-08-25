@@ -15,7 +15,7 @@ export const LegalUpdatesClient: React.FC<{ data: LegalUpdatesData }> = ({ data 
   const moreCategories = ["Family Law", "Real Estate", "Intellectual Property"];
 
   return (
-    <section className="w-full bg-[#fdfdfd] py-12 sm:py-16">
+    <section className="w-full bg-[#fdfdfd] py-12 py-16 lg:py-20">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
         
         {/* Filters Bar */}

@@ -9,7 +9,7 @@ import { NewsMediaItem, NewsMediaData } from "@/lib/types";
 
 export const NewsMediaClient: React.FC<{ data: NewsMediaData }> = ({ data }) => {
   return (
-    <section className="w-full bg-[#fdfdfd] py-16 sm:py-20">
+    <section className="w-full bg-[#fdfdfd] py-16 lg:py-20">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
         
         {/* Grid */}

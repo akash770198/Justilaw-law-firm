@@ -616,8 +616,11 @@
                 },
                 {
                   "name": "Practice Areas",
-                  "href": "/services",
                   "children": [
+                    {
+                      "name": "All Services",
+                      "href": "/services"
+                    },
                     {
                       "name": "Corporate Law",
                       "href": "/services/corporate"
@@ -4416,12 +4419,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "robert-johnson"
+                "slug": "robert-johnson",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "/contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm2",
@@ -4481,12 +4511,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "sophia-williams"
+                "slug": "sophia-williams",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "/contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm3",
@@ -4546,12 +4603,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "james-anderson"
+                "slug": "james-anderson",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "/contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm4",
@@ -4611,12 +4695,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "olivia-martinez"
+                "slug": "olivia-martinez",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "/contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm5",
@@ -4676,12 +4787,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "david-carter"
+                "slug": "david-carter",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "/contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm6",
@@ -4741,12 +4879,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "sarah-jenkins"
+                "slug": "sarah-jenkins",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "/contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm7",
@@ -4806,12 +4971,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "michael-brooks"
+                "slug": "michael-brooks",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "/contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm8",
@@ -4871,12 +5063,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "emily-thompson"
+                "slug": "emily-thompson",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "/contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               }
             ],
             "button": {
@@ -4953,12 +5172,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "robert-johnson"
+                "slug": "robert-johnson",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "/contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm2",
@@ -5018,12 +5264,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "sophia-williams"
+                "slug": "sophia-williams",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "#contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm3",
@@ -5083,12 +5356,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "james-anderson"
+                "slug": "james-anderson",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "#contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm4",
@@ -5148,12 +5448,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "olivia-martinez"
+                "slug": "olivia-martinez",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "#contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm5",
@@ -5213,12 +5540,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "david-carter"
+                "slug": "david-carter",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "#contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm6",
@@ -5278,12 +5632,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "sarah-jenkins"
+                "slug": "sarah-jenkins",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "#contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm7",
@@ -5343,12 +5724,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "michael-brooks"
+                "slug": "michael-brooks",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "#contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm8",
@@ -5408,12 +5816,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "emily-thompson"
+                "slug": "emily-thompson",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "#contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               }
             ],
             "button": {
@@ -5490,12 +5925,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "robert-johnson"
+                "slug": "robert-johnson",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "#contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm2",
@@ -5555,12 +6017,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "sophia-williams"
+                "slug": "sophia-williams",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "#contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm3",
@@ -5620,12 +6109,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "james-anderson"
+                "slug": "james-anderson",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "#contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm4",
@@ -5685,12 +6201,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "olivia-martinez"
+                "slug": "olivia-martinez",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "#contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm5",
@@ -5750,12 +6293,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "david-carter"
+                "slug": "david-carter",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "#contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm6",
@@ -5815,12 +6385,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "sarah-jenkins"
+                "slug": "sarah-jenkins",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "#contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm7",
@@ -5880,12 +6477,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "michael-brooks"
+                "slug": "michael-brooks",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "#contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               },
               {
                 "id": "tm8",
@@ -5945,12 +6569,39 @@
                   }
                 ],
                 "affiliations": [
-                  "American Bar Association",
-                  "New York State Bar Association",
-                  "Business Law Section",
-                  "International Bar Association"
+                  {
+                    "title": "American Bar Association",
+                    "icon": "wreath"
+                  },
+                  {
+                    "title": "New York State Bar Association",
+                    "icon": "courthouse"
+                  },
+                  {
+                    "title": "Business Law Section",
+                    "icon": "users"
+                  },
+                  {
+                    "title": "International Bar Association",
+                    "icon": "globe"
+                  }
                 ],
-                "slug": "emily-thompson"
+                "slug": "emily-thompson",
+                "actionButtons": [
+                  {
+                    "text": "Schedule a Consultation",
+                    "href": "#contact",
+                    "icon": "arrow-right",
+                    "style": "primary",
+                    "isDownload": false
+                  },
+                  {
+                    "text": "Download vCard",
+                    "icon": "download",
+                    "style": "secondary",
+                    "isDownload": true
+                  }
+                ]
               }
             ],
             "button": {
@@ -10302,48 +10953,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -10396,48 +11047,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -10490,48 +11141,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -10584,48 +11235,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -10678,48 +11329,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -10772,48 +11423,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -10866,48 +11517,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -10962,48 +11613,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -11056,48 +11707,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -11150,48 +11801,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -11244,48 +11895,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -11338,48 +11989,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -11432,48 +12083,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -11526,48 +12177,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -11622,48 +12273,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -11716,48 +12367,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -11810,48 +12461,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -11904,48 +12555,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -11998,48 +12649,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -12092,48 +12743,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -12186,48 +12837,48 @@
               "sidebar": {
                 "recentNews": [
                   {
-                    "title": "Assisting with RJSC trade licenses",
-                    "date": "15 Nov, 2026",
+                    "title": "Navigating Corporate Mergers In The Modern Era",
+                    "date": "05 October, 2024",
                     "image": "/Blogs/latest-news-1-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/navigating-corporate-mergers-in-the-modern-era"
                   },
                   {
-                    "title": "Understanding Corporate Legal Compliance",
-                    "date": "25 Nov, 2026",
+                    "title": "Workplace Discrimination: Knowing Your Rights",
+                    "date": "18 October, 2024",
                     "image": "/Blogs/latest-news-2-clean-no-tags.svg",
-                    "link": "#"
+                    "link": "/blogs/workplace-discrimination-knowing-your-rights"
                   }
                 ],
                 "categories": [
                   {
                     "name": "Corporate Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Family Law",
                     "icon": "users",
-                    "link": "#"
+                    "link": "/services/family"
                   },
                   {
                     "name": "Business Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/corporate"
                   },
                   {
                     "name": "Property Law",
                     "icon": "home",
-                    "link": "#"
+                    "link": "/services/real-estate"
                   },
                   {
                     "name": "Employment Law",
                     "icon": "briefcase",
-                    "link": "#"
+                    "link": "/services/employment"
                   },
                   {
                     "name": "Criminal Law",
                     "icon": "handcuffs",
-                    "link": "#"
+                    "link": "/services/criminal"
                   }
                 ]
               }
@@ -12611,7 +13262,7 @@
                 "description": "Our experienced legal team is here to provide guidance and help you make informed decisions.",
                 "button": {
                   "text": "Book a Consultation",
-                  "href": "#"
+                  "href": "/book-consultation"
                 }
               }
             }
@@ -20580,7 +21231,9 @@
               "titleDark": "Client",
               "titleGold": "Resources",
               "description": "Practical insights, tools, and updates to help you navigate legal matters with confidence.",
-              "image": "/Client_resources/01_client_resources_hero_books_scales.svg"
+              "image": "/Client_resources/01_client_resources_hero_books_scales.svg",
+              "subtitle": "CLIENT RESOURCES",
+              "subtitleIcon": "folder-open"
             },
             "practiceAreas": {
               "title": "Browse by Practice Area",
@@ -20715,7 +21368,7 @@
                   "icon": "file-text",
                   "format": "DOCX",
                   "size": "56 KB",
-                  "linkHref": "#"
+                  "linkHref": "/Dummy_File.pdf"
                 },
                 {
                   "id": "tt-2",
@@ -20724,7 +21377,7 @@
                   "icon": "handshake",
                   "format": "DOCX",
                   "size": "72 KB",
-                  "linkHref": "#"
+                  "linkHref": "/Dummy_File.pdf"
                 },
                 {
                   "id": "tt-3",
@@ -20733,7 +21386,7 @@
                   "icon": "clipboard-check",
                   "format": "XLSX",
                   "size": "34 KB",
-                  "linkHref": "#"
+                  "linkHref": "/Dummy_File.pdf"
                 },
                 {
                   "id": "tt-4",
@@ -20742,7 +21395,7 @@
                   "icon": "shield",
                   "format": "DOCX",
                   "size": "48 KB",
-                  "linkHref": "#"
+                  "linkHref": "/Dummy_File.pdf"
                 }
               ]
             }

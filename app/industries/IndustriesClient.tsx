@@ -13,14 +13,14 @@ export const IndustriesClient: React.FC<{ data: IndustriesData }> = ({ data }) =
       {/* Hero Section */}
       <section className="bg-white py-16 lg:py-20">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
-          <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+          <div className="flex flex-col lg:flex-row items-start gap-12 lg:gap-20">
             {/* Left Content */}
             <motion.div 
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="w-full lg:w-1/2 flex flex-col items-start"
+              className="w-full lg:w-1/2 flex flex-col items-start lg:-mt-1"
             >
               {/* Hero Titles */}
 
@@ -63,7 +63,7 @@ export const IndustriesClient: React.FC<{ data: IndustriesData }> = ({ data }) =
       </section>
 
       {/* Industries Grid */}
-      <section className="bg-[#fdfbf9] py-16 lg:py-20 border-t border-slate-100">
+      <section className="bg-[#f8f6f2] py-16 lg:py-20 border-t border-slate-100">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
           
           <motion.div 

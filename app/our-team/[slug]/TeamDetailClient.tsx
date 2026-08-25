@@ -18,8 +18,31 @@ export const TeamDetailClient: React.FC<{ member: TeamMemberDetail }> = ({ membe
   const firstName = nameParts[0];
   const lastName = nameParts.slice(1).join(" ");
 
+  const handleDownloadVCard = () => {
+    const vcard = `BEGIN:VCARD
+VERSION:3.0
+N:${lastName};${firstName};;;
+FN:${firstName} ${lastName}
+ORG:JUSTILAW
+TITLE:${member.title || ""}
+TEL;TYPE=WORK,VOICE:${member.phone || ""}
+EMAIL;TYPE=PREF,INTERNET:${member.email || ""}
+URL:${member.linkedin || ""}
+END:VCARD`;
+
+    const blob = new Blob([vcard], { type: "text/vcard" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `${firstName}_${lastName}.vcf`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  };
+
   return (
-    <div className="w-full bg-[#faf9f7] py-16 lg:py-24">
+    <div className="w-full bg-[#faf9f7] py-16 lg:py-20">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="grid grid-cols-1 lg:grid-cols-[350px_1fr] gap-10 lg:gap-16">
@@ -172,16 +195,32 @@ export const TeamDetailClient: React.FC<{ member: TeamMemberDetail }> = ({ membe
               </div>
 
               {/* Action Buttons */}
-              <div className="flex flex-wrap gap-4">
-                <a href="#contact" className="inline-flex items-center justify-center gap-2 bg-[#111827] text-white font-bold text-[13px] tracking-widest px-8 py-4 hover:bg-[#d89f4b] transition-colors duration-300">
-                  Schedule a Consultation
-                  <DynamicIcon name="arrow-right" className="w-4 h-4" />
-                </a>
-                <button className="inline-flex items-center justify-center gap-2 border-2 border-[#d89f4b] text-[#d89f4b] font-bold text-[13px] tracking-widest px-8 py-4 hover:bg-[#d89f4b] hover:text-white transition-colors duration-300">
-                  Download vCard
-                  <DynamicIcon name="download" className="w-4 h-4" />
-                </button>
-              </div>
+              {member.actionButtons && member.actionButtons.length > 0 && (
+                <div className="flex flex-wrap gap-4">
+                  {member.actionButtons.map((btn, idx) => {
+                    const baseClasses = "inline-flex items-center justify-center gap-2 font-bold text-[13px] tracking-widest px-8 py-4 transition-colors duration-300";
+                    const primaryClasses = "bg-[#111827] text-white hover:bg-[#d89f4b]";
+                    const secondaryClasses = "border-2 border-[#d89f4b] text-[#d89f4b] hover:bg-[#d89f4b] hover:text-white";
+                    const classes = `${baseClasses} ${btn.style === "primary" ? primaryClasses : secondaryClasses}`;
+
+                    if (btn.isDownload) {
+                      return (
+                        <button key={idx} className={classes} onClick={handleDownloadVCard}>
+                          {btn.text}
+                          <DynamicIcon name={btn.icon} className="w-4 h-4" />
+                        </button>
+                      );
+                    }
+                    
+                    return (
+                      <Link key={idx} href={btn.href || "#"} className={classes}>
+                        {btn.text}
+                        <DynamicIcon name={btn.icon} className="w-4 h-4" />
+                      </Link>
+                    );
+                  })}
+                </div>
+              )}
             </motion.div>
 
             {/* Main Details Card */}
@@ -238,8 +277,8 @@ export const TeamDetailClient: React.FC<{ member: TeamMemberDetail }> = ({ membe
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
                   {member.affiliations?.map((aff, idx) => (
                     <div key={idx} className="border border-slate-100 p-6 flex flex-col items-center justify-center text-center gap-4 rounded-md hover:border-[#d89f4b] transition-colors duration-300">
-                      <DynamicIcon name="award" className="w-8 h-8 text-[#111827]" />
-                      <span className="text-slate-500 text-[13px] font-medium leading-tight">{aff}</span>
+                      <DynamicIcon name={aff.icon || "award"} className="w-12 h-12 text-[#111827]" />
+                      <span className="text-[#111827] font-bold text-[14px] leading-tight mt-2">{aff.title}</span>
                     </div>
                   ))}
                 </div>

@@ -3,7 +3,7 @@ import siteData from "@/app/data";
 import { Header } from "@/app/components/Header";
 import { Footer } from "@/app/components/Footer";
 import { BreadcrumbBanner } from "@/app/components/BreadcrumbBanner";
-import { ServiceDetailClient } from "@/app/components/ServiceDetailClient";
+import { ServiceDetailClient } from "./ServiceDetailClient";
 
 export async function generateStaticParams() {
   return [

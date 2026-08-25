@@ -11,56 +11,42 @@ export const AwardsClientComponent: React.FC<{ data: AwardsData }> = ({ data }) 
     <section className="w-full bg-[#fdfdfd] flex flex-col items-center">
       
       {/* Hero Section */}
-      <div className="w-full max-w-[1440px] px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20 w-full">
+        <div className="flex flex-col lg:flex-row items-start gap-12 lg:gap-16">
           
           {/* Left Text */}
-          <div className="flex-1 max-w-2xl">
-            <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="flex items-center gap-3 text-[#d89f4b] mb-6 font-bold text-[13px] tracking-widest uppercase"
-            >
+          <motion.div 
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="w-full lg:w-1/2 flex flex-col items-start lg:-mt-1"
+          >
+            <div className="flex items-center gap-3 text-[#d89f4b] mb-4">
               <DynamicIcon name="trophy" className="w-5 h-5" />
-              <span>{data.hero.tagline}</span>
-            </motion.div>
-            
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.1 }}
-              className="mb-8"
-            >
+              <span className="font-bold text-[13px] tracking-widest uppercase">{data.hero.tagline}</span>
+            </div>
+            <div className="mb-6">
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-[1.2]">
                 <span className="text-[#1a283c] block">{data.hero.titleDark}</span>
                 <span className="text-[#d89f4b]">{data.hero.titleGold}</span>
               </h1>
               {/* Golden Line */}
               <div className="w-16 h-1 bg-[#d89f4b] mt-6"></div>
-            </motion.div>
-
-            <motion.p 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.2 }}
-              className="text-slate-600 text-base sm:text-lg leading-relaxed max-w-xl"
-            >
+            </div>
+            <p className="text-slate-600 text-base sm:text-lg leading-relaxed max-w-xl">
               {data.hero.description}
-            </motion.p>
-          </div>
+            </p>
+          </motion.div>
 
           {/* Right Image */}
           <motion.div 
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="flex-1 w-full relative"
+            className="w-full lg:w-1/2"
           >
-            <div className="relative w-full aspect-[16/10] max-w-[600px] rounded-lg overflow-hidden shadow-2xl mx-auto">
+            <div className="relative w-full max-w-[600px] mx-auto aspect-[16/10] rounded-sm overflow-hidden border-l-[6px] border-[#d89f4b] shadow-xl">
               <Image 
                 src={data.hero.image} 
                 alt="Awards Trophy and Plaque" 
@@ -72,7 +58,7 @@ export const AwardsClientComponent: React.FC<{ data: AwardsData }> = ({ data }) 
           </motion.div>
 
         </div>
-      </div>
+      </section>
 
       {/* Stats Banner */}
       <div className="w-full bg-[#0a1422] py-8">
@@ -104,7 +90,7 @@ export const AwardsClientComponent: React.FC<{ data: AwardsData }> = ({ data }) 
 
       {/* Awards Grid Section */}
       <div className="w-full bg-[#f8f6f2]">
-        <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-24">
+        <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
             {data.awards?.map((award, idx) => (
               <motion.div 

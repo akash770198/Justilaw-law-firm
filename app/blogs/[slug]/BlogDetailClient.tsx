@@ -8,7 +8,7 @@ import { DynamicIcon } from "@/app/components/DynamicIcon";
 
 export const BlogDetailClient: React.FC<{ data: any }> = ({ data }) => {
   return (
-    <section className="py-20 lg:py-24 bg-white relative">
+    <section className="py-16 lg:py-20 bg-white relative">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
           
@@ -30,22 +30,22 @@ export const BlogDetailClient: React.FC<{ data: any }> = ({ data }) => {
               </div>
 
               {/* Metadata Bar */}
-              <div className="flex flex-wrap items-center gap-6 sm:gap-10 border-b border-gray-200 pb-6 mb-8 text-[#d89f4b] font-medium text-sm sm:text-base">
+              <div className="flex flex-wrap items-center gap-6 sm:gap-10 border-b border-gray-200 pb-6 mb-8 text-slate-500 font-medium text-sm sm:text-base">
                 <div className="flex items-center gap-2">
-                  <DynamicIcon name={data.hero.authorIcon} className="w-5 h-5" />
-                  <span>{data.hero.author}</span>
+                  <DynamicIcon name={data.hero.authorIcon} className="w-5 h-5 text-[#d89f4b]" />
+                  <span className="text-[#111827]">{data.hero.author}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <DynamicIcon name={data.hero.commentsIcon} className="w-5 h-5" />
-                  <span>{data.hero.comments}</span>
+                  <DynamicIcon name={data.hero.commentsIcon} className="w-5 h-5 text-[#d89f4b]" />
+                  <span className="text-[#111827]">{data.hero.comments}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <DynamicIcon name={data.hero.dateIcon} className="w-5 h-5" />
-                  <span>{data.hero.date}</span>
+                  <DynamicIcon name={data.hero.dateIcon} className="w-5 h-5 text-[#d89f4b]" />
+                  <span className="text-[#111827]">{data.hero.date}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <DynamicIcon name={data.hero.categoryIcon} className="w-5 h-5" />
-                  <span>{data.hero.category}</span>
+                  <DynamicIcon name={data.hero.categoryIcon} className="w-5 h-5 text-[#d89f4b]" />
+                  <span className="text-[#111827]">{data.hero.category}</span>
                 </div>
               </div>
 

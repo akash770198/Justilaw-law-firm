@@ -113,11 +113,11 @@ export const IndustryDetailClient: React.FC<{ data: IndustryDetailData }> = ({ d
                   className="flex flex-col sm:flex-row bg-white rounded-md overflow-hidden shadow-sm border border-slate-200 hover:shadow-md transition-all group"
                 >
                   {/* Navy Left Block */}
-                  <div className="bg-[#1a283c] w-full sm:w-[220px] flex-shrink-0 flex items-center justify-between px-10 py-6">
+                  <div className="bg-[#1a283c] w-full sm:w-[200px] flex-shrink-0 flex items-center justify-start gap-6 px-10 py-6">
                     <span className="text-white/90 font-semibold text-2xl">
                       {item.number}
                     </span>
-                    <DynamicIcon name={item.icon} className="w-10 h-10 text-[#d89f4b] group-hover:scale-110 transition-transform" />
+                    <DynamicIcon name={item.icon} className="w-14 h-14 text-[#d89f4b] group-hover:scale-110 transition-transform" />
                   </div>
                   
                   {/* White Right Block */}

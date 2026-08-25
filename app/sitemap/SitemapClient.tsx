@@ -25,7 +25,7 @@ const itemVariants = {
 
 export default function SitemapClient({ data }: { data: SitemapPageData }) {
   return (
-    <section className="w-full bg-[#fdfdfd] py-16 lg:py-24 relative overflow-hidden">
+    <section className="w-full bg-[#fdfdfd] py-16 lg:py-20 relative overflow-hidden">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Section Header */}

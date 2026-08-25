@@ -12,15 +12,23 @@ export const ClientResourcesClient: React.FC<{ data: ClientResourcesData }> = ({
     <div className="w-full">
       
       {/* 1. Hero Section */}
-      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+      <section className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+        <div className="flex flex-col lg:flex-row items-start gap-12 lg:gap-17">
           {/* Left Text */}
           <motion.div 
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="w-full lg:w-1/2"
+            className="w-full lg:w-1/2 flex flex-col items-start lg:-mt-1"
           >
+            {data.hero.subtitle && (
+              <div className="flex items-center gap-3 text-[#d89f4b] mb-4">
+                {data.hero.subtitleIcon && (
+                  <DynamicIcon name={data.hero.subtitleIcon as any} className="w-5 h-5" />
+                )}
+                <span className="font-bold text-[13px] tracking-widest uppercase">{data.hero.subtitle}</span>
+              </div>
+            )}
             <div className="mb-6">
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-[1.2] text-[#1a283c]">
                 {data.hero.titleDark} <span className="text-[#d89f4b]">{data.hero.titleGold}</span>
@@ -241,9 +249,9 @@ export const ClientResourcesClient: React.FC<{ data: ClientResourcesData }> = ({
                     <span>•</span>
                     <span>{item.size}</span>
                   </div>
-                  <Link href={item.linkHref} className="text-[#d89f4b] font-bold text-xs flex items-center gap-1 hover:gap-2 transition-all">
+                  <a href={item.linkHref} download className="text-[#d89f4b] font-bold text-xs flex items-center gap-1 hover:gap-2 transition-all">
                     Download <DynamicIcon name="arrow-right" className="w-3.5 h-3.5" />
-                  </Link>
+                  </a>
                 </div>
               </motion.div>
             ))}

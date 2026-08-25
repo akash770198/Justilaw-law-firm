@@ -658,7 +658,8 @@ export interface TeamMemberDetail {
     education: { degree: string; school: string; year: string }[];
     barAdmissions: string[];
     experience: { role: string; company: string; duration: string; description: string }[];
-    affiliations: string[];
+    affiliations: { title: string; icon: string }[];
+    actionButtons?: { text: string; href?: string; icon: string; style: "primary" | "secondary"; isDownload?: boolean }[];
 }
 
 export interface ContentSection {
@@ -775,6 +776,8 @@ export interface ToolTemplateItem {
 
 export interface ClientResourcesData {
   hero: {
+    subtitle?: string;
+    subtitleIcon?: string;
     titleDark: string;
     titleGold: string;
     description: string;

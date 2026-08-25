@@ -25,7 +25,7 @@ const itemVariants = {
 };
 export const CaseStudiesClient: React.FC<{ data: CaseStudiesPageData }> = ({ data }) => {
   return (
-    <section className="w-full bg-white py-16 sm:py-20 lg:py-24">
+    <section className="w-full bg-white py-16 sm:py-20">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
         
         {/* Section Header */}

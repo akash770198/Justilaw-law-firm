@@ -8,7 +8,7 @@ export function BlogsClient({ data }: { data: any }) {
   if (!data) return null;
 
   return (
-    <div className="bg-[#fcfaf7] w-full py-20">
+    <div className="bg-[#fcfaf7] w-full py-16 lg:py-20">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">

@@ -43,6 +43,29 @@ export default async function BlogDetailPage({ params }: PageProps) {
     { name: "Blog Detail", href: "#" }
   ];
 
+  // Deep clone to avoid mutating shared siteData
+  const blogData = JSON.parse(JSON.stringify(blog));
+
+  // Compute dynamic recent news (2 other blogs)
+  const allSlugs = Object.keys((siteData as any).blogDetails || {});
+  const otherSlugs = allSlugs.filter(s => s !== resolvedParams.slug).slice(0, 2);
+  
+  if (blogData.sidebar) {
+    const defaultImages = [
+      "/Blogs/latest-news-1-clean-no-tags.svg",
+      "/Blogs/latest-news-2-clean-no-tags.svg"
+    ];
+    blogData.sidebar.recentNews = otherSlugs.map((s, idx) => {
+      const b = (siteData as any).blogDetails[s];
+      return {
+        title: b.hero.title,
+        date: b.hero.date,
+        image: b.hero.mainImage || defaultImages[idx % defaultImages.length],
+        link: `/blogs/${s}`
+      };
+    });
+  }
+
   return (
     <main className="min-h-screen flex flex-col bg-[#0a1422]">
       {/* Header */}
@@ -56,7 +79,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
       
       {/* Client Component for Interactive Sections */}
       <div className="flex-grow flex flex-col bg-white">
-        <BlogDetailClient data={blog} />
+        <BlogDetailClient data={blogData} />
       </div>
 
       {/* Footer */}

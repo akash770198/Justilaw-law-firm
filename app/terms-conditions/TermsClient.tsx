@@ -7,7 +7,7 @@ import { TermsConditionsPageData } from "@/lib/types";
 
 export const TermsClientComponent: React.FC<{ data: TermsConditionsPageData }> = ({ data }) => {
   return (
-    <section className="relative w-full bg-[#fdfdfd] flex flex-col items-center py-16 lg:py-24 overflow-hidden">
+    <section className="relative w-full bg-[#fdfdfd] flex flex-col items-center py-16 lg:py-20 overflow-hidden">
       
       {/* Background Watermarks */}
       <div className="absolute left-0 top-1/4 w-[400px] h-[600px] opacity-[0.03] pointer-events-none">

@@ -9,7 +9,7 @@ import { PublicationItem, PublicationData } from "@/lib/types";
 
 export const PublicationClient: React.FC<{ data: PublicationData }> = ({ data }) => {
   return (
-    <section className="w-full bg-[#fdfdfd] py-16 sm:py-24">
+    <section className="w-full bg-[#fdfdfd] py-16 lg:py-20">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
         
         {/* Header Section */}
@@ -113,14 +113,14 @@ export const PublicationClient: React.FC<{ data: PublicationData }> = ({ data })
         </div>
 
         {/* End of results */}
-        <motion.div 
+        {/* <motion.div 
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="w-full text-center mt-16 text-slate-400 text-[13px] font-medium"
+          className="w-full text-center mt-12 mb-[-12px] text-slate-800 text-[13px] font-medium"
         >
           End of results
-        </motion.div>
+        </motion.div> */}
 
       </div>
     </section>

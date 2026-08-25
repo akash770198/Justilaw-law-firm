@@ -7,7 +7,7 @@ import { DynamicIcon } from "@/app/components/DynamicIcon";
 
 export default function CareerClient({ data }: { data: CareerPageData }) {
   return (
-    <div className="w-full bg-[#fdfdfd] py-16 lg:py-24">
+    <div className="w-full bg-[#fdfdfd] py-16 lg:py-20">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header Section */}
