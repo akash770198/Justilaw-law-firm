@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 import { BookConsultationPageData } from "@/lib/types";
 
 export default function BookConsultationClient({ data }: { data: BookConsultationPageData }) {

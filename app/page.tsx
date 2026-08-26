@@ -1,15 +1,15 @@
-import siteData from "@/app/data";
-import { Header } from "@/app/components/Header";
-import { HeroSection } from "@/app/components/HeroSection";
-import { BottomHighlights } from "@/app/components/BottomHighlights";
-import { AboutUsSection } from "@/app/components/AboutUsSection";
-import { WhyChooseUsSection } from "@/app/components/WhyChooseUsSection";
-import { ServicesSection } from "@/app/components/ServicesSection";
-import { CaseStudySection } from "@/app/components/CaseStudySection";
-import { TestimonialSection } from "@/app/components/TestimonialSection";
-import { TeamSection } from "@/app/components/TeamSection";
-import { BlogSection } from "@/app/components/BlogSection";
-import { Footer } from "@/app/components/Footer";
+import siteData from "@/data";
+import { Header } from "@/components/Header";
+import { HeroSection } from "@/components/HeroSection";
+import { BottomHighlights } from "@/components/BottomHighlights";
+import { AboutUsSection } from "@/components/AboutUsSection";
+import { WhyChooseUsSection } from "@/components/WhyChooseUsSection";
+import { ServicesSection } from "@/components/ServicesSection";
+import { CaseStudySection } from "@/components/CaseStudySection";
+import { TestimonialSection } from "@/components/TestimonialSection";
+import { TeamSection } from "@/components/TeamSection";
+import { BlogSection } from "@/components/BlogSection";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
       <HeroSection data={siteData.hero} />
 
       {/* Bottom Highlights Strip */}
-      <BottomHighlights items={siteData.bottomHighlights} />
+      <BottomHighlights data={siteData.bottomHighlights} />
 
       {/* About Us Section */}
       <AboutUsSection data={siteData.aboutUs} />
@@ -49,10 +49,7 @@ export default function Home() {
       <TestimonialSection data={siteData.testimonials} />
       
       {/* Team Section */}
-      <TeamSection data={{
-        ...siteData.team,
-        members: siteData.ourTeamPage.members.slice(0, 4)
-      }} />
+      <TeamSection data={siteData.team} members={siteData.ourTeamPage.members.slice(0, 4)} />
 
       {/* Blog Section */}
       <BlogSection data={{

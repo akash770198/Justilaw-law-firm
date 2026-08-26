@@ -4,10 +4,11 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
-import { PracticeArea, PracticeAreasData } from "@/lib/types";
+import { DynamicIcon } from "@/components/DynamicIcon";
+import { site, ServicePracticeAreasData, SectionProps } from "@/data";
 
-export const PracticeAreasSection: React.FC<{ data: PracticeAreasData }> = ({ data }) => {
+export const PracticeAreasSection: React.FC<SectionProps<ServicePracticeAreasData>> = ({ data: customData, className }) => {
+  const data = customData || site.practiceAreas;
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -28,7 +29,7 @@ export const PracticeAreasSection: React.FC<{ data: PracticeAreasData }> = ({ da
   };
 
   return (
-    <section className="bg-[#fdfbf9] py-16 lg:py-20 relative overflow-hidden">
+    <section className={`bg-[#fdfbf9] py-16 lg:py-20 relative overflow-hidden ${className || ""}`}>
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
         
         {/* Header */}

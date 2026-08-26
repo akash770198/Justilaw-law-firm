@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 import { motion } from "framer-motion";
 import { LegalUpdateItem, LegalUpdatesData } from "@/lib/types";
 

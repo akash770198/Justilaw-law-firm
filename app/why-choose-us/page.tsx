@@ -1,9 +1,9 @@
-import siteData from "@/app/data";
-import { Header } from "@/app/components/Header";
-import { Footer } from "@/app/components/Footer";
-import { BreadcrumbBanner } from "@/app/components/BreadcrumbBanner";
-import { WhyChooseUsSection } from "@/app/components/WhyChooseUsSection";
-import { WorkProcessSection } from "@/app/components/WorkProcessSection";
+import siteData from "@/data";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { BreadcrumbBanner } from "@/components/BreadcrumbBanner";
+import { WhyChooseUsSection } from "@/components/WhyChooseUsSection";
+import { WorkProcessSection } from "@/components/WorkProcessSection";
 
 export default function WhyChooseUsPage() {
   const breadcrumbPaths = [

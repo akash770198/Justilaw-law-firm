@@ -1,9 +1,9 @@
 import React from "react";
-import { Header } from "@/app/components/Header";
-import { Footer } from "@/app/components/Footer";
-import { BreadcrumbBanner } from "@/app/components/BreadcrumbBanner";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { BreadcrumbBanner } from "@/components/BreadcrumbBanner";
 import { TermsClientComponent } from "./TermsClient";
-import siteData from "@/app/data";
+import siteData from "@/data";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

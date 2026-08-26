@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 
 export const BlogDetailClient: React.FC<{ data: any }> = ({ data }) => {
   return (

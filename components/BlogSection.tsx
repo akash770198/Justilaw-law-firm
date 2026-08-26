@@ -2,9 +2,9 @@
 
 import React from "react";
 import Image from "next/image";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 import { motion } from "framer-motion";
-import { Author, BlogItem, BlogData } from "@/lib/types";
+import { site, ServiceBlogData, SectionProps } from "@/data";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -22,9 +22,10 @@ const itemVariants = {
     transition: { duration: 0.6 },
   },
 };
-export const BlogSection: React.FC<{ data: BlogData }> = ({ data }) => {
+export const BlogSection: React.FC<SectionProps<ServiceBlogData>> = ({ data: customData, className }) => {
+  const data = customData || site.blog;
   return (
-    <section className="w-full bg-[#f8f6f2] py-16 lg:py-20">
+    <section className={`w-full bg-[#f8f6f2] py-16 lg:py-20 ${className || ""}`}>
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Header */}
         <motion.div 

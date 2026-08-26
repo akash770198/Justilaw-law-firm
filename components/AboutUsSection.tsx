@@ -3,14 +3,19 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
-import { Counter } from "@/app/components/Counter";
+import { DynamicIcon } from "@/components/DynamicIcon";
+import { Counter } from "@/components/Counter";
 import { motion } from "framer-motion";
-import { AboutFeature, AboutData } from "@/lib/types";
+import { site, ServiceAboutUsData, SectionProps } from "@/data";
 
-export const AboutUsSection: React.FC<{ data: AboutData; hideButton?: boolean }> = ({ data, hideButton }) => {
+interface AboutUsSectionProps extends SectionProps<ServiceAboutUsData> {
+  hideButton?: boolean;
+}
+
+export const AboutUsSection: React.FC<AboutUsSectionProps> = ({ data: customData, className, hideButton }) => {
+  const data = customData || site.aboutUs;
   return (
-    <section className="w-full bg-[#f8f6f2] py-16 lg:py-20 overflow-hidden">
+    <section className={`w-full bg-[#f8f6f2] py-16 lg:py-20 overflow-hidden ${className || ""}`}>
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-start">
           

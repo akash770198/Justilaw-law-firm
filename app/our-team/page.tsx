@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import siteData from "@/app/data";
-import { Header } from "@/app/components/Header";
-import { Footer } from "@/app/components/Footer";
-import { BreadcrumbBanner } from "@/app/components/BreadcrumbBanner";
-import { TeamSection } from "@/app/components/TeamSection";
+import siteData from "@/data";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { BreadcrumbBanner } from "@/components/BreadcrumbBanner";
+import { TeamSection } from "@/components/TeamSection";
 
 export const metadata: Metadata = {
   title: (siteData.ourTeamPage as any).metadata?.title,

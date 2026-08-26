@@ -1,12 +1,12 @@
-import siteData from "@/app/data";
-import { Header } from "@/app/components/Header";
-import { Footer } from "@/app/components/Footer";
-import { BreadcrumbBanner } from "@/app/components/BreadcrumbBanner";
-import { AboutUsSection } from "@/app/components/AboutUsSection";
-import { WhyChooseUsSection } from "@/app/components/WhyChooseUsSection";
+import siteData from "@/data";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { BreadcrumbBanner } from "@/components/BreadcrumbBanner";
+import { AboutUsSection } from "@/components/AboutUsSection";
+import { WhyChooseUsSection } from "@/components/WhyChooseUsSection";
 
-import { WorkProcessSection } from "@/app/components/WorkProcessSection";
-import { OurApproachSection } from "@/app/components/OurApproachSection";
+import { WorkProcessSection } from "@/components/WorkProcessSection";
+import { OurApproachSection } from "@/components/OurApproachSection";
 
 export default function AboutPage() {
   const breadcrumbPaths = [

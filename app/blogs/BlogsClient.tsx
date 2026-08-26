@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 
 export function BlogsClient({ data }: { data: any }) {
   if (!data) return null;

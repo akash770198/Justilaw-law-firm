@@ -1,9 +1,9 @@
 // Force TS cache clear to prevent red line bug
 import type { Metadata } from "next";
-import siteData from "@/app/data";
-import { Header } from "@/app/components/Header";
-import { Footer } from "@/app/components/Footer";
-import { BreadcrumbBanner } from "@/app/components/BreadcrumbBanner";
+import siteData from "@/data";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { BreadcrumbBanner } from "@/components/BreadcrumbBanner";
 import { TestimonialsClientComponent } from "./TestimonialsClient";
 
 export const metadata: Metadata = {

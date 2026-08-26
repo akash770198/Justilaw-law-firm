@@ -2,8 +2,8 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
-import { BottomHighlight } from "@/lib/types";
+import { DynamicIcon } from "@/components/DynamicIcon";
+import { site, ServiceBottomHighlightsData, SectionProps } from "@/data";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -26,9 +26,13 @@ const itemVariants = {
   },
 };
 
-export const BottomHighlights: React.FC<{ items: BottomHighlight[] }> = ({ items }) => {
+export const BottomHighlights: React.FC<SectionProps<ServiceBottomHighlightsData>> = ({ data: customData, className }) => {
+  const data = customData || site.bottomHighlights;
+  // Fallback to empty array if items is undefined
+  const items = Array.isArray(data) ? data : [];
+
   return (
-    <section className="w-full bg-[#f5efe6] py-10 overflow-hidden">
+    <section className={`w-full bg-[#f5efe6] py-10 overflow-hidden ${className || ""}`}>
       <motion.div 
         variants={containerVariants}
         initial="hidden"

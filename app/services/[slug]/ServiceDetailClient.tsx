@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 import { FAQ, ServiceDetail, Props } from "@/lib/types";
 
 export const ServiceDetailClient: React.FC<Props> = ({ slug, data, allServices, contactInfo }) => {

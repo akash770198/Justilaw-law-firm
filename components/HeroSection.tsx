@@ -3,13 +3,14 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 import { motion } from "framer-motion";
-import { HeroData } from "@/lib/types";
+import { site, ServiceHeroData, SectionProps } from "@/data";
 
-export const HeroSection: React.FC<{ data: HeroData }> = ({ data }) => {
+export const HeroSection: React.FC<SectionProps<ServiceHeroData>> = ({ data: customData, className }) => {
+  const data = customData || site.hero;
   return (
-    <section className="relative w-full bg-[#0b1320] text-white overflow-hidden min-h-[500px] lg:min-h-[700px]">
+    <section className={`relative w-full bg-[#0b1320] text-white overflow-hidden min-h-[500px] lg:min-h-[700px] ${className || ""}`}>
       
       {/* Full-width container to establish alignment */}
       <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row relative z-10 min-h-[500px] lg:min-h-[700px]">

@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import Link from 'next/link';
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 import { BreadcrumbPath, BreadcrumbBannerProps } from "@/lib/types";
 
 export const BreadcrumbBanner: React.FC<BreadcrumbBannerProps> = ({ title, paths }) => {

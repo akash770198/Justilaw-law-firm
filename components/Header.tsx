@@ -3,16 +3,17 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
-import { TopBarData, NavLink, HeaderData } from "@/lib/types";
+import { DynamicIcon } from "@/components/DynamicIcon";
+import { site, ServiceHeaderData, SectionProps } from "@/data";
 
-export const Header: React.FC<{ data: HeaderData }> = ({ data }) => {
+export const Header: React.FC<SectionProps<ServiceHeaderData>> = ({ data: customData, className }) => {
+  const data = customData || site.header;
   const { topBar, navbar } = data;
   const pathname = usePathname();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="w-full select-none z-50 sticky top-0">
+    <header className={`w-full select-none z-50 sticky top-0 ${className || ""}`}>
       {/* Top Bar with Deep Navy Background */}
       <div className="bg-[#0b1626] text-[#b8c5d6] text-xs sm:text-[13px] border-b border-[#1b2b42] py-2.5">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-wrap items-center justify-between gap-3">
@@ -76,7 +77,7 @@ export const Header: React.FC<{ data: HeaderData }> = ({ data }) => {
             ) : (
               <>
                 <div className="w-11 h-11 rounded-lg bg-gradient-to-br from-[#122238] to-[#0a1320] flex items-center justify-center text-[#d4af37] shadow-md group-hover:scale-105 transition-transform duration-300">
-                  <DynamicIcon name={navbar.logo.icon || "scales"} className="w-6 h-6" />
+                  <DynamicIcon name={(navbar.logo as { icon?: string }).icon || "scales"} className="w-6 h-6" />
                 </div>
                 <div className="flex flex-col gap-3">
                   <span className="text-xl sm:text-2xl font-serif font-black tracking-wider text-[#0e1e32]">

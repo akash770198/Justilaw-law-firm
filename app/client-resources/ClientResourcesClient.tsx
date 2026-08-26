@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 import { ClientResourcesData } from "@/lib/types";
 
 export const ClientResourcesClient: React.FC<{ data: ClientResourcesData }> = ({ data }) => {

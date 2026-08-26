@@ -2,11 +2,12 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 import { motion, AnimatePresence } from "framer-motion";
-import { TestimonialItem, TestimonialData } from "@/lib/types";
+import { site, ServiceTestimonialsData, SectionProps } from "@/data";
 
-export const TestimonialSection: React.FC<{ data: TestimonialData }> = ({ data }) => {
+export const TestimonialSection: React.FC<SectionProps<ServiceTestimonialsData>> = ({ data: customData, className }) => {
+  const data = customData || site.testimonials;
   const [[current, direction], setPage] = useState([0, 0]);
   const item = data.items[current];
 
@@ -29,7 +30,7 @@ export const TestimonialSection: React.FC<{ data: TestimonialData }> = ({ data }
   }, [current, data.items.length]);
 
   return (
-    <section className="w-full bg-[#f8f6f2] py-16 lg:py-20 overflow-hidden">
+    <section className={`w-full bg-[#f8f6f2] py-16 lg:py-20 overflow-hidden ${className || ""}`}>
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
 
         {/* Header */}
@@ -100,8 +101,8 @@ export const TestimonialSection: React.FC<{ data: TestimonialData }> = ({ data }
                 {/* Right Panel: Image Container */}
                 <div className="absolute top-0 bottom-0 right-0 w-full md:w-[60%] z-0">
                   <Image
-                    src={typeof item.image === 'string' ? item.image : item.image.src}
-                    alt={typeof item.image === 'string' ? item.name : item.image.alt}
+                    src={typeof item.image === 'string' ? item.image : (item.image as any).src}
+                    alt={typeof item.image === 'string' ? item.name : (item.image as any).alt}
                     fill
                     className="object-cover object-center"
                     priority
@@ -135,7 +136,7 @@ export const TestimonialSection: React.FC<{ data: TestimonialData }> = ({ data }
 
                   {/* Author */}
                   <h4 className="font-serif font-bold text-[#d89f4b] text-xl sm:text-[22px] mb-1">{item.name}</h4>
-                  <span className="text-slate-400 text-[13px] font-medium block mb-4">{item.title}</span>
+                  <span className="text-slate-400 text-[13px] font-medium block mb-4">{(item as any).title || item.role}</span>
 
                   {/* Stars */}
                   <div className="flex items-center gap-1">

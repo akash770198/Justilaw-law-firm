@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 import { motion } from "framer-motion";
-import { Step, WorkProcessData, WorkProcessSectionProps } from "@/lib/types";
+import { site, ServiceWorkProcessData, SectionProps } from "@/data";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -21,9 +21,10 @@ const itemVariants = {
     transition: { duration: 0.6 },
   },
 };
-export const WorkProcessSection: React.FC<WorkProcessSectionProps> = ({ data }) => {
+export const WorkProcessSection: React.FC<SectionProps<ServiceWorkProcessData>> = ({ data: customData, className }) => {
+  const data = customData || site.workProcess;
   return (
-    <section className="bg-white py-16 lg:py-20 overflow-hidden relative">
+    <section className={`bg-white py-16 lg:py-20 overflow-hidden relative ${className || ""}`}>
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Section Header */}
         <motion.div 

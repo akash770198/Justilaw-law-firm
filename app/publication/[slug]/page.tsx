@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import siteData from "@/app/data";
-import { Header } from "@/app/components/Header";
-import { Footer } from "@/app/components/Footer";
-import { BreadcrumbBanner } from "@/app/components/BreadcrumbBanner";
+import siteData from "@/data";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { BreadcrumbBanner } from "@/components/BreadcrumbBanner";
 import { PublicationDetailClient } from "./PublicationDetailClient";
 import { notFound } from "next/navigation";
 import React from "react";

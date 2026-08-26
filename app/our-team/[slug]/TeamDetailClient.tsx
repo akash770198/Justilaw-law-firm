@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 import { TeamMemberDetail } from "@/lib/types";
 
 export const TeamDetailClient: React.FC<{ member: TeamMemberDetail }> = ({ member }) => {

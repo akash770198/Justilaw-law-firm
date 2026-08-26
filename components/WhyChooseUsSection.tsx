@@ -3,13 +3,18 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 import { motion } from "framer-motion";
-import { Feature, Stat, WhyChooseUsData } from "@/lib/types";
+import { site, ServiceWhyChooseUsData, SectionProps } from "@/data";
 
-export const WhyChooseUsSection: React.FC<{ data: WhyChooseUsData; hideButton?: boolean }> = ({ data, hideButton }) => {
+interface WhyChooseUsSectionProps extends SectionProps<ServiceWhyChooseUsData> {
+  hideButton?: boolean;
+}
+
+export const WhyChooseUsSection: React.FC<WhyChooseUsSectionProps> = ({ data: customData, className, hideButton }) => {
+  const data = customData || site.whyChooseUs;
   return (
-    <section className="w-full bg-[#f8f6f2] py-16 lg:py-20 overflow-hidden">
+    <section className={`w-full bg-[#f8f6f2] py-16 lg:py-20 overflow-hidden ${className || ""}`}>
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
         
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-2 xl:gap-4 items-stretch">

@@ -3,12 +3,13 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
-import { FooterLink, FooterSocial, FooterData } from "@/lib/types";
+import { DynamicIcon } from "@/components/DynamicIcon";
+import { site, ServiceFooterData, SectionProps } from "@/data";
 
-export const Footer: React.FC<{ data: FooterData }> = ({ data }) => {
+export const Footer: React.FC<SectionProps<ServiceFooterData>> = ({ data: customData, className }) => {
+  const data = customData || site.footer;
   return (
-    <footer className="w-full bg-[#08101a] pt-20 text-slate-300">
+    <footer className={`w-full bg-[#08101a] pt-20 text-slate-300 ${className || ""}`}>
       
       {/* Upper Footer Area */}
       <div className="relative w-full overflow-hidden">

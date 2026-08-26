@@ -2,9 +2,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 import { motion } from "framer-motion";
-import { TeamMember, TeamData } from "@/lib/types";
+import { site, ServiceTeamData, SectionProps } from "@/data";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -22,9 +22,15 @@ const itemVariants = {
     transition: { duration: 0.6 },
   },
 };
-export const TeamSection: React.FC<{ data: TeamData; hideButton?: boolean }> = ({ data, hideButton }) => {
+interface TeamSectionProps extends SectionProps<ServiceTeamData> {
+  hideButton?: boolean;
+  members?: typeof site.ourTeamPage.members;
+}
+export const TeamSection: React.FC<TeamSectionProps> = ({ data: customData, members, className, hideButton }) => {
+  const data = customData || site.team;
+  const teamMembers = members || site.ourTeamPage.members.slice(0, 4);
   return (
-    <section className="w-full bg-white py-16 lg:py-20">
+    <section className={`w-full bg-white py-16 lg:py-20 ${className || ""}`}>
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Header */}
         <motion.div 
@@ -59,7 +65,7 @@ export const TeamSection: React.FC<{ data: TeamData; hideButton?: boolean }> = (
           viewport={{ once: true, margin: "-50px" }}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-10"
         >
-          {data.members.map((member, index) => (
+          {teamMembers.map((member, index) => (
             <Link href={`/our-team/${member.slug || member.id}`} key={member.id} className="block">
               <motion.div variants={itemVariants} className="group flex flex-col h-full bg-white border border-slate-100 shadow-sm rounded-md overflow-hidden hover:shadow-xl transition-all duration-300">
                 {/* Image Container */}

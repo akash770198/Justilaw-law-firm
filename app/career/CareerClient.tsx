@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { CareerPageData } from "@/lib/types";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 
 export default function CareerClient({ data }: { data: CareerPageData }) {
   return (

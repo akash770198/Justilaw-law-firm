@@ -2,7 +2,7 @@
 
 import React from "react";
 import { JobItem } from "@/lib/types";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 
 export const CareerDetailClient: React.FC<{ job: JobItem }> = ({ job }) => {
   return (

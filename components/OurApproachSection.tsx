@@ -2,9 +2,9 @@
 
 import React from "react";
 import Image from "next/image";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 import { motion, Variants } from "framer-motion";
-import { Step, Banner, OurApproachData, OurApproachSectionProps } from "@/lib/types";
+import { site, ServiceOurApproachData, SectionProps } from "@/data";
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
@@ -31,9 +31,10 @@ const itemVariants: Variants = {
     },
   },
 };
-export const OurApproachSection: React.FC<OurApproachSectionProps> = ({ data }) => {
+export const OurApproachSection: React.FC<SectionProps<ServiceOurApproachData>> = ({ data: customData, className }) => {
+  const data = customData || site.ourApproach;
   return (
-    <section className="bg-white py-16 lg:py-20 relative overflow-hidden">
+    <section className={`bg-white py-16 lg:py-20 relative overflow-hidden ${className || ""}`}>
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Section Header */}
         <motion.div 

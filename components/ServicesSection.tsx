@@ -3,8 +3,8 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
-import { ServiceCard, ServicesData } from "@/lib/types";
+import { DynamicIcon } from "@/components/DynamicIcon";
+import { site, ServiceServicesData, SectionProps } from "@/data";
 
 // Animation Variants
 const containerVariants = {
@@ -29,9 +29,10 @@ const itemVariants = {
   },
 };
 
-export const ServicesSection: React.FC<{ data: ServicesData }> = ({ data }) => {
+export const ServicesSection: React.FC<SectionProps<ServiceServicesData>> = ({ data: customData, className }) => {
+  const data = customData || site.services;
   return (
-    <section className="relative w-full bg-[#08101a] py-16 lg:py-20 overflow-hidden">
+    <section className={`relative w-full bg-[#08101a] py-16 lg:py-20 overflow-hidden ${className || ""}`}>
       {/* Subtle Background Elements */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-blue-900/5 rounded-full blur-[100px] pointer-events-none"></div>
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[#d89f4b]/5 rounded-full blur-[80px] pointer-events-none"></div>

@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { ContactPageData } from "@/lib/types";
-import { DynamicIcon } from "@/app/components/DynamicIcon";
+import { DynamicIcon } from "@/components/DynamicIcon";
 
 export default function ContactClient({ data, offices }: { data: ContactPageData; offices: any[] }) {
   const [activeMapUrl, setActiveMapUrl] = useState(offices[0]?.mapUrl || data.map.iframeSrc);
