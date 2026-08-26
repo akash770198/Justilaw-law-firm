@@ -65,12 +65,12 @@ export const ClientResourcesClient: React.FC<{ data: ClientResourcesData }> = ({
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-end mb-10">
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-[#1a283c]">{data.practiceAreas.title}</h2>
-            <Link href="/practice-areas" className="hidden sm:flex items-center gap-2 text-[#d89f4b] font-semibold text-sm tracking-wide hover:opacity-80 transition-opacity">
-              View All Areas <DynamicIcon name="arrow-right" className="w-4 h-4" />
+            <Link href={data.practiceAreas.viewAllButton?.href || "/practice-areas"} className="hidden sm:flex items-center gap-2 text-[#d89f4b] font-semibold text-sm tracking-wide hover:opacity-80 transition-opacity">
+              {data.practiceAreas.viewAllButton?.text || "View All Areas"} <DynamicIcon name="arrow-right" className="w-4 h-4" />
             </Link>
           </div>
           
-          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
             {data.practiceAreas.items.map((area, idx) => (
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
@@ -78,14 +78,19 @@ export const ClientResourcesClient: React.FC<{ data: ClientResourcesData }> = ({
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.05 }}
                 key={idx}
-                className="flex flex-col items-center justify-center text-center p-6 bg-white border border-slate-200 rounded-lg hover:border-[#d89f4b] hover:shadow-lg transition-all duration-300 cursor-pointer group"
+                className="h-full"
               >
-                <div className="w-16 h-16 rounded-full bg-[#f5efe6] flex items-center justify-center text-[#1a283c] group-hover:text-[#d89f4b] transition-colors mb-4 border border-slate-100">
-                  <DynamicIcon name={area.icon} className="w-8 h-8 stroke-[1.5]" />
-                </div>
-                <h4 className="text-[13px] font-bold text-[#1a283c] leading-tight">
-                  {area.name}
-                </h4>
+                <Link
+                  href={area.link || "#"}
+                  className="flex flex-col h-full items-center justify-center text-center p-6 bg-white border border-slate-200 rounded-lg shadow-md hover:border-[#d89f4b] hover:shadow-xl transition-all duration-300 group"
+                >
+                  <div className="w-16 h-16 rounded-full bg-[#f5efe6] flex items-center justify-center text-[#1a283c] group-hover:text-[#d89f4b] transition-colors mb-4 border border-slate-100">
+                    <DynamicIcon name={area.icon} className="w-8 h-8 stroke-[1.5]" />
+                  </div>
+                  <h4 className="text-[13px] font-bold text-[#1a283c] leading-tight">
+                    {area.name}
+                  </h4>
+                </Link>
               </motion.div>
             ))}
           </div>
@@ -97,8 +102,8 @@ export const ClientResourcesClient: React.FC<{ data: ClientResourcesData }> = ({
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-end mb-10">
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-[#1a283c]">{data.featuredResources.title}</h2>
-            <Link href="#" className="hidden sm:flex items-center gap-2 text-[#d89f4b] font-semibold text-sm tracking-wide hover:opacity-80 transition-opacity">
-              View All Resources <DynamicIcon name="arrow-right" className="w-4 h-4" />
+            <Link href={data.featuredResources.viewAllButton?.href || "#"} className="hidden sm:flex items-center gap-2 text-[#d89f4b] font-semibold text-sm tracking-wide hover:opacity-80 transition-opacity">
+              {data.featuredResources.viewAllButton?.text || "View All Resources"} <DynamicIcon name="arrow-right" className="w-4 h-4" />
             </Link>
           </div>
 
@@ -160,8 +165,8 @@ export const ClientResourcesClient: React.FC<{ data: ClientResourcesData }> = ({
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-end mb-10">
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-[#1a283c]">{data.latestInsights.title}</h2>
-            <Link href="/news-media" className="hidden sm:flex items-center gap-2 text-[#d89f4b] font-semibold text-sm tracking-wide hover:opacity-80 transition-opacity">
-              View All Insights <DynamicIcon name="arrow-right" className="w-4 h-4" />
+            <Link href={data.latestInsights.viewAllButton?.href || "/news-media"} className="hidden sm:flex items-center gap-2 text-[#d89f4b] font-semibold text-sm tracking-wide hover:opacity-80 transition-opacity">
+              {data.latestInsights.viewAllButton?.text || "View All Insights"} <DynamicIcon name="arrow-right" className="w-4 h-4" />
             </Link>
           </div>
 
@@ -205,7 +210,7 @@ export const ClientResourcesClient: React.FC<{ data: ClientResourcesData }> = ({
                 </div>
                 {/* Link */}
                 <Link href={item.linkHref} className="text-[#d89f4b] font-bold text-sm flex items-center gap-2 hover:gap-3 transition-all">
-                  Read More <DynamicIcon name="arrow-right" className="w-4 h-4" />
+                  {item.linkText || "Read More"} <DynamicIcon name="arrow-right" className="w-4 h-4" />
                 </Link>
               </motion.div>
             ))}
@@ -218,8 +223,8 @@ export const ClientResourcesClient: React.FC<{ data: ClientResourcesData }> = ({
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-end mb-10">
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-[#1a283c]">{data.toolsTemplates.title}</h2>
-            <Link href="#" className="hidden sm:flex items-center gap-2 text-[#d89f4b] font-semibold text-sm tracking-wide hover:opacity-80 transition-opacity">
-              View All Tools & Templates <DynamicIcon name="arrow-right" className="w-4 h-4" />
+            <Link href={data.toolsTemplates.viewAllButton?.href || "#"} className="hidden sm:flex items-center gap-2 text-[#d89f4b] font-semibold text-sm tracking-wide hover:opacity-80 transition-opacity">
+              {data.toolsTemplates.viewAllButton?.text || "View All Tools & Templates"} <DynamicIcon name="arrow-right" className="w-4 h-4" />
             </Link>
           </div>
 
@@ -250,7 +255,7 @@ export const ClientResourcesClient: React.FC<{ data: ClientResourcesData }> = ({
                     <span>{item.size}</span>
                   </div>
                   <a href={item.linkHref} download className="text-[#d89f4b] font-bold text-xs flex items-center gap-1 hover:gap-2 transition-all">
-                    Download <DynamicIcon name="arrow-right" className="w-3.5 h-3.5" />
+                    {item.linkText || "Download"} <DynamicIcon name="arrow-right" className="w-3.5 h-3.5" />
                   </a>
                 </div>
               </motion.div>

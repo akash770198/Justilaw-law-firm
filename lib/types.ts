@@ -742,6 +742,7 @@ export interface TestimonialsPageData {
 export interface PracticeAreaItem {
   name: string;
   icon: string;
+  link?: string;
 }
 
 export interface FeaturedResourceItem {
@@ -763,6 +764,7 @@ export interface InsightItem {
   date: string;
   readTime: string;
   linkHref: string;
+  linkText?: string;
 }
 
 export interface ToolTemplateItem {
@@ -773,6 +775,7 @@ export interface ToolTemplateItem {
   format: string; // DOCX, XLSX
   size: string;
   linkHref: string;
+  linkText?: string;
 }
 
 export interface ClientResourcesData {
@@ -786,18 +789,22 @@ export interface ClientResourcesData {
   };
   practiceAreas: {
     title: string;
+    viewAllButton?: { text: string; href: string };
     items: PracticeAreaItem[];
   };
   featuredResources: {
     title: string;
+    viewAllButton?: { text: string; href: string };
     items: FeaturedResourceItem[];
   };
   latestInsights: {
     title: string;
+    viewAllButton?: { text: string; href: string };
     items: InsightItem[];
   };
   toolsTemplates: {
     title: string;
+    viewAllButton?: { text: string; href: string };
     items: ToolTemplateItem[];
   };
 }
