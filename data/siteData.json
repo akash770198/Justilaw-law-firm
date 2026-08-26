@@ -1390,6 +1390,10 @@
                 "href": "/contact"
               },
               {
+                "name": "Legal Disclaimer",
+                "href": "/legal-disclaimer"
+              },
+              {
                 "name": "Terms & Conditions",
                 "href": "/terms-conditions"
               },
