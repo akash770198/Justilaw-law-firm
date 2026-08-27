@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import { SamePageScroll } from "@/components/SamePageScroll";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-serif",
@@ -32,6 +33,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col font-sans bg-[#0a1422] text-slate-100 selection:bg-[#d89f4b] selection:text-[#0a1422]">
         {children}
+        <SamePageScroll />
       </body>
     </html>
   );
