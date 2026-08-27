@@ -3,8 +3,36 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { DynamicIcon } from "@/components/DynamicIcon";
 import { site, ServiceFooterData, SectionProps } from "@/data";
+
+function normalizePath(path: string) {
+  const clean = (path.split("#")[0] || "/").replace(/\/$/, "") || "/";
+  if (clean === "/legal-disclaimer") return "/terms-conditions";
+  return clean;
+}
+
+const FooterNavLink: React.FC<{ href: string; className?: string; children: React.ReactNode }> = ({
+  href,
+  className,
+  children,
+}) => {
+  const pathname = usePathname();
+
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (normalizePath(href) === normalizePath(pathname)) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
+
+  return (
+    <Link href={href} onClick={handleClick} className={className}>
+      {children}
+    </Link>
+  );
+};
 
 export const Footer: React.FC<SectionProps<ServiceFooterData>> = ({ data: customData, className }) => {
   const data = customData || site.footer;
@@ -37,13 +65,13 @@ export const Footer: React.FC<SectionProps<ServiceFooterData>> = ({ data: custom
             
             {/* Column 1: Logo & Description */}
           <div className="lg:col-span-3">
-            <Link href="/" className="inline-block mb-6 -ml-3">
+            <FooterNavLink href="/" className="inline-block mb-6 -ml-3">
               <img 
                 src={data.logo.src} 
                 alt={data.logo.name || "Logo"} 
                 className="h-16 sm:h-20 w-auto object-contain object-left"
               />
-            </Link>
+            </FooterNavLink>
             <p className="text-[14px] leading-relaxed max-w-sm border-l-2 border-slate-700/50 pl-4 py-1">
               {data.description}
             </p>
@@ -58,10 +86,10 @@ export const Footer: React.FC<SectionProps<ServiceFooterData>> = ({ data: custom
             <ul className="flex flex-col space-y-4">
               {data.services.map((item, idx) => (
                 <li key={idx}>
-                  <Link href={item.href} className="group flex items-center justify-between text-[14px] hover:text-[#d89f4b] transition-colors border-b border-[#1a283c] pb-3">
+                  <FooterNavLink href={item.href} className="group flex items-center justify-between text-[14px] hover:text-[#d89f4b] transition-colors border-b border-[#1a283c] pb-3">
                     {item.name}
                     <DynamicIcon name="chevron-right" className="w-3.5 h-3.5 text-[#d89f4b] opacity-70 group-hover:opacity-100 transition-transform group-hover:translate-x-1" />
-                  </Link>
+                  </FooterNavLink>
                 </li>
               ))}
             </ul>
@@ -76,10 +104,10 @@ export const Footer: React.FC<SectionProps<ServiceFooterData>> = ({ data: custom
             <ul className="flex flex-col space-y-4">
               {data.quickLinks.map((item, idx) => (
                 <li key={idx}>
-                  <Link href={item.href} className="group flex items-center justify-between text-[14px] hover:text-[#d89f4b] transition-colors border-b border-[#1a283c] pb-3">
+                  <FooterNavLink href={item.href} className="group flex items-center justify-between text-[14px] hover:text-[#d89f4b] transition-colors border-b border-[#1a283c] pb-3">
                     {item.name}
                     <DynamicIcon name="chevron-right" className="w-3.5 h-3.5 text-[#d89f4b] opacity-70 group-hover:opacity-100 transition-transform group-hover:translate-x-1" />
-                  </Link>
+                  </FooterNavLink>
                 </li>
               ))}
             </ul>
@@ -94,10 +122,10 @@ export const Footer: React.FC<SectionProps<ServiceFooterData>> = ({ data: custom
             <ul className="flex flex-col space-y-4">
               {data.resources.map((item, idx) => (
                 <li key={idx}>
-                  <Link href={item.href} className="group flex items-center justify-between text-[14px] hover:text-[#d89f4b] transition-colors border-b border-[#1a283c] pb-3">
+                  <FooterNavLink href={item.href} className="group flex items-center justify-between text-[14px] hover:text-[#d89f4b] transition-colors border-b border-[#1a283c] pb-3">
                     {item.name}
                     <DynamicIcon name="chevron-right" className="w-3.5 h-3.5 text-[#d89f4b] opacity-70 group-hover:opacity-100 transition-transform group-hover:translate-x-1" />
-                  </Link>
+                  </FooterNavLink>
                 </li>
               ))}
             </ul>

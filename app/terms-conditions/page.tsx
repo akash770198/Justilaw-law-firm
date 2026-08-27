@@ -15,7 +15,7 @@ export default function TermsConditionsPage() {
   const data = siteData.termsConditionsPage;
 
   return (
-    <main className="min-h-screen flex flex-col">
+    <main className="min-h-screen flex flex-col bg-[#fdfdfd]">
       <Header data={siteData.header} />
       <BreadcrumbBanner
         title="Terms & Conditions"

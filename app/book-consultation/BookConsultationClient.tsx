@@ -74,10 +74,6 @@ export default function BookConsultationClient({ data }: { data: BookConsultatio
                     <option value="civil">Civil Litigation</option>
                     <option value="other">Other</option>
                   </select>
-                  {/* Custom Arrow */}
-                  <div className="absolute right-10 flex items-center h-12 pointer-events-none text-slate-400">
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
-                  </div>
                 </div>
 
                 {/* Date */}
@@ -99,9 +95,6 @@ export default function BookConsultationClient({ data }: { data: BookConsultatio
                     <option value="afternoon">Afternoon (12 PM - 4 PM)</option>
                     <option value="evening">Evening (4 PM - 7 PM)</option>
                   </select>
-                  <div className="absolute right-10 flex items-center h-12 pointer-events-none text-slate-400">
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
-                  </div>
                 </div>
 
                 {/* Case Brief */}

@@ -947,6 +947,7 @@ export interface BookConsultationPageData {
 
 export interface TermsConditionsPageData {
   header: {
+    subtitle?: string;
     titleDark: string;
     titleGold: string;
     lastUpdated: string;
@@ -957,6 +958,14 @@ export interface TermsConditionsPageData {
     title: string;
     description: string;
   }>;
+  sidebar?: {
+    cta: {
+      title: string;
+      description: string;
+      buttonText: string;
+      buttonLink: string;
+    };
+  };
 }
 
 export interface SitemapCategory {

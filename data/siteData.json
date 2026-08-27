@@ -825,7 +825,7 @@
               {
                 "id": "srv1",
                 "icon": "gavel",
-                "title": "Criminal Law",
+                "title": "Criminal Defense",
                 "description": "Aggressive defense and strategic representation to protect your rights and freedom.",
                 "linkText": "Learn More",
                 "linkHref": "/services/criminal"
@@ -874,12 +874,12 @@
             "areas": [
               {
                 "id": "01",
-                "title": "Criminal Law",
+                "title": "Criminal Defense",
                 "description": "Strong defense and strategic representation to protect your rights and secure the best outcome.",
                 "icon": "handcuffs",
                 "image": {
                   "src": "/Prac_areas/criminal_law(2).svg",
-                  "alt": "Criminal Law"
+                  "alt": "Criminal Defense"
                 },
                 "link": "/services/criminal"
               },
@@ -1089,7 +1089,7 @@
                 "role": "Client",
                 "image": "/Testimonial/testimonial-man-2-rectangular.svg",
                 "rating": 5,
-                "category": "Criminal Law"
+                "category": "Criminal Defense"
               },
               {
                 "id": "t4",
@@ -1314,7 +1314,7 @@
             },
             "services": [
               {
-                "name": "Criminal Law",
+                "name": "Criminal Defense",
                 "href": "/services/criminal"
               },
               {
@@ -1330,12 +1330,12 @@
                 "href": "/services/employment"
               },
               {
-                "name": "Business Law",
-                "href": "/services/business"
+                "name": "Healthcare Law",
+                "href": "/services/healthcare"
               },
               {
-                "name": "Civil Litigation",
-                "href": "/services/civil-litigation"
+                "name": "Ecommerce Law",
+                "href": "/services/ecommerce"
               },
               {
                 "name": "Legal Consultation",
@@ -4116,7 +4116,7 @@
                     "link": "/services/employment"
                   },
                   {
-                    "name": "Criminal Law",
+                    "name": "Criminal Defense",
                     "icon": "handcuffs",
                     "link": "/services/criminal"
                   }
@@ -4210,7 +4210,7 @@
                     "link": "/services/employment"
                   },
                   {
-                    "name": "Criminal Law",
+                    "name": "Criminal Defense",
                     "icon": "handcuffs",
                     "link": "/services/criminal"
                   }
@@ -4304,7 +4304,7 @@
                     "link": "/services/employment"
                   },
                   {
-                    "name": "Criminal Law",
+                    "name": "Criminal Defense",
                     "icon": "handcuffs",
                     "link": "/services/criminal"
                   }
@@ -4398,7 +4398,7 @@
                     "link": "/services/employment"
                   },
                   {
-                    "name": "Criminal Law",
+                    "name": "Criminal Defense",
                     "icon": "handcuffs",
                     "link": "/services/criminal"
                   }
@@ -4492,7 +4492,7 @@
                     "link": "/services/employment"
                   },
                   {
-                    "name": "Criminal Law",
+                    "name": "Criminal Defense",
                     "icon": "handcuffs",
                     "link": "/services/criminal"
                   }
@@ -4586,7 +4586,7 @@
                     "link": "/services/employment"
                   },
                   {
-                    "name": "Criminal Law",
+                    "name": "Criminal Defense",
                     "icon": "handcuffs",
                     "link": "/services/criminal"
                   }
@@ -4680,7 +4680,7 @@
                     "link": "/services/employment"
                   },
                   {
-                    "name": "Criminal Law",
+                    "name": "Criminal Defense",
                     "icon": "handcuffs",
                     "link": "/services/criminal"
                   }
@@ -7501,7 +7501,7 @@
               "All Testimonials",
               "Corporate Law",
               "Family Law",
-              "Criminal Law",
+              "Criminal Defense",
               "Civil Law",
               "Others"
             ]
@@ -7523,7 +7523,7 @@
               "title": "Browse by Practice Area",
               "items": [
                 {
-                  "name": "Criminal Law",
+                  "name": "Criminal Defense",
                   "icon": "handcuffs",
                   "link": "/services/criminal"
                 },
@@ -8126,6 +8126,7 @@
         "variants": {
           "ServiceTermsConditionsPage1": {
             "header": {
+              "subtitle": "LEGAL NOTICE",
               "titleDark": "Terms &",
               "titleGold": "Conditions",
               "lastUpdated": "Last Updated: May 20, 2024",
@@ -8182,7 +8183,15 @@
                 "title": "Contact Us",
                 "description": "If you have any questions about these Terms and Conditions, please contact us using the information provided on our Contact page."
               }
-            ]
+            ],
+            "sidebar": {
+              "cta": {
+                "title": "Questions About These Terms?",
+                "description": "Our legal team is available to clarify any provision in this document.",
+                "buttonText": "Contact Us",
+                "buttonLink": "/contact"
+              }
+            }
           }
         }
       },
